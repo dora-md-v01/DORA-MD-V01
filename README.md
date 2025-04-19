@@ -30,7 +30,7 @@
 <img src = "https://files.catbox.moe/20f3gw.jpg"  width="300" height="200">
 </img>
  <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff00ab&center=true&vCenter=true&multiline=false&lines=DORA-MD+WHATSAPP+BOT+" alt="">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff00ab&center=true&vCenter=true&multiline=false&lines=𝘿𝙊𝙍𝘼-𝙈𝘿+𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋+𝘽𝙊𝙏+" alt="">
    
 ## 𝐃𝐄𝐏𝐋𝐎𝐘 𝐒𝐄𝐓𝐔𝐏 ↕️
 
@@ -38,7 +38,7 @@
 
 *_Start by forking this repository to your own GitHub account. Click the button below to fork:_*
 
-  <a href="https://github.com/kingmalvn/DORA-MD/fork"><img title="DORA-MD" src="https://img.shields.io/badge/FORK-DORA-MDh?color=darkblue&style=for-the-badge&logo=stackshare"></a>
+  <a href="https://github.com/kingmalvn/DORA-MD/fork"><img title="𝘿𝙊𝙍𝘼-𝙈𝘿" src="https://img.shields.io/badge/FORK-DORA-MDh?color=darkblue&style=for-the-badge&logo=stackshare"></a>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
