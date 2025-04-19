@@ -11,7 +11,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/LUCIFER-MD/LUCIFER-MD-V1';
+    const githubRepoURL = 'https://github.com/dora-md-v01/DORA-MD-V01';
 
     try {
         // Extract username and repo name from the URL
