@@ -15,10 +15,10 @@ cmd({
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 var inital = new Date().getTime();
-let ping = await conn.sendMessage(from , { text: '*_𝗟𝗨𝗖𝗜𝗙𝗘𝗥 𝗠𝗗 𝗣𝗜𝗡𝗚 🧩..._*'  }, { quoted: mek } )
+let ping = await conn.sendMessage(from , { text: '*_𝘿𝙊𝙍𝘼 𝗠𝗗 𝗣𝗜𝗡𝗚 🧩..._*'  }, { quoted: mek } )
 var final = new Date().getTime();
 await conn.sendMessage(from, { delete: ping.key })
-return await conn.sendMessage(from , { text: '*🧑‍💻⃝𝙇𝙐𝘾𝙄𝙁𝙀𝙍 𝙈𝘿 𝙋𝙄𝙉𝙂➝💥*\n *' + (final - inital) + ' ms* '  }, { quoted: mek } )
+return await conn.sendMessage(from , { text: '*🧑‍💻⃝𝘿𝙊𝙍𝘼 𝙈𝘿 𝙋𝙄𝙉𝙂➝💥*\n *' + (final - inital) + ' ms* '  }, { quoted: mek } )
 } catch (e) {
 reply('*Error !!*')
 l(e)
