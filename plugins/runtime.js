@@ -13,13 +13,13 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         // Generate system status message
-        const status = `╭━━〔 *AWAIS-MD* 〕━━┈⊷
+        const status = `╭━━〔 *𝘿𝙊𝙍𝘼-𝙈𝘿* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *⏳Uptime*:  ${runtime(process.uptime())} 
 ┃◈┃• *📟 Ram usage*: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
 ┃◈┃• *⚙️ HostName*: ${os.hostname()}
 ┃◈┃• *👨‍💻 Owner*: Awais xd
-┃◈┃• *🧬 Version*: 3.0.0 BETA
+┃◈┃• *🧬 Version*: 1.0.0 BETA
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝘿𝙊𝙍𝘼 𝙈𝘿`;
