@@ -138,8 +138,8 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*🧑‍💻⃝𝙇𝙐𝘾𝙄𝙁𝙀𝙍 𝙈𝘿 𝘽𝙊𝙏 𝘼𝘾𝙏𝙄𝙑𝙀 𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇𝙇➝💥♥️*\n\n*PREFIX:* ${prefix}`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/x04f5n.jpg` }, caption: up })
+  let up = `*🧑‍💻⃝𝘿𝙊𝙍𝘼 𝙈𝘿 𝘽𝙊𝙏 𝘼𝘾𝙏𝙄𝙑𝙀 𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇𝙇➝💥♥️*\n\n*PREFIX:* ${prefix}`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/i5fwv5.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -266,17 +266,17 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
     
- if(senderNumber.includes("94740482244")){
+ if(senderNumber.includes("94743454928")){
   if(isReact) return
   m.react("🔖")
   }
   
-  if(senderNumber.includes("94740482244")){
+  if(senderNumber.includes("94743454928")){
   if(isReact) return
   m.react("⚡")
   }
   
-  if(senderNumber.includes("94740482244")){
+  if(senderNumber.includes("94743454928")){
   if(isReact) return
   m.react("🔖")
    }
@@ -796,7 +796,7 @@ const port = process.env.PORT || 9090;
   }
   
   app.get("/", (req, res) => {
-  res.send("🧑‍💻⃝𝙇𝙐𝘾𝙄𝙁𝙀𝙍 𝙈𝘿 𝙎𝙏𝘼𝙍𝙏➝💥");
+  res.send("🧑‍💻⃝𝘿𝙊𝙍𝘼 𝙈𝘿 𝙎𝙏𝘼𝙍𝙏➝💥");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
