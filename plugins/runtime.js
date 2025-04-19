@@ -22,7 +22,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• *🧬 Version*: 3.0.0 BETA
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀᴡᴀɪs ᴍᴅ`;
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝘿𝙊𝙍𝘼 𝙈𝘿`;
 
         // Send the status message with an image
         await conn.sendMessage(from, { 
