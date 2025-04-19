@@ -73,7 +73,7 @@ async function downloadSessionData() {
         return false;
     }
 
-    const prefix = "LUCIFER-MD~";
+    const prefix = "DORA-MD~";
     
     if (config.SESSION_ID.startsWith(prefix)) {
         try {
@@ -92,7 +92,7 @@ async function downloadSessionData() {
             return false;
         }
     } else {
-        console.error('❌ SESSION_ID must start with "LUCIFER-MD~" prefix!');
+        console.error('❌ SESSION_ID must start with "DORA-MD~" prefix!');
         return false;
     }
 }
