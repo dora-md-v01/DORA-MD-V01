@@ -25,7 +25,7 @@ cmd({
         }
 
         const movieInfo = `
-*🎬 𝗟𝗨𝗖𝗜𝗙𝗘𝗥 𝗠𝗗 𝗠𝗢𝗩𝗜𝗘 𝗜𝗡𝗙𝗢 🎬*
+*🎬 𝘿𝙊𝙍𝘼 𝗠𝗗 𝗠𝗢𝗩𝗜𝗘 𝗜𝗡𝗙𝗢 🎬*
 
 *🔖 ᴛɪᴛʟᴇ:* ${data.Title}
 *🗓️ ʏᴇᴀʀ:* ${data.Year}
@@ -46,7 +46,7 @@ cmd({
 
         await conn.sendMessage(from, {
             image: { url: imageUrl },
-            caption: `${movieInfo}\n> 🧑‍💻⃝𝙇𝙐𝘾𝙄𝙁𝙀𝙍 𝙈𝘿➝💥`
+            caption: `${movieInfo}\n> 🧑‍💻⃝𝘿𝙊𝙍𝘼 𝙈𝘿➝💥`
         }, { quoted: mek });
     } catch (e) {
         console.error(e);
