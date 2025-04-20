@@ -66,7 +66,7 @@
    
   2..DEPLOY ON RENDER ⤵️
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/dora-md-02/Dora-md-v.git)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/dora-md-v01/DORA-MD-V01)
 
 
    3..DEPLOY ON GITHUB ⤵️
