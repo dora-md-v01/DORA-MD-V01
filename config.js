@@ -34,8 +34,8 @@ module.exports = {
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log", // change it to 'same' if you want to resend deleted message in same chat
     DEV: process.env.DEV || "94743454928", //replace with your whatsapp number
     AUTOLIKESTATUS: process.env.AUTOLIKESTATUS || "true",
-    AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
-    AUTO_STATUS__MSG: process.env.AUTO_STATUS__MSG || "`*𝘼𝙐𝙍𝙊 𝙎𝙏𝘼𝙏𝙐𝙎 𝙎𝙀𝙀𝙉 𝘽𝙔 `𝘿𝙊𝙍𝘼-𝙈𝘿ꪶ 🪄`*`",
+    AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
+    AUTO_STATUS__MSG: process.env.AUTO_STATUS__MSG || "`*𝘼𝙐𝙏𝙊 𝙎𝙏𝘼𝙏𝙐𝙎 𝙎𝙀𝙀𝙉 𝘽𝙔 `𝘿𝙊𝙍𝘼-𝙈𝘿ꪶ 🪄`*`",
     OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39", // omdbapi.com
     };
     
