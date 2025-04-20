@@ -63,7 +63,7 @@ await conn.sendMessage(from,{image:{url:`https://files.catbox.moe/x04f5n.jpg`},c
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
       newsletterJid: '120363402653537145@newsletter',
-      newsletterName: '🧑‍💻⃝𝙇𝙐𝘾𝙄𝙁𝙀𝙍 𝙈𝘿 𝙏𝙀𝘾𝙃➝💥',
+      newsletterName: '🧑‍💻⃝𝘿𝙊𝙍𝘼 𝙈𝘿 𝙏𝙀𝘾𝙃➝💥',
       serverMessageId: 999
     }
   }
