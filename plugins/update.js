@@ -22,7 +22,7 @@ cmd({
     await reply("```🔍 Checking for DORA-MD-V1 updates...```\n");  
       
     // Get latest commit from GitHub  
-    const { data: commitData } = await axios.get("https://github.com/LUCIFER-MD/LUCIFER-MD-V1/commits/main");  
+    const { data: commitData } = await axios.get("https://github.com/dora-md-v01/DORA-MD-V01/tree/main");  
     const latestCommitHash = commitData.sha;  
 
     // Get current commit hash  
@@ -42,7 +42,7 @@ cmd({
       
     // Download latest code  
     const zipPath = path.join(__dirname, "latest.zip");  
-    const { data: zipData } = await axios.get("https://github.com/LUCIFER-MD/LUCIFER-MD-V1/archive/main.zip", { responseType: "arraybuffer" });  
+    const { data: zipData } = await axios.get("https://github.com/dora-md-v01/DORA-MD-V01.git", { responseType: "arraybuffer" });  
     fs.writeFileSync(zipPath, zipData);  
 
     await reply("```📦 Extracting the latest code...```\n");  
