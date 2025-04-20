@@ -4,7 +4,7 @@ cmd({
     pattern: "anime",
     desc: "anime the bot",
     category: "main",
-    react: "🍷",
+    react: "👹",
     filename: __filename
 },
 
