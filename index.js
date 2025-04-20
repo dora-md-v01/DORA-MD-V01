@@ -138,7 +138,8 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*🧑‍💻⃝𝘿𝙊𝙍𝘼 𝙈𝘿 𝘽𝙊𝙏 𝘼𝘾𝙏𝙄𝙑𝙀 𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇𝙇➝💥♥️*\n\n*PREFIX:* ${prefix}`;
+  let up = `*🧑‍💻⃝𝘿𝙊𝙍𝘼 𝙈𝘿 𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇𝙇𝙔 𝘾𝙊𝙉𝙉𝙀𝘾𝙏𝙀𝘿 ✅➝💥♥️*\n\n*PREFIX:* ${prefix}`;
+  let up1 = `*𝙃𝙀𝙇𝙇𝙊 ᴅᴏʀᴀ ᴍᴅ* *`ᴅᴏʀᴀ-ᴍᴅ ᴘᴏᴡᴇʀ ꜰᴜʟʟ ʙᴏᴛ 📌`*`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/i5fwv5.jpg` }, caption: up })
   }
   })
