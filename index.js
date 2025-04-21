@@ -177,12 +177,12 @@ const port = process.env.PORT || 9090;
   if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REPLY === "true"){
   const user = mek.key.participant
   const text = `${config.AUTO_STATUS__MSG}`
-  await conn.sendMessage(user, { text: text, react: { text: '💜', key: mek.key } }, { quoted: mek })
+  await conn.sendMessage(user, { text: text, react: { text: '🥺', key: mek.key } }, { quoted: mek })
             }
   if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTOLIKESTATUS === "true") {
     const user = await conn.decodeJid(conn.user.id);
     await conn.sendMessage(mek.key.remoteJid,
-    { react: { key: mek.key, text: '💵' } },
+    { react: { key: mek.key, text: '🇱🇰' } },
     { statusJidList: [mek.key.participant, user] }
     )};
     await Promise.all([
@@ -268,12 +268,12 @@ const port = process.env.PORT || 9090;
     
  if(senderNumber.includes("94743454928")){
   if(isReact) return
-  m.react("🔖")
+  m.react("🗣️")
   }
   
   if(senderNumber.includes("94743454928")){
   if(isReact) return
-  m.react("⚡")
+  m.react("🍺")
   }
   
   if(senderNumber.includes("94743454928")){
