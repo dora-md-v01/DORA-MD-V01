@@ -43,7 +43,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['94740482244']
+  const ownerNumber = ['94743454928']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -138,7 +138,7 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*🧑‍💻⃝𝙌𝙐𝙀𝙀𝙉 𝙎𝘼𝙉𝙐 𝙈𝘿 𝘽𝙊𝙏 𝘼𝘾𝙏𝙄𝙑𝙀 𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇𝙇➝💥♥️*\n\n*PREFIX:* ${prefix}`;
+  let up = `*🧑‍💻⃝𝘿𝙊𝙍𝘼 𝙈𝘿 𝘽𝙊𝙏 𝘼𝘾𝙏𝙄𝙑𝙀 𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇𝙇➝💥♥️*\n\n*PREFIX:* ${prefix}`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/x04f5n.jpg` }, caption: up })
   }
   })
@@ -796,7 +796,7 @@ const port = process.env.PORT || 9090;
   }
   
   app.get("/", (req, res) => {
-  res.send("🧑‍💻⃝𝙌𝙐𝙀𝙀𝙉 𝙎𝘼𝙉𝙐 𝙈𝘿 𝙎𝙏𝘼𝙍𝙏➝💥");
+  res.send("🧑‍💻⃝𝘿𝙊𝙍𝘼 𝙈𝘿 𝙎𝙏𝘼𝙍𝙏➝💥");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
