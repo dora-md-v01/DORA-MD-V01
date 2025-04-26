@@ -1,2 +1,36 @@
-CODE BY // REAL DORA
-const _0x26bc63=_0x5292;(function(_0xf9c25f,_0x199a79){const _0x1fcef3=_0x5292,_0x49dfb2=_0xf9c25f();while(!![]){try{const _0x427bc4=parseInt(_0x1fcef3(0x1c0))/0x1+parseInt(_0x1fcef3(0x1c5))/0x2*(-parseInt(_0x1fcef3(0x1ca))/0x3)+parseInt(_0x1fcef3(0x1c6))/0x4*(parseInt(_0x1fcef3(0x1c8))/0x5)+parseInt(_0x1fcef3(0x1c4))/0x6+-parseInt(_0x1fcef3(0x1c1))/0x7*(-parseInt(_0x1fcef3(0x1c7))/0x8)+-parseInt(_0x1fcef3(0x1c2))/0x9*(parseInt(_0x1fcef3(0x1c3))/0xa)+-parseInt(_0x1fcef3(0x1c9))/0xb;if(_0x427bc4===_0x199a79)break;else _0x49dfb2['push'](_0x49dfb2['shift']());}catch(_0x504bd7){_0x49dfb2['push'](_0x49dfb2['shift']());}}}(_0x2be1,0x680bc));const {AntiDelDB,initializeAntiDeleteSettings,setAnti,getAnti,getAllAntiDeleteSettings}=require(_0x26bc63(0x1bf)),{saveContact,loadMessage,getName,getChatSummary,saveGroupMetadata,getGroupMetadata,saveMessageCount,getInactiveGroupMembers,getGroupMembersMessageCount,saveMessage}=require('./store');module['exports']={'AntiDelDB':AntiDelDB,'initializeAntiDeleteSettings':initializeAntiDeleteSettings,'setAnti':setAnti,'getAnti':getAnti,'getAllAntiDeleteSettings':getAllAntiDeleteSettings,'saveContact':saveContact,'loadMessage':loadMessage,'getName':getName,'getChatSummary':getChatSummary,'saveGroupMetadata':saveGroupMetadata,'getGroupMetadata':getGroupMetadata,'saveMessageCount':saveMessageCount,'getInactiveGroupMembers':getInactiveGroupMembers,'getGroupMembersMessageCount':getGroupMembersMessageCount,'saveMessage':saveMessage};function _0x5292(_0x32fc6d,_0x4dc130){const _0x2be12c=_0x2be1();return _0x5292=function(_0x5292fc,_0x5d5c92){_0x5292fc=_0x5292fc-0x1bf;let _0x1b568e=_0x2be12c[_0x5292fc];return _0x1b568e;},_0x5292(_0x32fc6d,_0x4dc130);}function _0x2be1(){const _0x129b8e=['148472mhTeMk','245WVkTDX','2307294JYwbZj','105888zInPaC','./antidel','290883FimifE','7rzCmFw','1281744bdjexE','10UGyddx','3282690cAZxSx','32VspNys','39716HIyerJ'];_0x2be1=function(){return _0x129b8e;};return _0x2be1();}
+const { AntiDelDB,
+    initializeAntiDeleteSettings,
+    setAnti,
+    getAnti,
+    getAllAntiDeleteSettings, } = require('./antidel');
+const {
+    saveContact,
+    loadMessage,
+    getName,
+    getChatSummary,
+    saveGroupMetadata,
+    getGroupMetadata,
+    saveMessageCount,
+    getInactiveGroupMembers,
+    getGroupMembersMessageCount,
+    saveMessage,
+} = require('./store');
+
+
+module.exports = {
+    AntiDelDB,
+    initializeAntiDeleteSettings,
+    setAnti,
+    getAnti,
+    getAllAntiDeleteSettings,
+    saveContact,
+    loadMessage,
+    getName,
+    getChatSummary,
+    saveGroupMetadata,
+    getGroupMetadata,
+    saveMessageCount,
+    getInactiveGroupMembers,
+    getGroupMembersMessageCount,
+    saveMessage,
+};
