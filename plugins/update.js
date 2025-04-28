@@ -1,4 +1,4 @@
-// 🧑‍💻⃝𝙇𝙐𝘾𝙄𝙁𝙀𝙍 𝙈𝘿 𝙏𝙀𝘾𝙃➝💥 Don't Change Credits 💸
+// 🧑‍💻⃝𝘿𝙊𝙍𝘼 𝙈𝘿 𝙏𝙀𝘾𝙃➝💥 Don't Change Credits 💸
 
 const { cmd } = require("../command");  
 const axios = require('axios');  
@@ -19,10 +19,10 @@ cmd({
   }  
 
   try {  
-    await reply("```🔍 Checking for LUCIFER-MD-V1 updates...```\n");  
+    await reply("```🔍 Checking for DORA-MD-V1 updates...```\n");  
       
     // Get latest commit from GitHub  
-    const { data: commitData } = await axios.get("https://github.com/LUCIFER-MD/LUCIFER-MD-V1/commits/main");  
+    const { data: commitData } = await axios.get("https://github.com/dora-md-v01/DORA-MD-V01/commits/main");  
     const latestCommitHash = commitData.sha;  
 
     // Get current commit hash  
@@ -35,10 +35,10 @@ cmd({
     }  
 
     if (latestCommitHash === currentHash) {  
-      return reply("```✅ Your LUCIFER-MD-V1 bot is already up-to-date!```\n");  
+      return reply("```✅ Your DORA-MD-V1 bot is already up-to-date!```\n");  
     }  
 
-    await reply("```LUCIFER-MD-V1 Bot Updating...🚀```\n");  
+    await reply("```DORA-MD-V1 Bot Updating...🚀```\n");  
       
     // Download latest code  
     const zipPath = path.join(__dirname, "latest.zip");  
@@ -55,7 +55,7 @@ cmd({
     await reply("```🔄 Replacing files...```\n");  
       
     // Copy updated files, skipping config.js and app.json  
-    const sourcePath = path.join(extractPath, "LUCIFE5-MD-V1-main");  
+    const sourcePath = path.join(extractPath, "DORA-MD-V1-main");  
     const destinationPath = path.join(__dirname, '..');  
     copyFolderSync(sourcePath, destinationPath);  
 
@@ -96,4 +96,4 @@ function copyFolderSync(source, target) {
   }  
 }
 
-//  🧑‍💻⃝𝙇𝙐𝘾𝙄𝙁𝙀𝙍 𝙈𝘿 𝙏𝙀𝘾𝙃➝💥
+//  🧑‍💻⃝𝘿𝙊𝙍𝘼 𝙈𝘿 𝙏𝙀𝘾𝙃➝💥
