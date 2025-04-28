@@ -38,7 +38,7 @@ cmd({
       + `┃📅 *Joined:* ${user.created}\n`
       + `┃🔗 *Profile:* [Click Here](${user.url})\n`
       + `╰━━━⪼\n\n`
-      + `🔹 *🧑‍💻⃝𝙇𝙐𝘾𝙄𝙁𝙀𝙍 𝙈𝘿➝💥*`;
+      + `🔹 *🧑‍💻⃝𝘿𝙊𝙍𝘼 𝙈𝘿➝💥*`;
 
     await conn.sendMessage(from, {
       image: { url: user.avatar },
