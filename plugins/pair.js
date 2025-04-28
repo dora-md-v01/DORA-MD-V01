@@ -10,7 +10,7 @@ cmd({
     react: "✅",
     desc: "Pairing code",
     category: "download",
-    use: ".pair +94740482𝗫𝗫𝗫",
+    use: ".pair +94743454𝗫𝗫𝗫",
     filename: __filename
 }, 
 async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
@@ -20,12 +20,12 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
 
         // Validate input
         if (!q) {
-            return await reply("*Example -* .pair +9474048224𝗫𝗫𝗫");
+            return await reply("*Example -* .pair +9474345492𝗫𝗫𝗫");
         }
 
         // Fetch pairing code
         //const fetch = require("node-fetch");
-        const response = await fetch(`https://awais-md-pair.onrender.com/code?number=${q}`);
+        const response = await fetch(`https://dora-md-pair-site-ipv8.onrender.com/code?number=${q}`);
         const pair = await response.json();
 
         // Check for errors in response
