@@ -35,7 +35,7 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
 
         // Success response
         const pairingCode = pair.code;
-        const doneMessage = "> *𝗟𝗨𝗖𝗜𝗙𝗘𝗥 𝗠𝗗 𝗣𝗔𝗜𝗥 𝗖𝗢𝗗𝗘 𝗦𝗨𝗖𝗖𝗘𝗦𝗦 🧩⚠️*";
+        const doneMessage = "> *𝗗𝗢𝗥𝗔 𝗠𝗗 𝗣𝗔𝗜𝗥 𝗖𝗢𝗗𝗘 𝗦𝗨𝗖𝗖𝗘𝗦𝗦 🧩⚠️*";
 
         // Send first message
         await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);
