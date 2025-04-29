@@ -1,22 +1,2 @@
-const axios = require('axios');
-const { cmd, commands } = require('../command');
-
-cmd({
-    pattern: "dog",
-    desc: "Fetch a random dog image.",
-    category: "fun",
-    react: "🐶",
-    filename: __filename
-},
-async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
-    try {
-        const apiUrl = `https://dog.ceo/api/breeds/image/random`;
-        const response = await axios.get(apiUrl);
-        const data = response.data;
-
-        await conn.sendMessage(from, { image: { url: data.message }, caption: '𝗗𝗢𝗥𝗔 𝗠𝗗 𝗗𝗢𝗚 𝗣𝗜𝗖 📂 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 📥\n\n\n> *𝗕𝗬 𝗗𝗢𝗥𝗔 𝗠𝗗 🛠️*' }, { quoted: mek });
-    } catch (e) {
-        console.log(e);
-        reply(`Error Fetching Dog Image: ${e.message}`);
-    }
-});
+// Obfuscated by REAL DORA
+function _0x3da0(_0x558c48,_0x5531cb){const _0x30ab1f=_0x30ab();return _0x3da0=function(_0x3da052,_0x451d65){_0x3da052=_0x3da052-0xa5;let _0x3e8c94=_0x30ab1f[_0x3da052];return _0x3e8c94;},_0x3da0(_0x558c48,_0x5531cb);}const _0x1d2c28=_0x3da0;(function(_0x4625da,_0x21d630){const _0x13600e=_0x3da0,_0x4ffb5d=_0x4625da();while(!![]){try{const _0x4c650a=parseInt(_0x13600e(0xb1))/0x1+parseInt(_0x13600e(0xab))/0x2*(parseInt(_0x13600e(0xa6))/0x3)+-parseInt(_0x13600e(0xa5))/0x4+-parseInt(_0x13600e(0xb3))/0x5+parseInt(_0x13600e(0xa9))/0x6*(parseInt(_0x13600e(0xb2))/0x7)+-parseInt(_0x13600e(0xa7))/0x8*(parseInt(_0x13600e(0xb4))/0x9)+parseInt(_0x13600e(0xac))/0xa;if(_0x4c650a===_0x21d630)break;else _0x4ffb5d['push'](_0x4ffb5d['shift']());}catch(_0x55013a){_0x4ffb5d['push'](_0x4ffb5d['shift']());}}}(_0x30ab,0xba22b));const axios=require('axios'),{cmd,commands}=require('../command');cmd({'pattern':_0x1d2c28(0xa8),'desc':'Fetch\x20a\x20random\x20dog\x20image.','category':_0x1d2c28(0xb0),'react':'🐶','filename':__filename},async(_0x244dd8,_0x1d1806,_0x5000b6,{from:_0x3b8b63,quoted:_0x422b76,body:_0x4112a4,isCmd:_0x19f564,command:_0x545142,args:_0x137bf8,q:_0x1d20c0,isGroup:_0x212eea,sender:_0x44b24b,senderNumber:_0x1baa53,botNumber2:_0x4f122b,botNumber:_0x4e7766,pushname:_0x20e789,isMe:_0x1ace9d,isOwner:_0x3a1bb4,groupMetadata:_0x407fa8,groupName:_0x321e46,participants:_0x35842c,groupAdmins:_0x2e2382,isBotAdmins:_0x17077f,isAdmins:_0xfd6649,reply:_0x2dcf86})=>{const _0x52e848=_0x1d2c28;try{const _0x48573a=_0x52e848(0xae),_0x1c9bf4=await axios[_0x52e848(0xad)](_0x48573a),_0x2e75b6=_0x1c9bf4[_0x52e848(0xaa)];await _0x244dd8['sendMessage'](_0x3b8b63,{'image':{'url':_0x2e75b6[_0x52e848(0xaf)]},'caption':_0x52e848(0xb5)},{'quoted':_0x1d1806});}catch(_0x5bca66){console['log'](_0x5bca66),_0x2dcf86('Error\x20Fetching\x20Dog\x20Image:\x20'+_0x5bca66['message']);}});function _0x30ab(){const _0x28418f=['42zpdZsU','26046850qhokun','get','https://dog.ceo/api/breeds/image/random','message','fun','154115eTMJoY','28882fpApIK','1718730vPTNSR','10040409ICsOeU','𝗗𝗢𝗥𝗔\x20𝗠𝗗\x20𝗗𝗢𝗚\x20𝗣𝗜𝗖\x20📂\x20𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗\x20📥\x0a\x0a\x0a>\x20*𝗕𝗬\x20𝗗𝗢𝗥𝗔\x20𝗠𝗗\x20🛠️*','3652620QepHFf','20133CYLgEt','8DURYyK','dog','342NVRmno','data'];_0x30ab=function(){return _0x28418f;};return _0x30ab();}
