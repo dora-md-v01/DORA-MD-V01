@@ -53,7 +53,7 @@ cmd({
     const lastUpdate = fs.statSync(localVersionPath).mtime.toLocaleString();
 
     // GitHub stats
-    const githubRepo = 'https://github.com/LUCIFER-MD/LUCIFER-MD-V1';
+    const githubRepo = 'https://github.com/dora-md-v01/DORA-MD-V01';
 
     // Check update status
     let updateMessage = `✅ Your DORA-MD bot is up-to-date!`;
@@ -73,7 +73,7 @@ Use *.update* to update.`;
 
     // Send the status message with an image
     await conn.sendMessage(from, {
-      image: { url: 'https://files.catbox.moe/x04f5n.jpg' },
+      image: { url: 'https://files.catbox.moe/i5fwv5.jpg' },
       caption: statusMessage,
       contextInfo: {
         mentionedJid: [m.sender],
