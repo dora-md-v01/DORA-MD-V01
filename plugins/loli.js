@@ -15,7 +15,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await conn.sendMessage(from, { image: { url: data.url }, caption: '*𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗘 𝗕𝗬 𝗟𝗨𝗖𝗜𝗙𝗘𝗥 𝗠𝗗 🥵🖤*' }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: data.url }, caption: '*𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗘 𝗕𝗬 𝗗𝗢𝗥𝗔 𝗠𝗗 🥵🖤*' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`*Error Fetching Anime Girl image*: ${e.message}`);
