@@ -5,7 +5,7 @@ const yts = require('yt-search');
 const path = require('path');
 const axios = require("axios");
 const fs = require('fs');
-//DON'T COPY WITHOUT CREDIT 🧑‍💻⃝𝙇𝙐𝘾𝙄𝙁𝙀𝙍 𝙈𝘿 𝙏𝙀𝘾𝙃➝💥 CODES
+//DON'T COPY WITHOUT CREDIT 🧑‍💻⃝𝘿𝙊𝙍𝘼 𝙈𝘿 𝙏𝙀𝘾𝙃➝💥 CODES
 
 cmd({
   'pattern': "song",
@@ -25,7 +25,7 @@ cmd({
     if (!_0x3cf9fb) {
       return _0x14fab0("*Please provide a song name to search for.*");
     }
-    _0x14fab0("*_🎵𝗟𝗨𝗖𝗜𝗙𝗘𝗥 𝗠𝗗 𝗦𝗢𝗡𝗚 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗣𝗟𝗘𝗔𝗦𝗘 𝗪𝗔𝗜𝗧 _*");
+    _0x14fab0("*_🎵𝗗𝗢𝗥𝗔 𝗠𝗗 𝗦𝗢𝗡𝗚 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗣𝗟𝗘𝗔𝗦𝗘 𝗪𝗔𝗜𝗧 _*");
     const _0x3698b5 = await yts(_0x3cf9fb);
     if (!_0x3698b5.videos || _0x3698b5.videos.length === 0x0) {
       return _0x14fab0("❌ No results found for \"" + _0x3cf9fb + "\".");
@@ -71,7 +71,7 @@ cmd({
     if (!_0x318e14) {
       return _0x2951d1("*Please provide a video name to search for.*");
     }
-    _0x2951d1("*_📹 𝗟𝗨𝗖𝗜𝗙𝗘𝗥 𝗠𝗗 𝗩𝗜𝗗𝗘𝗢 𝗙𝗢𝗨𝗡𝗗 𝗣𝗟𝗘𝗔𝗦𝗘 𝗪𝗔𝗜𝗧 ⚡*");
+    _0x2951d1("*_📹 𝗗𝗢𝗥𝗔 𝗠𝗗 𝗩𝗜𝗗𝗘𝗢 𝗙𝗢𝗨𝗡𝗗 𝗣𝗟𝗘𝗔𝗦𝗘 𝗪𝗔𝗜𝗧 ⚡*");
     const _0x4c3b77 = await yts(_0x318e14);
     if (!_0x4c3b77.videos || _0x4c3b77.videos.length === 0x0) {
       return _0x2951d1("❌ No results found for \"" + _0x318e14 + "\".");
