@@ -41,7 +41,7 @@ cmd({
 
         const { url, title, image, timestamp, ago, views, author } = data.results[0];
 
-        let info = `📥 *𝗟𝗨𝗖𝗜𝗙𝗘𝗥 𝗠𝗗 𝗦𝗢𝗡𝗚 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗* 📥\n\n` +
+        let info = `📥 *𝘿𝙊𝙍𝘼 𝗠𝗗 𝗦𝗢𝗡𝗚 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗* 📥\n\n` +
             `🎵 *Title:* ${title || "Unknown"}\n` +
             `⏳ *Duration:* ${timestamp || "Unknown"}\n` +
             `👀 *Views:* ${views || "Unknown"}\n` +
@@ -51,7 +51,7 @@ cmd({
             `🔽 *Reply with your choice:*\n` +
             `1.1 *Audio Type* 🎵\n` +
             `1.2 *Document Type* 📁\n\n` +
-            `${config.FOOTER || "𓆩𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝐌𝐃𓆪"}`;
+            `${config.FOOTER || "𓆩𝘿𝙊𝙍𝘼 𝙈𝘿𓆪"}`;
 
         const sentMsg = await conn.sendMessage(from, { image: { url: image }, caption: info }, { quoted: mek });
         const messageID = sentMsg.key.id;
