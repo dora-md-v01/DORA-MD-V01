@@ -32,7 +32,7 @@ cmd({
     const app = data.datalist.list[0];
     const appSize = (app.size / 1048576).toFixed(2); // Convert bytes to MB
 
-    const caption = `╭━━━〔 *𝗟𝗨𝗖𝗜𝗙𝗘𝗥 𝗠𝗗 𝗔𝗣𝗞 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 📥* 〕━━━┈⊷
+    const caption = `╭━━━〔 *𝘿𝙊𝙍𝘼 𝗠𝗗 𝗔𝗣𝗞 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 📥* 〕━━━┈⊷
 ┃ 🔰 *Name:* ${app.name}
 ┃ 📂 *Size:* ${appSize} MB
 ┃ 📥 *Package:* ${app.package}
