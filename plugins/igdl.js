@@ -28,7 +28,7 @@ cmd({
     await conn.sendMessage(from, {
       video: { url: data.downloadUrl },
       mimetype: "video/mp4",
-      caption: "📥 *𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗬 𝗟𝗨𝗖𝗜𝗙𝗘𝗥 𝗠𝗗!*"
+      caption: "📥 *𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗬 𝗗𝗢𝗥𝗔 𝗠𝗗!*"
     }, { quoted: m });
 
   } catch (error) {
