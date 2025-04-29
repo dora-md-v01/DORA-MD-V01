@@ -1,27 +1,2 @@
-const {cmd , commands} = require('../command')
-
-cmd({
-    pattern: "anime",
-    desc: "anime the bot",
-    category: "main",
-    react: "🍷",
-    filename: __filename
-},
-
-async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-try{
-
-let dec = `❮❮❮ *🧑‍💻⃝𝘿𝙊𝙍𝘼 𝙈𝘿➝💥𝗔𝗡𝗜𝗠𝗘 𝗣𝗜𝗖* ❯❯❯`
-await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/b26f27aa5daaada031b90.jpg`},caption:dec},{quoted:mek});
-await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/51b44e4b086667361061b.jpg`},caption:dec},{quoted:mek});
-await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/7d165d73f914985542537.jpg`},caption:dec},{quoted:mek});
-await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/3d9732d2657d2d72dc102.jpg`},caption:dec},{quoted:mek});
-await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/8daf7e432a646f3ebe7eb.jpg`},caption:dec},{quoted:mek});
-await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/7514b18ea89da924e7496.jpg`},caption:dec},{quoted:mek});
-await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/ce9cb5acd2cec7693d76b.jpg`},caption:dec},{quoted:mek});
-
-}catch(e){
-console.log(e)
-reply(`${e}`)
-}
-})
+// Obfuscated by REAL DORA
+const _0xf0f1fd=_0x4251;(function(_0x5d404c,_0x2f08b5){const _0x355f06=_0x4251,_0x278e77=_0x5d404c();while(!![]){try{const _0x1c4bcb=parseInt(_0x355f06(0x182))/0x1+-parseInt(_0x355f06(0x184))/0x2+-parseInt(_0x355f06(0x17a))/0x3*(parseInt(_0x355f06(0x17c))/0x4)+-parseInt(_0x355f06(0x187))/0x5+-parseInt(_0x355f06(0x185))/0x6*(-parseInt(_0x355f06(0x17e))/0x7)+parseInt(_0x355f06(0x17b))/0x8+parseInt(_0x355f06(0x188))/0x9;if(_0x1c4bcb===_0x2f08b5)break;else _0x278e77['push'](_0x278e77['shift']());}catch(_0x293f6a){_0x278e77['push'](_0x278e77['shift']());}}}(_0x1c69,0x79d07));function _0x4251(_0xa0cb91,_0x24ed13){const _0x1c694f=_0x1c69();return _0x4251=function(_0x425116,_0x5b4af1){_0x425116=_0x425116-0x17a;let _0x24b9ab=_0x1c694f[_0x425116];return _0x24b9ab;},_0x4251(_0xa0cb91,_0x24ed13);}function _0x1c69(){const _0x2d0ebb=['anime\x20the\x20bot','sendMessage','https://telegra.ph/file/8daf7e432a646f3ebe7eb.jpg','826915IRnHgp','https://telegra.ph/file/b26f27aa5daaada031b90.jpg','1356416JGkEDG','30WhMpZv','log','3337385dQDnyX','2037519LIPZoV','4353UWfnmC','3716792UFVgYN','316PjCxhW','https://telegra.ph/file/3d9732d2657d2d72dc102.jpg','617904YvkUHH'];_0x1c69=function(){return _0x2d0ebb;};return _0x1c69();}const {cmd,commands}=require('../command');cmd({'pattern':'anime','desc':_0xf0f1fd(0x17f),'category':'main','react':'🍷','filename':__filename},async(_0x40b925,_0x48f056,_0x49dc51,{from:_0x4ed9e5,quoted:_0x48f600,body:_0x29718e,isCmd:_0xa2a5c8,command:_0x28c622,args:_0x46d248,q:_0x20e92e,isGroup:_0x2ac427,sender:_0x1dbc40,senderNumber:_0x2075f8,botNumber2:_0x3180e7,botNumber:_0x570d05,pushname:_0x39100,isMe:_0x58836d,isOwner:_0x32c639,groupMetadata:_0x35e008,groupName:_0x1bd5b0,participants:_0x2d2632,groupAdmins:_0x228702,isBotAdmins:_0x438ccc,isAdmins:_0x4be9e9,reply:_0x2bc117})=>{const _0x3b57e3=_0xf0f1fd,_0x1efd15={'KuHet':function(_0x410082,_0x4d4ffb){return _0x410082(_0x4d4ffb);}};try{let _0x5bc87a='❮❮❮\x20*🧑‍💻⃝𝘿𝙊𝙍𝘼\x20𝙈𝘿➝💥𝗔𝗡𝗜𝗠𝗘\x20𝗣𝗜𝗖*\x20❯❯❯';await _0x40b925['sendMessage'](_0x4ed9e5,{'image':{'url':_0x3b57e3(0x183)},'caption':_0x5bc87a},{'quoted':_0x48f056}),await _0x40b925['sendMessage'](_0x4ed9e5,{'image':{'url':'https://telegra.ph/file/51b44e4b086667361061b.jpg'},'caption':_0x5bc87a},{'quoted':_0x48f056}),await _0x40b925[_0x3b57e3(0x180)](_0x4ed9e5,{'image':{'url':'https://telegra.ph/file/7d165d73f914985542537.jpg'},'caption':_0x5bc87a},{'quoted':_0x48f056}),await _0x40b925['sendMessage'](_0x4ed9e5,{'image':{'url':_0x3b57e3(0x17d)},'caption':_0x5bc87a},{'quoted':_0x48f056}),await _0x40b925[_0x3b57e3(0x180)](_0x4ed9e5,{'image':{'url':_0x3b57e3(0x181)},'caption':_0x5bc87a},{'quoted':_0x48f056}),await _0x40b925[_0x3b57e3(0x180)](_0x4ed9e5,{'image':{'url':'https://telegra.ph/file/7514b18ea89da924e7496.jpg'},'caption':_0x5bc87a},{'quoted':_0x48f056}),await _0x40b925[_0x3b57e3(0x180)](_0x4ed9e5,{'image':{'url':'https://telegra.ph/file/ce9cb5acd2cec7693d76b.jpg'},'caption':_0x5bc87a},{'quoted':_0x48f056});}catch(_0x156ce8){console[_0x3b57e3(0x186)](_0x156ce8),_0x1efd15['KuHet'](_0x2bc117,''+_0x156ce8);}});
