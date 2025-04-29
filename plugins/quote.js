@@ -1,25 +1,2 @@
-const axios = require('axios');
-const { cmd } = require('../command');
-
-cmd({
-    pattern: "quote",
-    desc: "Get a random inspiring quote.",
-    category: "fun",
-    react: "💬",
-    filename: __filename
-},
-async (conn, mek, m, { from, reply }) => {
-    try {
-        const response = await axios.get('https://api.quotable.io/random');
-        const quote = response.data;
-        const message = `
-💬 "${quote.content}"
-- ${quote.author}
-*𝗤𝗨𝗢𝗧𝗘𝗦 𝗕𝗬 𝗗𝗢𝗥𝗔 𝗠𝗗 🔖*
-        `;
-        return reply(message);
-    } catch (e) {
-        console.error("Error fetching quote:", e);
-        reply("¢συℓ∂ ησт ƒєт¢н α qυσтє. ρℓєαѕє тяу αgαιη ℓαтєя.");
-    }
-});
+// Obfuscated by REAL DORA
+const _0x232a33=_0x3565;(function(_0x37ac90,_0x220223){const _0x4b608d=_0x3565,_0x51c37f=_0x37ac90();while(!![]){try{const _0x3b62d5=-parseInt(_0x4b608d(0x1e2))/0x1*(parseInt(_0x4b608d(0x1ea))/0x2)+parseInt(_0x4b608d(0x1ec))/0x3*(-parseInt(_0x4b608d(0x1f0))/0x4)+parseInt(_0x4b608d(0x1e5))/0x5+-parseInt(_0x4b608d(0x1dd))/0x6+parseInt(_0x4b608d(0x1de))/0x7+-parseInt(_0x4b608d(0x1e9))/0x8*(parseInt(_0x4b608d(0x1ee))/0x9)+-parseInt(_0x4b608d(0x1e3))/0xa*(-parseInt(_0x4b608d(0x1e1))/0xb);if(_0x3b62d5===_0x220223)break;else _0x51c37f['push'](_0x51c37f['shift']());}catch(_0x4af190){_0x51c37f['push'](_0x51c37f['shift']());}}}(_0x2795,0xc8bc3));function _0x2795(){const _0xf991c=['45804acLttT','Get\x20a\x20random\x20inspiring\x20quote.','3JcxWSD','author','2853HiwfKA','mXFpX','3076236wEVXdm','5148174bjvXIf','9338609dBefSg','\x0a💬\x20\x22','error','43567249TKAoRQ','70ldAAzX','10qgJwdP','get','985950DpnOoq','fun','../command','YmOnM','36328yywmXH'];_0x2795=function(){return _0xf991c;};return _0x2795();}function _0x3565(_0x4a6e14,_0xa0a242){const _0x279530=_0x2795();return _0x3565=function(_0x3565fc,_0x399acc){_0x3565fc=_0x3565fc-0x1dd;let _0x410064=_0x279530[_0x3565fc];return _0x410064;},_0x3565(_0x4a6e14,_0xa0a242);}const axios=require('axios'),{cmd}=require(_0x232a33(0x1e7));cmd({'pattern':'quote','desc':_0x232a33(0x1eb),'category':_0x232a33(0x1e6),'react':'💬','filename':__filename},async(_0x5e1b1a,_0x46b56,_0x1bab25,{from:_0x1fa495,reply:_0x12203a})=>{const _0xd63f03=_0x232a33,_0x3a3449={'mXFpX':'https://api.quotable.io/random','fQdPI':'Error\x20fetching\x20quote:','WByGn':function(_0x3004ab,_0x11a588){return _0x3004ab(_0x11a588);},'YmOnM':'¢συℓ∂\x20ησт\x20ƒєт¢н\x20α\x20qυσтє.\x20ρℓєαѕє\x20тяу\x20αgαιη\x20ℓαтєя.'};try{const _0x15a41e=await axios[_0xd63f03(0x1e4)](_0x3a3449[_0xd63f03(0x1ef)]),_0x1c9eaf=_0x15a41e['data'],_0x10cb27=_0xd63f03(0x1df)+_0x1c9eaf['content']+'\x22\x0a-\x20'+_0x1c9eaf[_0xd63f03(0x1ed)]+'\x0a*𝗤𝗨𝗢𝗧𝗘𝗦\x20𝗕𝗬\x20𝗗𝗢𝗥𝗔\x20𝗠𝗗\x20🔖*\x0a\x20\x20\x20\x20\x20\x20\x20\x20';return _0x12203a(_0x10cb27);}catch(_0x24fdc5){console[_0xd63f03(0x1e0)](_0x3a3449['fQdPI'],_0x24fdc5),_0x3a3449['WByGn'](_0x12203a,_0x3a3449[_0xd63f03(0x1e8)]);}});
