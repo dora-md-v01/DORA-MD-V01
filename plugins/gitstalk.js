@@ -20,7 +20,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        let userInfo = `     𝗟𝗨𝗖𝗜𝗙𝗘𝗥-𝗠𝗗 𝗚𝗜𝗧𝗦𝗧𝗔𝗟𝗞
+        let userInfo = `     𝗗𝗢𝗥𝗔-𝗠𝗗 𝗚𝗜𝗧𝗦𝗧𝗔𝗟𝗞
         
 👤 *ᴜꜱᴇʀ ɴᴀᴍᴇ*: ${data.name || data.login}
 
@@ -38,7 +38,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 🔭 *ᴘᴜʙʟɪᴄ ɢɪꜱᴛꜱ*: ${data.public_gists}
 
-*𝗠𝗔𝗗𝗘 ♥ 𝗕𝗬 𝗟𝗨𝗖𝗜𝗙𝗘𝗥 𝗠𝗗*
+*𝗠𝗔𝗗𝗘 ♥ 𝗕𝗬 𝗗𝗢𝗥𝗔 𝗠𝗗*
 `;
 
         await conn.sendMessage(from, { image: { url: data.avatar_url }, caption: userInfo }, { quoted: mek });
