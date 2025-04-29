@@ -31,7 +31,7 @@ cmd({
 
     await conn.sendMessage(from, {
       video: { url: videoData.url },
-      caption: `📥 *𝗟𝗨𝗖𝗜𝗙𝗘𝗥 𝗠𝗗 𝗙𝗕 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥🚀*\n\n*𝗤𝗨𝗔𝗟𝗜𝗧𝗬•${videoData.quality}*\n\n🔗 *🧑‍💻⃝𝙇𝙐𝘾𝙄𝙁𝙀𝙍 𝙈𝘿➝💥*`
+      caption: `📥 *𝗗𝗢𝗥𝗔 𝗠𝗗 𝗙𝗕 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥🚀*\n\n*𝗤𝗨𝗔𝗟𝗜𝗧𝗬•${videoData.quality}*\n\n🔗 *🧑‍💻⃝𝘿𝙊𝙍𝘼 𝙈𝘿➝💥*`
     }, { quoted: m });
 
   } catch (error) {
@@ -72,11 +72,11 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
 
         const { username, fullname, caption, likes, comments, followed, download } = data.data;
 
-        const captionText = `📥 𝗟𝗨𝗖𝗜𝗙𝗘𝗥 𝗠𝗗 𝗜𝗡𝗦𝗧𝗔 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥🚀*` +
+        const captionText = `📥 𝗗𝗢𝗥𝗔 𝗠𝗗 𝗜𝗡𝗦𝗧𝗔 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥🚀*` +
                             `📸 *𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠 𝗣𝗢𝗦𝗧* 📸\n\n` +
                             `👤 *𝗨𝗦𝗘𝗥* ${fullname} (@${username})\n` +
                             `❤️ *𝗟𝗜𝗞𝗘𝗦:* ${likes}\n💬 *Comments:* ${comments}\n👥 *𝗙𝗢𝗟𝗟𝗢𝗪𝗥𝗦:* ${followed}\n` +
-                            `📝 *𝗖𝗔𝗣𝗧𝗜𝗢𝗡:*\n${caption || "🧑‍💻⃝𝙇𝙐𝘾𝙄𝙁𝙀𝙍 𝙈𝘿➝💥."}`;
+                            `📝 *𝗖𝗔𝗣𝗧𝗜𝗢𝗡:*\n${caption || "🧑‍💻⃝𝘿𝙊𝙍𝘼 𝙈𝘿➝💥."}`;
 
         for (const media of download) {
             if (media.type === "image") {
@@ -116,7 +116,7 @@ async (conn, mek, m, { from, args, q, reply }) => {
         if (!q) return reply("Please provide a TikTok video link.");
         if (!q.includes("tiktok.com")) return reply("Invalid TikTok link.");
         
-        reply("*_📥 𝗟𝗨𝗖𝗜𝗙𝗘𝗥 𝗠𝗗 𝗧𝗜𝗞𝗧𝗢𝗞 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗥 🚀_*");
+        reply("*_📥 𝗗𝗢𝗥𝗔 𝗠𝗗 𝗧𝗜𝗞𝗧𝗢𝗞 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗥 🚀_*");
         
         const apiUrl = `https://apis.davidcyriltech.my.id/download/tiktok?url=${q}`;
         const { data } = await axios.get(apiUrl);
@@ -126,10 +126,10 @@ async (conn, mek, m, { from, args, q, reply }) => {
         const { title, like, comment, share, author, meta } = data.data;
         const videoUrl = meta.media.find(v => v.type === "video").org;
         
-        const caption = `🎵 *-𝗟𝗨𝗖𝗜𝗘𝗙𝗥 𝗠𝗗 𝗧𝗜𝗞𝗧𝗢𝗞 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥-* 🎵\n\n` +
+        const caption = `🎵 *-𝗗𝗢𝗥𝗔 𝗠𝗗 𝗧𝗜𝗞𝗧𝗢𝗞 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥-* 🎵\n\n` +
                         `👤 *𝗨𝗦𝗘𝗥:* ${author.nickname} (@${author.username})\n` +
                         `📖 *𝗧𝗜𝗧𝗟𝗘:* ${title}\n` +
-                        `👍 *𝗟𝗜𝗞𝗘𝗦:* ${like}\n💬 *COMMENTS:* ${comment}\n🔁 *𝗦𝗛𝗔𝗥𝗘𝗦:* ${share}\n\n 🧑‍💻⃝𝙇𝙐𝘾𝙄𝙁𝙀𝙍 𝙈𝘿➝💥`;
+                        `👍 *𝗟𝗜𝗞𝗘𝗦:* ${like}\n💬 *COMMENTS:* ${comment}\n🔁 *𝗦𝗛𝗔𝗥𝗘𝗦:* ${share}\n\n 🧑‍💻⃝𝘿𝙊𝙍𝘼 𝙈𝘿➝💥`;
         
         await conn.sendMessage(from, {
             video: { url: videoUrl },
