@@ -25,7 +25,7 @@ async (conn, mek, m, { from, q, reply }) => {
         const translation = response.data.responseData.translatedText;
 
         const translationMessage = `
-🌍 *𝗔𝗪𝗔𝗜𝗦 𝗠𝗗 𝗧𝗥𝗔𝗡𝗦𝗟𝗔𝗧𝗘𝗗* 🌍
+🌍 *𝗗𝗢𝗥𝗔 𝗠𝗗 𝗧𝗥𝗔𝗡𝗦𝗟𝗔𝗧𝗘𝗗* 🌍
 
 🔤 *𝗢𝗥𝗜𝗚𝗜𝗡𝗔𝗟*: ${textToTranslate}
 
