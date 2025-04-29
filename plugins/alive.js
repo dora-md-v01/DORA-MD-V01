@@ -1,20 +1,2 @@
-const config = require('../config')
-const {cmd , commands} = require('../command')
-cmd({
-    pattern: "alive",
-    react: "🍷",
-    desc: "Check bot online or no.",
-    category: "main",
-    filename: __filename
-},
-async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-try{
-return await conn.sendMessage(from,{image: {url: config.ALIVE_IMG},caption: config.ALIVE_MSG},{quoted: mek})
-}catch(e){
-console.log(e)
-reply(`${e}`)
-}
-})
-
-
-
+// Obfuscated by REAL DORA
+const _0x41ca32=_0x1e08;(function(_0x30109c,_0x5a02cd){const _0x593446=_0x1e08,_0x5987a3=_0x30109c();while(!![]){try{const _0x2e0eca=parseInt(_0x593446(0x1ae))/0x1*(parseInt(_0x593446(0x1a8))/0x2)+-parseInt(_0x593446(0x1ab))/0x3*(-parseInt(_0x593446(0x1b1))/0x4)+-parseInt(_0x593446(0x1a3))/0x5*(-parseInt(_0x593446(0x1a7))/0x6)+-parseInt(_0x593446(0x1ad))/0x7+-parseInt(_0x593446(0x1ac))/0x8*(parseInt(_0x593446(0x1aa))/0x9)+-parseInt(_0x593446(0x1a9))/0xa*(-parseInt(_0x593446(0x1a5))/0xb)+-parseInt(_0x593446(0x1a4))/0xc*(parseInt(_0x593446(0x1af))/0xd);if(_0x2e0eca===_0x5a02cd)break;else _0x5987a3['push'](_0x5987a3['shift']());}catch(_0x4c8a2a){_0x5987a3['push'](_0x5987a3['shift']());}}}(_0x3c7e,0x24b00));function _0x1e08(_0x4a8a5d,_0x246d87){const _0x3c7eed=_0x3c7e();return _0x1e08=function(_0x1e0846,_0x33d950){_0x1e0846=_0x1e0846-0x1a1;let _0x489018=_0x3c7eed[_0x1e0846];return _0x489018;},_0x1e08(_0x4a8a5d,_0x246d87);}const config=require('../config'),{cmd,commands}=require(_0x41ca32(0x1a2));cmd({'pattern':'alive','react':'🍷','desc':_0x41ca32(0x1a6),'category':'main','filename':__filename},async(_0x5a771b,_0x36ed76,_0x46b828,{from:_0x51cd57,quoted:_0x4f737c,body:_0x3dfedd,isCmd:_0x3fb8c8,command:_0x4d1fbc,args:_0x570d95,q:_0x4486db,isGroup:_0x268342,sender:_0x2fff72,senderNumber:_0x515b61,botNumber2:_0x5b0fae,botNumber:_0x4f4295,pushname:_0x53fc7f,isMe:_0x1ff76a,isOwner:_0x1e8e90,groupMetadata:_0x4b66d3,groupName:_0x273599,participants:_0x32c5bc,groupAdmins:_0x4aa5b8,isBotAdmins:_0x4f6b60,isAdmins:_0x304d83,reply:_0x2ef80e})=>{const _0x47bf69=_0x41ca32;try{return await _0x5a771b[_0x47bf69(0x1b0)](_0x51cd57,{'image':{'url':config['ALIVE_IMG']},'caption':config[_0x47bf69(0x1b2)]},{'quoted':_0x36ed76});}catch(_0x38e767){console[_0x47bf69(0x1a1)](_0x38e767),_0x2ef80e(''+_0x38e767);}});function _0x3c7e(){const _0x3fc1a9=['9DVPDKj','794406IJNuuz','570536MDImyN','1561574JiCWnq','37EmUZQw','247OGQzmj','sendMessage','4AFHkgE','ALIVE_MSG','log','../command','5685kPAGwY','151284WCdtRR','47355ilJQqN','Check\x20bot\x20online\x20or\x20no.','942RUqgQI','9298BkbGMf','160aFikYz'];_0x3c7e=function(){return _0x3fc1a9;};return _0x3c7e();}
