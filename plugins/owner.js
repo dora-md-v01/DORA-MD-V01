@@ -12,7 +12,7 @@ async (conn, mek, m, { from }) => {
     try {
         // Owner's contact info
         const ownerNumber = '+94743454928'; // Replace this with the actual owner number
-        const ownerName = '🧑‍💻⃝𝗖𝗬𝗕𝗘𝗥 𝗗𝗘𝗫𝗧𝗘𝗥 𝙏𝙀𝘾𝙃➝💥'; // Replace this with the owner's name
+        const ownerName = '🧑‍💻⃝𝘿𝙊𝙍𝘼 𝙈𝘿 𝙏𝙀𝘾𝙃➝💥'; // Replace this with the owner's name
         const organization = '𝗗𝗘𝗫𝗧𝗘𝗥 𝗙𝗔𝗠'; // Optional: replace with the owner's organization
 
         // Create a vCard (contact card) for the owner
