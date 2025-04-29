@@ -1,23 +1,2 @@
-const axios = require('axios');
-const { cmd, commands } = require('../command');
-
-cmd({
-    pattern: "loli",
-    alias: ["lolii"],
-    desc: "Fetch a random anime girl image.",
-    category: "fun",
-    react: "🐱",
-    filename: __filename
-},
-async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
-    try {
-        const apiUrl = `https://api.waifu.pics/sfw/waifu`;
-        const response = await axios.get(apiUrl);
-        const data = response.data;
-
-        await conn.sendMessage(from, { image: { url: data.url }, caption: '*𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗘 𝗕𝗬 𝗗𝗢𝗥𝗔 𝗠𝗗 🥵🖤*' }, { quoted: mek });
-    } catch (e) {
-        console.log(e);
-        reply(`*Error Fetching Anime Girl image*: ${e.message}`);
-    }
-});
+// Obfuscated by REAL DORA
+function _0x59c8(){const _0x111a82=['loli','6xJfxQz','11994zsrGtz','get','axios','44QPdftt','1229112qhfBug','847krHeDf','4728635isaFxq','lolii','6764681lCbgOt','99AuiKRx','48108612ZJrKYn','log','*Error\x20Fetching\x20Anime\x20Girl\x20image*:\x20','sendMessage','message','4BlyZUD','134680xsxRNm','4665573iyAKkg','../command','fun','WtQXu'];_0x59c8=function(){return _0x111a82;};return _0x59c8();}const _0x410af4=_0x3dcb;function _0x3dcb(_0x314934,_0x2f1886){const _0x59c870=_0x59c8();return _0x3dcb=function(_0x3dcb0c,_0x29cf32){_0x3dcb0c=_0x3dcb0c-0x10d;let _0x14091c=_0x59c870[_0x3dcb0c];return _0x14091c;},_0x3dcb(_0x314934,_0x2f1886);}(function(_0x5a2f85,_0x1dcebd){const _0x24590d=_0x3dcb,_0x169838=_0x5a2f85();while(!![]){try{const _0x472820=parseInt(_0x24590d(0x11f))/0x1*(-parseInt(_0x24590d(0x122))/0x2)+-parseInt(_0x24590d(0x119))/0x3+-parseInt(_0x24590d(0x117))/0x4*(parseInt(_0x24590d(0x10e))/0x5)+-parseInt(_0x24590d(0x11e))/0x6*(parseInt(_0x24590d(0x110))/0x7)+-parseInt(_0x24590d(0x123))/0x8*(-parseInt(_0x24590d(0x111))/0x9)+-parseInt(_0x24590d(0x118))/0xa*(parseInt(_0x24590d(0x10d))/0xb)+parseInt(_0x24590d(0x112))/0xc;if(_0x472820===_0x1dcebd)break;else _0x169838['push'](_0x169838['shift']());}catch(_0x26e50c){_0x169838['push'](_0x169838['shift']());}}}(_0x59c8,0xe343b));const axios=require(_0x410af4(0x121)),{cmd,commands}=require(_0x410af4(0x11a));cmd({'pattern':_0x410af4(0x11d),'alias':[_0x410af4(0x10f)],'desc':'Fetch\x20a\x20random\x20anime\x20girl\x20image.','category':_0x410af4(0x11b),'react':'🐱','filename':__filename},async(_0x27825a,_0x4ae67b,_0x44f7f8,{from:_0x50aa81,quoted:_0x2aa33a,body:_0x2de5e8,isCmd:_0x252a93,command:_0x4b20f3,args:_0x23de88,q:_0xe62e17,isGroup:_0x539296,sender:_0x1ca9b7,senderNumber:_0x3009bf,botNumber2:_0x5f0b57,botNumber:_0x4e14b4,pushname:_0xeae87f,isMe:_0x312535,isOwner:_0x1ed0f2,groupMetadata:_0x53b777,groupName:_0xd2b856,participants:_0x3af95e,groupAdmins:_0x1f30da,isBotAdmins:_0x10ebc7,isAdmins:_0x3239a0,reply:_0x463d2b})=>{const _0x2353e5=_0x410af4,_0xb4a039={'WtQXu':'*𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗘\x20𝗕𝗬\x20𝗗𝗢𝗥𝗔\x20𝗠𝗗\x20🥵🖤*','eliCA':function(_0x230e07,_0x22fdd5){return _0x230e07(_0x22fdd5);}};try{const _0x37bd83='https://api.waifu.pics/sfw/waifu',_0x5cca1e=await axios[_0x2353e5(0x120)](_0x37bd83),_0x1929f1=_0x5cca1e['data'];await _0x27825a[_0x2353e5(0x115)](_0x50aa81,{'image':{'url':_0x1929f1['url']},'caption':_0xb4a039[_0x2353e5(0x11c)]},{'quoted':_0x4ae67b});}catch(_0x43e503){console[_0x2353e5(0x113)](_0x43e503),_0xb4a039['eliCA'](_0x463d2b,_0x2353e5(0x114)+_0x43e503[_0x2353e5(0x116)]);}});
